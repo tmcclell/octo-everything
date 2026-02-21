@@ -1,0 +1,9 @@
+[
+  {
+    "assignment_id": "a1",
+    "universe": "the-martian",
+    "agent_count": 5,
+    "timestamp": "2025-01-22T00:00:00Z",
+    "agents": ["Lewis", "Watney", "Johanssen", "Vogel", "Beck"]
+  }
+]

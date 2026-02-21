@@ -1,0 +1,58 @@
+[
+  {
+    "persistent_name": "Lewis",
+    "universe": "the-martian",
+    "role": "Lead",
+    "created_at": "2025-01-22T00:00:00Z",
+    "legacy_named": false,
+    "status": "active"
+  },
+  {
+    "persistent_name": "Watney",
+    "universe": "the-martian",
+    "role": "Backend Dev",
+    "created_at": "2025-01-22T00:00:00Z",
+    "legacy_named": false,
+    "status": "active"
+  },
+  {
+    "persistent_name": "Johanssen",
+    "universe": "the-martian",
+    "role": "Data Engineer",
+    "created_at": "2025-01-22T00:00:00Z",
+    "legacy_named": false,
+    "status": "active"
+  },
+  {
+    "persistent_name": "Vogel",
+    "universe": "the-martian",
+    "role": "Tester",
+    "created_at": "2025-01-22T00:00:00Z",
+    "legacy_named": false,
+    "status": "active"
+  },
+  {
+    "persistent_name": "Beck",
+    "universe": "the-martian",
+    "role": "Frontend Dev",
+    "created_at": "2025-01-22T00:00:00Z",
+    "legacy_named": false,
+    "status": "active"
+  },
+  {
+    "persistent_name": "Scribe",
+    "universe": "n/a",
+    "role": "Session Logger",
+    "created_at": "2025-01-22T00:00:00Z",
+    "legacy_named": false,
+    "status": "active"
+  },
+  {
+    "persistent_name": "Ralph",
+    "universe": "n/a",
+    "role": "Work Monitor",
+    "created_at": "2025-01-22T00:00:00Z",
+    "legacy_named": false,
+    "status": "active"
+  }
+]
