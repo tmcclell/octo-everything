@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "last_updated": "2025-01-22T14:30:00Z",
+    "version": "1.0",
+    "source": "dummy_data"
+  },
+  "data": [
+    {
+      "date": "2025-01-20",
+      "suggestions": 11850,
+      "acceptances": 3620,
+      "acceptance_rate": 0.305,
+      "lines_suggested": 45200,
+      "lines_accepted": 14100,
+      "lines_acceptance_rate": 0.312
+    },
+    {
+      "date": "2025-01-21",
+      "suggestions": 12200,
+      "acceptances": 3780,
+      "acceptance_rate": 0.310,
+      "lines_suggested": 47000,
+      "lines_accepted": 14850,
+      "lines_acceptance_rate": 0.316
+    },
+    {
+      "date": "2025-01-22",
+      "suggestions": 12450,
+      "acceptances": 3890,
+      "acceptance_rate": 0.312,
+      "lines_suggested": 48200,
+      "lines_accepted": 15300,
+      "lines_acceptance_rate": 0.317
+    }
+  ]
+}

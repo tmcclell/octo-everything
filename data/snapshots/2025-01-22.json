@@ -1,0 +1,25 @@
+{
+  "date": "2025-01-22",
+  "metadata": {
+    "captured_at": "2025-01-22T23:59:59Z",
+    "version": "1.0",
+    "source": "dummy_data"
+  },
+  "space": {
+    "pr_cycle_time_median_hours": 20.25,
+    "review_turnaround_median_hours": 4.25,
+    "rework_rate": 0.267,
+    "open_prs": 42,
+    "merged_prs_today": 7
+  },
+  "copilot": {
+    "active_users": 85,
+    "engaged_users": 72,
+    "suggestions": 12450,
+    "acceptances": 3890,
+    "acceptance_rate": 0.312,
+    "seat_utilization_rate": 0.85,
+    "time_saved_hours": 59.6,
+    "roi_value_usd": 5366.4
+  }
+}

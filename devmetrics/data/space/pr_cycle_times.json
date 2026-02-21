@@ -1,0 +1,3123 @@
+{
+  "prs": [
+    {
+      "repo": "backend-api",
+      "pr_number": 1000,
+      "created_at": "2025-11-23T08:15:00.387188",
+      "merged_at": "2025-11-24T11:01:21.009483",
+      "cycle_time_hours": 26.77,
+      "author": "dev9"
+    },
+    {
+      "repo": "frontend-web",
+      "pr_number": 1001,
+      "created_at": "2025-11-23T10:13:55.586573",
+      "merged_at": "2025-11-24T02:20:28.591846",
+      "cycle_time_hours": 16.11,
+      "author": "dev24"
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1002,
+      "created_at": "2025-11-24T08:52:09.797975",
+      "merged_at": "2025-11-25T15:04:43.387434",
+      "cycle_time_hours": 30.21,
+      "author": "dev14"
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1003,
+      "created_at": "2025-11-24T08:17:52.699900",
+      "merged_at": "2025-11-26T21:08:55.343027",
+      "cycle_time_hours": 60.85,
+      "author": "dev7"
+    },
+    {
+      "repo": "frontend-web",
+      "pr_number": 1004,
+      "created_at": "2025-11-24T13:03:12.790372",
+      "merged_at": "2025-11-25T03:58:23.431768",
+      "cycle_time_hours": 14.92,
+      "author": "dev1"
+    },
+    {
+      "repo": "frontend-web",
+      "pr_number": 1005,
+      "created_at": "2025-11-25T15:09:36.706065",
+      "merged_at": "2025-11-26T06:04:48.052913",
+      "cycle_time_hours": 14.92,
+      "author": "dev23"
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1006,
+      "created_at": "2025-11-25T12:11:42.713555",
+      "merged_at": "2025-11-28T03:50:36.051957",
+      "cycle_time_hours": 63.65,
+      "author": "dev15"
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1007,
+      "created_at": "2025-11-25T10:46:54.865496",
+      "merged_at": "2025-11-26T20:01:42.060223",
+      "cycle_time_hours": 33.25,
+      "author": "dev1"
+    },
+    {
+      "repo": "frontend-web",
+      "pr_number": 1008,
+      "created_at": "2025-11-25T14:58:53.018220",
+      "merged_at": "2025-11-26T03:20:27.017690",
+      "cycle_time_hours": 12.36,
+      "author": "dev11"
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1009,
+      "created_at": "2025-11-25T09:33:17.261993",
+      "merged_at": "2025-11-26T13:19:38.433200",
+      "cycle_time_hours": 27.77,
+      "author": "dev25"
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1010,
+      "created_at": "2025-11-25T09:01:19.569955",
+      "merged_at": "2025-11-25T21:26:29.681773",
+      "cycle_time_hours": 12.42,
+      "author": "dev13"
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1011,
+      "created_at": "2025-11-25T11:35:23.257697",
+      "merged_at": "2025-11-25T23:59:10.747953",
+      "cycle_time_hours": 12.4,
+      "author": "dev12"
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1012,
+      "created_at": "2025-11-26T16:04:16.617838",
+      "merged_at": "2025-11-27T13:54:26.990836",
+      "cycle_time_hours": 21.84,
+      "author": "dev24"
+    },
+    {
+      "repo": "data-pipeline",
+      "pr_number": 1013,
+      "created_at": "2025-11-26T13:21:44.211292",
+      "merged_at": "2025-11-26T17:15:21.754756",
+      "cycle_time_hours": 3.89,
+      "author": "dev13"
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1014,
+      "created_at": "2025-11-26T13:31:13.462726",
+      "merged_at": "2025-11-26T18:02:50.764837",
+      "cycle_time_hours": 4.53,
+      "author": "dev21"
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1015,
+      "created_at": "2025-11-26T16:51:16.262926",
+      "merged_at": "2025-11-27T04:19:46.230732",
+      "cycle_time_hours": 11.47,
+      "author": "dev12"
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1016,
+      "created_at": "2025-11-26T09:55:22.389249",
+      "merged_at": "2025-11-26T17:55:30.845077",
+      "cycle_time_hours": 8.0,
+      "author": "dev3"
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1017,
+      "created_at": "2025-11-26T14:36:45.479468",
+      "merged_at": "2025-11-27T13:44:55.747462",
+      "cycle_time_hours": 23.14,
+      "author": "dev25"
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1018,
+      "created_at": "2025-11-26T17:51:07.974744",
+      "merged_at": "2025-11-27T02:33:16.047384",
+      "cycle_time_hours": 8.7,
+      "author": "dev8"
+    },
+    {
+      "repo": "data-pipeline",
+      "pr_number": 1019,
+      "created_at": "2025-11-27T10:46:47.049712",
+      "merged_at": "2025-11-27T16:35:35.110594",
+      "cycle_time_hours": 5.81,
+      "author": "dev21"
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1020,
+      "created_at": "2025-11-27T09:37:35.547498",
+      "merged_at": "2025-11-29T19:44:49.467511",
+      "cycle_time_hours": 58.12,
+      "author": "dev12"
+    },
+    {
+      "repo": "frontend-web",
+      "pr_number": 1021,
+      "created_at": "2025-11-27T14:42:06.306278",
+      "merged_at": "2025-11-28T05:43:18.106930",
+      "cycle_time_hours": 15.02,
+      "author": "dev23"
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1022,
+      "created_at": "2025-11-28T14:05:28.716204",
+      "merged_at": "2025-11-29T09:05:00.239319",
+      "cycle_time_hours": 18.99,
+      "author": "dev6"
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1023,
+      "created_at": "2025-11-28T15:17:28.564726",
+      "merged_at": "2025-11-28T21:02:49.308154",
+      "cycle_time_hours": 5.76,
+      "author": "dev6"
+    },
+    {
+      "repo": "data-pipeline",
+      "pr_number": 1024,
+      "created_at": "2025-11-28T11:47:40.395903",
+      "merged_at": "2025-11-28T23:26:06.339375",
+      "cycle_time_hours": 11.64,
+      "author": "dev21"
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1025,
+      "created_at": "2025-11-28T10:11:46.146263",
+      "merged_at": "2025-11-29T05:51:32.901992",
+      "cycle_time_hours": 19.66,
+      "author": "dev11"
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1026,
+      "created_at": "2025-11-28T10:17:25.730591",
+      "merged_at": "2025-11-28T17:27:19.655190",
+      "cycle_time_hours": 7.16,
+      "author": "dev2"
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1027,
+      "created_at": "2025-11-28T12:00:41.932333",
+      "merged_at": "2025-11-29T12:18:49.111615",
+      "cycle_time_hours": 24.3,
+      "author": "dev3"
+    },
+    {
+      "repo": "frontend-web",
+      "pr_number": 1028,
+      "created_at": "2025-11-28T17:07:52.900471",
+      "merged_at": "2025-11-29T04:15:34.685716",
+      "cycle_time_hours": 11.13,
+      "author": "dev19"
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1029,
+      "created_at": "2025-11-28T10:07:34.555586",
+      "merged_at": "2025-11-29T00:22:28.815101",
+      "cycle_time_hours": 14.25,
+      "author": "dev16"
+    },
+    {
+      "repo": "data-pipeline",
+      "pr_number": 1030,
+      "created_at": "2025-11-29T09:25:43.377256",
+      "merged_at": "2025-11-29T20:32:50.950818",
+      "cycle_time_hours": 11.12,
+      "author": "dev5"
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1031,
+      "created_at": "2025-12-01T13:23:23.182428",
+      "merged_at": "2025-12-04T20:34:39.348252",
+      "cycle_time_hours": 79.19,
+      "author": "dev24"
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1032,
+      "created_at": "2025-12-01T12:17:03.617783",
+      "merged_at": "2025-12-02T06:05:03.858911",
+      "cycle_time_hours": 17.8,
+      "author": "dev19"
+    },
+    {
+      "repo": "data-pipeline",
+      "pr_number": 1033,
+      "created_at": "2025-12-01T11:37:11.871974",
+      "merged_at": "2025-12-01T19:20:24.341463",
+      "cycle_time_hours": 7.72,
+      "author": "dev5"
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1034,
+      "created_at": "2025-12-01T12:56:06.570056",
+      "merged_at": "2025-12-02T23:40:48.601691",
+      "cycle_time_hours": 34.75,
+      "author": "dev25"
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1035,
+      "created_at": "2025-12-01T16:36:39.704748",
+      "merged_at": "2025-12-01T23:23:11.795384",
+      "cycle_time_hours": 6.78,
+      "author": "dev5"
+    },
+    {
+      "repo": "frontend-web",
+      "pr_number": 1036,
+      "created_at": "2025-12-01T15:55:14.857117",
+      "merged_at": "2025-12-02T13:11:11.027247",
+      "cycle_time_hours": 21.27,
+      "author": "dev14"
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1037,
+      "created_at": "2025-12-01T08:38:06.997421",
+      "merged_at": "2025-12-01T12:23:13.857986",
+      "cycle_time_hours": 3.75,
+      "author": "dev13"
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1038,
+      "created_at": "2025-12-01T17:57:40.369689",
+      "merged_at": "2025-12-02T00:10:45.233469",
+      "cycle_time_hours": 6.22,
+      "author": "dev17"
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1039,
+      "created_at": "2025-12-02T16:36:28.069280",
+      "merged_at": "2025-12-03T13:40:12.673519",
+      "cycle_time_hours": 21.06,
+      "author": "dev1"
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1040,
+      "created_at": "2025-12-02T14:49:01.573285",
+      "merged_at": "2025-12-03T23:18:06.967467",
+      "cycle_time_hours": 32.48,
+      "author": "dev18"
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1041,
+      "created_at": "2025-12-02T15:41:09.554376",
+      "merged_at": "2025-12-03T12:19:23.426267",
+      "cycle_time_hours": 20.64,
+      "author": "dev11"
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1042,
+      "created_at": "2025-12-02T10:56:06.004631",
+      "merged_at": "2025-12-03T03:20:17.816130",
+      "cycle_time_hours": 16.4,
+      "author": "dev6"
+    },
+    {
+      "repo": "data-pipeline",
+      "pr_number": 1043,
+      "created_at": "2025-12-02T08:01:56.831380",
+      "merged_at": "2025-12-02T22:10:26.399720",
+      "cycle_time_hours": 14.14,
+      "author": "dev24"
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1044,
+      "created_at": "2025-12-03T17:43:07.971559",
+      "merged_at": "2025-12-03T23:13:56.229719",
+      "cycle_time_hours": 5.51,
+      "author": "dev25"
+    },
+    {
+      "repo": "frontend-web",
+      "pr_number": 1045,
+      "created_at": "2025-12-03T13:04:36.540286",
+      "merged_at": "2025-12-03T23:11:34.369881",
+      "cycle_time_hours": 10.12,
+      "author": "dev4"
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1046,
+      "created_at": "2025-12-03T16:25:00.096534",
+      "merged_at": "2025-12-04T04:51:49.715646",
+      "cycle_time_hours": 12.45,
+      "author": "dev17"
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1047,
+      "created_at": "2025-12-03T09:59:20.799664",
+      "merged_at": "2025-12-05T03:54:22.951613",
+      "cycle_time_hours": 41.92,
+      "author": "dev12"
+    },
+    {
+      "repo": "frontend-web",
+      "pr_number": 1048,
+      "created_at": "2025-12-03T13:23:37.645084",
+      "merged_at": "2025-12-04T13:04:48.138318",
+      "cycle_time_hours": 23.69,
+      "author": "dev25"
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1049,
+      "created_at": "2025-12-03T17:11:05.765798",
+      "merged_at": "2025-12-03T21:34:33.537851",
+      "cycle_time_hours": 4.39,
+      "author": "dev20"
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1050,
+      "created_at": "2025-12-03T12:53:09.805489",
+      "merged_at": "2025-12-04T12:12:18.096071",
+      "cycle_time_hours": 23.32,
+      "author": "dev4"
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1051,
+      "created_at": "2025-12-03T16:47:13.987602",
+      "merged_at": "2025-12-04T06:00:35.666002",
+      "cycle_time_hours": 13.22,
+      "author": "dev10"
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1052,
+      "created_at": "2025-12-04T10:24:31.377328",
+      "merged_at": "2025-12-04T20:52:41.431524",
+      "cycle_time_hours": 10.47,
+      "author": "dev19"
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1053,
+      "created_at": "2025-12-04T08:51:23.524274",
+      "merged_at": "2025-12-05T14:12:28.647302",
+      "cycle_time_hours": 29.35,
+      "author": "dev16"
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1054,
+      "created_at": "2025-12-04T17:46:47.441772",
+      "merged_at": "2025-12-06T10:49:48.739596",
+      "cycle_time_hours": 41.05,
+      "author": "dev18"
+    },
+    {
+      "repo": "frontend-web",
+      "pr_number": 1055,
+      "created_at": "2025-12-04T09:17:02.092722",
+      "merged_at": "2025-12-05T23:11:12.050914",
+      "cycle_time_hours": 37.9,
+      "author": "dev16"
+    },
+    {
+      "repo": "frontend-web",
+      "pr_number": 1056,
+      "created_at": "2025-12-05T10:39:02.038642",
+      "merged_at": "2025-12-05T19:50:42.917277",
+      "cycle_time_hours": 9.19,
+      "author": "dev20"
+    },
+    {
+      "repo": "data-pipeline",
+      "pr_number": 1057,
+      "created_at": "2025-12-05T17:38:37.064616",
+      "merged_at": "2025-12-06T07:41:37.454263",
+      "cycle_time_hours": 14.05,
+      "author": "dev18"
+    },
+    {
+      "repo": "frontend-web",
+      "pr_number": 1058,
+      "created_at": "2025-12-05T15:07:46.163021",
+      "merged_at": "2025-12-06T14:34:58.003776",
+      "cycle_time_hours": 23.45,
+      "author": "dev13"
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1059,
+      "created_at": "2025-12-05T12:22:51.603021",
+      "merged_at": "2025-12-07T03:39:00.101719",
+      "cycle_time_hours": 39.27,
+      "author": "dev17"
+    },
+    {
+      "repo": "data-pipeline",
+      "pr_number": 1060,
+      "created_at": "2025-12-05T09:12:36.151051",
+      "merged_at": "2025-12-05T21:28:26.218518",
+      "cycle_time_hours": 12.26,
+      "author": "dev8"
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1061,
+      "created_at": "2025-12-05T11:22:51.080237",
+      "merged_at": "2025-12-06T02:53:26.401358",
+      "cycle_time_hours": 15.51,
+      "author": "dev19"
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1062,
+      "created_at": "2025-12-05T10:18:04.130373",
+      "merged_at": "2025-12-05T17:43:36.251111",
+      "cycle_time_hours": 7.43,
+      "author": "dev8"
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1063,
+      "created_at": "2025-12-08T10:17:21.904217",
+      "merged_at": "2025-12-08T17:11:59.522776",
+      "cycle_time_hours": 6.91,
+      "author": "dev2"
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1064,
+      "created_at": "2025-12-08T08:42:30.864596",
+      "merged_at": "2025-12-09T19:10:34.336962",
+      "cycle_time_hours": 34.47,
+      "author": "dev8"
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1065,
+      "created_at": "2025-12-08T14:41:23.200019",
+      "merged_at": "2025-12-10T19:56:22.091664",
+      "cycle_time_hours": 53.25,
+      "author": "dev7"
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1066,
+      "created_at": "2025-12-08T09:19:23.226554",
+      "merged_at": "2025-12-09T02:18:32.974987",
+      "cycle_time_hours": 16.99,
+      "author": "dev19"
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1067,
+      "created_at": "2025-12-08T12:43:36.156947",
+      "merged_at": "2025-12-10T04:53:05.628466",
+      "cycle_time_hours": 40.16,
+      "author": "dev16"
+    },
+    {
+      "repo": "data-pipeline",
+      "pr_number": 1068,
+      "created_at": "2025-12-08T09:54:14.756917",
+      "merged_at": "2025-12-09T09:56:03.256095",
+      "cycle_time_hours": 24.03,
+      "author": "dev4"
+    },
+    {
+      "repo": "data-pipeline",
+      "pr_number": 1069,
+      "created_at": "2025-12-08T11:32:34.712397",
+      "merged_at": "2025-12-08T22:16:55.971496",
+      "cycle_time_hours": 10.74,
+      "author": "dev14"
+    },
+    {
+      "repo": "data-pipeline",
+      "pr_number": 1070,
+      "created_at": "2025-12-08T16:38:18.122941",
+      "merged_at": "2025-12-09T16:39:49.985052",
+      "cycle_time_hours": 24.03,
+      "author": "dev2"
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1071,
+      "created_at": "2025-12-09T08:36:22.056267",
+      "merged_at": "2025-12-11T22:11:30.477039",
+      "cycle_time_hours": 61.59,
+      "author": "dev24"
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1072,
+      "created_at": "2025-12-09T16:00:21.330391",
+      "merged_at": "2025-12-10T09:29:27.065905",
+      "cycle_time_hours": 17.48,
+      "author": "dev4"
+    },
+    {
+      "repo": "frontend-web",
+      "pr_number": 1073,
+      "created_at": "2025-12-09T09:54:57.242597",
+      "merged_at": "2025-12-12T00:49:35.460050",
+      "cycle_time_hours": 62.91,
+      "author": "dev18"
+    },
+    {
+      "repo": "data-pipeline",
+      "pr_number": 1074,
+      "created_at": "2025-12-09T09:24:06.562695",
+      "merged_at": "2025-12-09T11:36:52.206443",
+      "cycle_time_hours": 2.21,
+      "author": "dev6"
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1075,
+      "created_at": "2025-12-09T12:37:34.610462",
+      "merged_at": "2025-12-10T23:21:12.375682",
+      "cycle_time_hours": 34.73,
+      "author": "dev3"
+    },
+    {
+      "repo": "data-pipeline",
+      "pr_number": 1076,
+      "created_at": "2025-12-09T16:04:48.800810",
+      "merged_at": "2025-12-10T11:22:16.330577",
+      "cycle_time_hours": 19.29,
+      "author": "dev18"
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1077,
+      "created_at": "2025-12-09T08:30:21.179863",
+      "merged_at": "2025-12-09T22:40:16.199057",
+      "cycle_time_hours": 14.17,
+      "author": "dev18"
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1078,
+      "created_at": "2025-12-09T17:41:23.865262",
+      "merged_at": "2025-12-10T13:03:13.773746",
+      "cycle_time_hours": 19.36,
+      "author": "dev25"
+    },
+    {
+      "repo": "frontend-web",
+      "pr_number": 1079,
+      "created_at": "2025-12-10T12:03:50.906086",
+      "merged_at": "2025-12-10T15:43:59.645849",
+      "cycle_time_hours": 3.67,
+      "author": "dev16"
+    },
+    {
+      "repo": "frontend-web",
+      "pr_number": 1080,
+      "created_at": "2025-12-10T16:38:47.414185",
+      "merged_at": "2025-12-11T07:44:23.921930",
+      "cycle_time_hours": 15.09,
+      "author": "dev2"
+    },
+    {
+      "repo": "frontend-web",
+      "pr_number": 1081,
+      "created_at": "2025-12-10T11:47:23.032283",
+      "merged_at": "2025-12-11T11:43:59.043470",
+      "cycle_time_hours": 23.94,
+      "author": "dev13"
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1082,
+      "created_at": "2025-12-10T17:15:54.650648",
+      "merged_at": "2025-12-13T03:57:28.344839",
+      "cycle_time_hours": 58.69,
+      "author": "dev15"
+    },
+    {
+      "repo": "data-pipeline",
+      "pr_number": 1083,
+      "created_at": "2025-12-11T14:57:57.294130",
+      "merged_at": "2025-12-12T02:51:07.860691",
+      "cycle_time_hours": 11.89,
+      "author": "dev24"
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1084,
+      "created_at": "2025-12-11T14:37:07.367230",
+      "merged_at": "2025-12-12T00:02:31.917979",
+      "cycle_time_hours": 9.42,
+      "author": "dev16"
+    },
+    {
+      "repo": "frontend-web",
+      "pr_number": 1085,
+      "created_at": "2025-12-11T09:53:56.323222",
+      "merged_at": "2025-12-11T21:56:35.926630",
+      "cycle_time_hours": 12.04,
+      "author": "dev7"
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1086,
+      "created_at": "2025-12-11T13:47:30.490469",
+      "merged_at": "2025-12-13T03:12:58.168263",
+      "cycle_time_hours": 37.42,
+      "author": "dev18"
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1087,
+      "created_at": "2025-12-11T15:28:47.120174",
+      "merged_at": "2025-12-12T14:53:09.435387",
+      "cycle_time_hours": 23.41,
+      "author": "dev2"
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1088,
+      "created_at": "2025-12-12T12:46:04.386616",
+      "merged_at": "2025-12-13T00:32:43.425004",
+      "cycle_time_hours": 11.78,
+      "author": "dev17"
+    },
+    {
+      "repo": "frontend-web",
+      "pr_number": 1089,
+      "created_at": "2025-12-12T08:34:07.664870",
+      "merged_at": "2025-12-13T11:41:53.107938",
+      "cycle_time_hours": 27.13,
+      "author": "dev17"
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1090,
+      "created_at": "2025-12-12T16:30:48.331632",
+      "merged_at": "2025-12-13T11:57:35.376989",
+      "cycle_time_hours": 19.45,
+      "author": "dev3"
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1091,
+      "created_at": "2025-12-13T14:45:07.651930",
+      "merged_at": "2025-12-15T05:48:17.930973",
+      "cycle_time_hours": 39.05,
+      "author": "dev8"
+    },
+    {
+      "repo": "data-pipeline",
+      "pr_number": 1092,
+      "created_at": "2025-12-13T09:11:55.918102",
+      "merged_at": "2025-12-13T19:27:35.784955",
+      "cycle_time_hours": 10.26,
+      "author": "dev19"
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1093,
+      "created_at": "2025-12-15T08:23:50.699842",
+      "merged_at": "2025-12-15T22:14:30.014731",
+      "cycle_time_hours": 13.84,
+      "author": "dev3"
+    },
+    {
+      "repo": "data-pipeline",
+      "pr_number": 1094,
+      "created_at": "2025-12-15T14:34:25.433921",
+      "merged_at": "2025-12-16T03:43:20.308170",
+      "cycle_time_hours": 13.15,
+      "author": "dev19"
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1095,
+      "created_at": "2025-12-15T11:09:49.314455",
+      "merged_at": "2025-12-15T16:44:37.299692",
+      "cycle_time_hours": 5.58,
+      "author": "dev9"
+    },
+    {
+      "repo": "frontend-web",
+      "pr_number": 1096,
+      "created_at": "2025-12-15T14:41:50.135092",
+      "merged_at": "2025-12-16T13:30:01.272929",
+      "cycle_time_hours": 22.8,
+      "author": "dev11"
+    },
+    {
+      "repo": "frontend-web",
+      "pr_number": 1097,
+      "created_at": "2025-12-15T10:39:22.122451",
+      "merged_at": "2025-12-16T08:49:42.438825",
+      "cycle_time_hours": 22.17,
+      "author": "dev5"
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1098,
+      "created_at": "2025-12-15T12:34:20.084613",
+      "merged_at": "2025-12-16T06:38:21.524975",
+      "cycle_time_hours": 18.07,
+      "author": "dev25"
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1099,
+      "created_at": "2025-12-15T08:05:35.356448",
+      "merged_at": "2025-12-15T23:00:27.363113",
+      "cycle_time_hours": 14.91,
+      "author": "dev20"
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1100,
+      "created_at": "2025-12-16T08:43:57.385960",
+      "merged_at": "2025-12-16T14:31:54.160016",
+      "cycle_time_hours": 5.8,
+      "author": "dev7"
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1101,
+      "created_at": "2025-12-16T10:39:07.214931",
+      "merged_at": "2025-12-16T23:30:13.688566",
+      "cycle_time_hours": 12.85,
+      "author": "dev12"
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1102,
+      "created_at": "2025-12-16T16:47:33.728729",
+      "merged_at": "2025-12-17T06:28:16.482845",
+      "cycle_time_hours": 13.68,
+      "author": "dev12"
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1103,
+      "created_at": "2025-12-16T09:34:38.885965",
+      "merged_at": "2025-12-16T19:02:52.565972",
+      "cycle_time_hours": 9.47,
+      "author": "dev18"
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1104,
+      "created_at": "2025-12-16T14:07:00.399566",
+      "merged_at": "2025-12-17T05:55:55.115453",
+      "cycle_time_hours": 15.82,
+      "author": "dev21"
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1105,
+      "created_at": "2025-12-16T08:04:41.631857",
+      "merged_at": "2025-12-17T08:56:15.895595",
+      "cycle_time_hours": 24.86,
+      "author": "dev18"
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1106,
+      "created_at": "2025-12-16T17:19:03.217420",
+      "merged_at": "2025-12-20T02:40:58.247265",
+      "cycle_time_hours": 81.37,
+      "author": "dev4"
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1107,
+      "created_at": "2025-12-17T09:09:15.432135",
+      "merged_at": "2025-12-18T05:50:40.307961",
+      "cycle_time_hours": 20.69,
+      "author": "dev4"
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1108,
+      "created_at": "2025-12-17T09:33:16.124752",
+      "merged_at": "2025-12-18T07:39:52.946005",
+      "cycle_time_hours": 22.11,
+      "author": "dev10"
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1109,
+      "created_at": "2025-12-17T10:06:22.667573",
+      "merged_at": "2025-12-18T03:03:33.373468",
+      "cycle_time_hours": 16.95,
+      "author": "dev11"
+    },
+    {
+      "repo": "frontend-web",
+      "pr_number": 1110,
+      "created_at": "2025-12-17T14:52:29.896637",
+      "merged_at": "2025-12-17T18:45:05.999213",
+      "cycle_time_hours": 3.88,
+      "author": "dev9"
+    },
+    {
+      "repo": "data-pipeline",
+      "pr_number": 1111,
+      "created_at": "2025-12-18T10:30:40.365075",
+      "merged_at": "2025-12-19T04:07:36.780424",
+      "cycle_time_hours": 17.62,
+      "author": "dev2"
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1112,
+      "created_at": "2025-12-18T14:20:34.240103",
+      "merged_at": "2025-12-19T09:13:27.746226",
+      "cycle_time_hours": 18.88,
+      "author": "dev9"
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1113,
+      "created_at": "2025-12-18T08:02:07.644807",
+      "merged_at": "2025-12-23T17:08:10.615625",
+      "cycle_time_hours": 129.1,
+      "author": "dev25"
+    },
+    {
+      "repo": "frontend-web",
+      "pr_number": 1114,
+      "created_at": "2025-12-18T14:22:16.081583",
+      "merged_at": "2025-12-19T05:47:52.837684",
+      "cycle_time_hours": 15.43,
+      "author": "dev9"
+    },
+    {
+      "repo": "frontend-web",
+      "pr_number": 1115,
+      "created_at": "2025-12-18T15:24:44.312701",
+      "merged_at": "2025-12-19T14:18:52.636536",
+      "cycle_time_hours": 22.9,
+      "author": "dev18"
+    },
+    {
+      "repo": "data-pipeline",
+      "pr_number": 1116,
+      "created_at": "2025-12-18T13:36:32.647132",
+      "merged_at": "2025-12-19T07:06:34.518468",
+      "cycle_time_hours": 17.5,
+      "author": "dev4"
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1117,
+      "created_at": "2025-12-18T17:27:01.833806",
+      "merged_at": "2025-12-19T00:30:53.406342",
+      "cycle_time_hours": 7.06,
+      "author": "dev23"
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1118,
+      "created_at": "2025-12-19T08:21:37.012970",
+      "merged_at": "2025-12-21T05:15:07.994223",
+      "cycle_time_hours": 44.89,
+      "author": "dev12"
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1119,
+      "created_at": "2025-12-19T13:31:30.903483",
+      "merged_at": "2025-12-20T22:21:42.980197",
+      "cycle_time_hours": 32.84,
+      "author": "dev14"
+    },
+    {
+      "repo": "frontend-web",
+      "pr_number": 1120,
+      "created_at": "2025-12-19T08:25:05.838894",
+      "merged_at": "2025-12-20T18:17:53.922790",
+      "cycle_time_hours": 33.88,
+      "author": "dev12"
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1121,
+      "created_at": "2025-12-19T16:59:21.286915",
+      "merged_at": "2025-12-20T01:40:55.208547",
+      "cycle_time_hours": 8.69,
+      "author": "dev7"
+    },
+    {
+      "repo": "frontend-web",
+      "pr_number": 1122,
+      "created_at": "2025-12-20T14:40:09.602783",
+      "merged_at": "2025-12-22T21:56:22.634038",
+      "cycle_time_hours": 55.27,
+      "author": "dev12"
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1123,
+      "created_at": "2025-12-20T16:50:28.849252",
+      "merged_at": "2025-12-20T22:42:12.646639",
+      "cycle_time_hours": 5.86,
+      "author": "dev14"
+    },
+    {
+      "repo": "frontend-web",
+      "pr_number": 1124,
+      "created_at": "2025-12-21T17:15:27.497613",
+      "merged_at": "2025-12-22T22:01:55.293286",
+      "cycle_time_hours": 28.77,
+      "author": "dev8"
+    },
+    {
+      "repo": "frontend-web",
+      "pr_number": 1125,
+      "created_at": "2025-12-21T17:45:43.417186",
+      "merged_at": "2025-12-26T01:33:05.501769",
+      "cycle_time_hours": 103.79,
+      "author": "dev6"
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1126,
+      "created_at": "2025-12-22T09:47:36.983883",
+      "merged_at": "2025-12-22T17:56:23.872205",
+      "cycle_time_hours": 8.15,
+      "author": "dev11"
+    },
+    {
+      "repo": "data-pipeline",
+      "pr_number": 1127,
+      "created_at": "2025-12-22T16:01:20.465002",
+      "merged_at": "2025-12-23T03:27:38.116169",
+      "cycle_time_hours": 11.44,
+      "author": "dev24"
+    },
+    {
+      "repo": "frontend-web",
+      "pr_number": 1128,
+      "created_at": "2025-12-22T10:40:05.005545",
+      "merged_at": "2025-12-23T06:09:16.347596",
+      "cycle_time_hours": 19.49,
+      "author": "dev23"
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1129,
+      "created_at": "2025-12-22T11:49:31.502013",
+      "merged_at": "2025-12-22T23:51:11.531767",
+      "cycle_time_hours": 12.03,
+      "author": "dev2"
+    },
+    {
+      "repo": "data-pipeline",
+      "pr_number": 1130,
+      "created_at": "2025-12-22T10:13:27.613832",
+      "merged_at": "2025-12-22T15:25:42.794970",
+      "cycle_time_hours": 5.2,
+      "author": "dev15"
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1131,
+      "created_at": "2025-12-22T11:03:06.871224",
+      "merged_at": "2025-12-23T06:03:35.016820",
+      "cycle_time_hours": 19.01,
+      "author": "dev8"
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1132,
+      "created_at": "2025-12-23T14:36:01.194579",
+      "merged_at": "2025-12-23T22:17:31.735572",
+      "cycle_time_hours": 7.69,
+      "author": "dev13"
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1133,
+      "created_at": "2025-12-23T10:47:09.710197",
+      "merged_at": "2025-12-24T13:04:03.930962",
+      "cycle_time_hours": 26.28,
+      "author": "dev3"
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1134,
+      "created_at": "2025-12-23T11:30:41.260647",
+      "merged_at": "2025-12-23T20:08:04.916218",
+      "cycle_time_hours": 8.62,
+      "author": "dev17"
+    },
+    {
+      "repo": "data-pipeline",
+      "pr_number": 1135,
+      "created_at": "2025-12-23T14:47:42.652261",
+      "merged_at": "2025-12-26T04:58:11.428882",
+      "cycle_time_hours": 62.17,
+      "author": "dev18"
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1136,
+      "created_at": "2025-12-24T09:09:12.303067",
+      "merged_at": "2025-12-24T18:46:08.829534",
+      "cycle_time_hours": 9.62,
+      "author": "dev9"
+    },
+    {
+      "repo": "frontend-web",
+      "pr_number": 1137,
+      "created_at": "2025-12-24T13:48:21.230415",
+      "merged_at": "2025-12-25T03:42:44.351578",
+      "cycle_time_hours": 13.91,
+      "author": "dev9"
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1138,
+      "created_at": "2025-12-24T09:05:02.491700",
+      "merged_at": "2025-12-25T19:34:44.415688",
+      "cycle_time_hours": 34.49,
+      "author": "dev14"
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1139,
+      "created_at": "2025-12-24T15:17:07.622183",
+      "merged_at": "2025-12-24T22:00:24.954502",
+      "cycle_time_hours": 6.72,
+      "author": "dev11"
+    },
+    {
+      "repo": "data-pipeline",
+      "pr_number": 1140,
+      "created_at": "2025-12-24T14:03:43.518719",
+      "merged_at": "2025-12-25T11:38:47.134633",
+      "cycle_time_hours": 21.58,
+      "author": "dev17"
+    },
+    {
+      "repo": "data-pipeline",
+      "pr_number": 1141,
+      "created_at": "2025-12-25T16:59:42.170385",
+      "merged_at": "2025-12-27T20:11:37.501873",
+      "cycle_time_hours": 51.2,
+      "author": "dev7"
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1142,
+      "created_at": "2025-12-25T08:26:37.915214",
+      "merged_at": "2025-12-25T13:25:00.538561",
+      "cycle_time_hours": 4.97,
+      "author": "dev14"
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1143,
+      "created_at": "2025-12-25T13:11:57.132548",
+      "merged_at": "2025-12-26T10:03:23.643811",
+      "cycle_time_hours": 20.86,
+      "author": "dev18"
+    },
+    {
+      "repo": "frontend-web",
+      "pr_number": 1144,
+      "created_at": "2025-12-26T11:38:31.972984",
+      "merged_at": "2025-12-27T09:47:37.454413",
+      "cycle_time_hours": 22.15,
+      "author": "dev3"
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1145,
+      "created_at": "2025-12-26T14:13:53.594758",
+      "merged_at": "2025-12-27T23:51:46.409930",
+      "cycle_time_hours": 33.63,
+      "author": "dev22"
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1146,
+      "created_at": "2025-12-26T15:11:51.153469",
+      "merged_at": "2025-12-26T21:53:10.952554",
+      "cycle_time_hours": 6.69,
+      "author": "dev10"
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1147,
+      "created_at": "2025-12-26T11:05:34.247840",
+      "merged_at": "2025-12-26T17:20:57.958354",
+      "cycle_time_hours": 6.26,
+      "author": "dev14"
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1148,
+      "created_at": "2025-12-26T12:01:26.413934",
+      "merged_at": "2025-12-27T15:20:31.944335",
+      "cycle_time_hours": 27.32,
+      "author": "dev10"
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1149,
+      "created_at": "2025-12-26T09:16:22.360766",
+      "merged_at": "2025-12-27T08:05:30.285648",
+      "cycle_time_hours": 22.82,
+      "author": "dev14"
+    },
+    {
+      "repo": "data-pipeline",
+      "pr_number": 1150,
+      "created_at": "2025-12-26T14:46:23.446030",
+      "merged_at": "2025-12-27T12:45:32.127355",
+      "cycle_time_hours": 21.99,
+      "author": "dev6"
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1151,
+      "created_at": "2025-12-26T13:41:27.789175",
+      "merged_at": "2025-12-27T13:25:51.548031",
+      "cycle_time_hours": 23.74,
+      "author": "dev13"
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1152,
+      "created_at": "2025-12-27T11:02:19.498174",
+      "merged_at": "2025-12-27T21:28:56.114996",
+      "cycle_time_hours": 10.44,
+      "author": "dev7"
+    },
+    {
+      "repo": "data-pipeline",
+      "pr_number": 1153,
+      "created_at": "2025-12-27T15:51:27.317789",
+      "merged_at": "2025-12-28T13:31:29.499987",
+      "cycle_time_hours": 21.67,
+      "author": "dev20"
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1154,
+      "created_at": "2025-12-28T12:38:59.574849",
+      "merged_at": "2025-12-29T11:23:50.798362",
+      "cycle_time_hours": 22.75,
+      "author": "dev15"
+    },
+    {
+      "repo": "frontend-web",
+      "pr_number": 1155,
+      "created_at": "2025-12-28T13:06:42.263887",
+      "merged_at": "2025-12-28T23:16:20.474001",
+      "cycle_time_hours": 10.16,
+      "author": "dev24"
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1156,
+      "created_at": "2025-12-29T10:50:16.310580",
+      "merged_at": "2026-01-01T18:53:07.137805",
+      "cycle_time_hours": 80.05,
+      "author": "dev22"
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1157,
+      "created_at": "2025-12-29T11:21:06.777195",
+      "merged_at": "2025-12-30T13:38:19.202751",
+      "cycle_time_hours": 26.29,
+      "author": "dev25"
+    },
+    {
+      "repo": "frontend-web",
+      "pr_number": 1158,
+      "created_at": "2025-12-29T14:43:40.644140",
+      "merged_at": "2025-12-29T21:39:56.036829",
+      "cycle_time_hours": 6.94,
+      "author": "dev8"
+    },
+    {
+      "repo": "frontend-web",
+      "pr_number": 1159,
+      "created_at": "2025-12-29T09:28:24.742641",
+      "merged_at": "2025-12-30T15:53:52.360174",
+      "cycle_time_hours": 30.42,
+      "author": "dev2"
+    },
+    {
+      "repo": "data-pipeline",
+      "pr_number": 1160,
+      "created_at": "2025-12-30T14:06:45.863030",
+      "merged_at": "2025-12-30T22:21:47.094521",
+      "cycle_time_hours": 8.25,
+      "author": "dev25"
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1161,
+      "created_at": "2025-12-30T12:33:14.982062",
+      "merged_at": "2025-12-31T22:19:38.513542",
+      "cycle_time_hours": 33.77,
+      "author": "dev21"
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1162,
+      "created_at": "2025-12-30T09:56:39.668523",
+      "merged_at": "2026-01-01T07:24:22.811409",
+      "cycle_time_hours": 45.46,
+      "author": "dev23"
+    },
+    {
+      "repo": "data-pipeline",
+      "pr_number": 1163,
+      "created_at": "2025-12-30T12:56:37.578084",
+      "merged_at": "2025-12-30T22:16:32.939044",
+      "cycle_time_hours": 9.33,
+      "author": "dev8"
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1164,
+      "created_at": "2025-12-31T16:55:35.753744",
+      "merged_at": "2026-01-02T07:48:54.679423",
+      "cycle_time_hours": 38.89,
+      "author": "dev25"
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1165,
+      "created_at": "2025-12-31T15:47:03.134644",
+      "merged_at": "2026-01-01T16:49:04.619063",
+      "cycle_time_hours": 25.03,
+      "author": "dev8"
+    },
+    {
+      "repo": "frontend-web",
+      "pr_number": 1166,
+      "created_at": "2025-12-31T16:02:27.954822",
+      "merged_at": "2026-01-02T02:46:21.488839",
+      "cycle_time_hours": 34.73,
+      "author": "dev23"
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1167,
+      "created_at": "2025-12-31T12:38:43.795845",
+      "merged_at": "2026-01-03T22:42:14.980340",
+      "cycle_time_hours": 82.06,
+      "author": "dev18"
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1168,
+      "created_at": "2026-01-01T12:33:52.625717",
+      "merged_at": "2026-01-02T03:21:02.689884",
+      "cycle_time_hours": 14.79,
+      "author": "dev15"
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1169,
+      "created_at": "2026-01-01T17:52:44.128310",
+      "merged_at": "2026-01-02T03:43:27.806756",
+      "cycle_time_hours": 9.85,
+      "author": "dev20"
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1170,
+      "created_at": "2026-01-01T17:30:01.425904",
+      "merged_at": "2026-01-02T02:19:56.847414",
+      "cycle_time_hours": 8.83,
+      "author": "dev15"
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1171,
+      "created_at": "2026-01-01T16:09:00.234264",
+      "merged_at": "2026-01-02T01:31:06.792914",
+      "cycle_time_hours": 9.37,
+      "author": "dev17"
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1172,
+      "created_at": "2026-01-02T12:27:32.890035",
+      "merged_at": "2026-01-03T05:22:34.065612",
+      "cycle_time_hours": 16.92,
+      "author": "dev6"
+    },
+    {
+      "repo": "data-pipeline",
+      "pr_number": 1173,
+      "created_at": "2026-01-02T12:30:02.511261",
+      "merged_at": "2026-01-03T12:08:24.927262",
+      "cycle_time_hours": 23.64,
+      "author": "dev25"
+    },
+    {
+      "repo": "frontend-web",
+      "pr_number": 1174,
+      "created_at": "2026-01-02T16:23:55.063962",
+      "merged_at": "2026-01-03T14:51:00.077000",
+      "cycle_time_hours": 22.45,
+      "author": "dev9"
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1175,
+      "created_at": "2026-01-02T12:50:45.492615",
+      "merged_at": "2026-01-03T23:43:12.524533",
+      "cycle_time_hours": 34.87,
+      "author": "dev8"
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1176,
+      "created_at": "2026-01-02T12:23:55.413358",
+      "merged_at": "2026-01-03T06:34:48.611756",
+      "cycle_time_hours": 18.18,
+      "author": "dev23"
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1177,
+      "created_at": "2026-01-02T10:20:41.768809",
+      "merged_at": "2026-01-04T19:54:17.640274",
+      "cycle_time_hours": 57.56,
+      "author": "dev11"
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1178,
+      "created_at": "2026-01-03T08:48:20.795676",
+      "merged_at": "2026-01-03T23:21:56.611730",
+      "cycle_time_hours": 14.56,
+      "author": "dev5"
+    },
+    {
+      "repo": "frontend-web",
+      "pr_number": 1179,
+      "created_at": "2026-01-05T15:03:51.089101",
+      "merged_at": "2026-01-12T05:37:28.380682",
+      "cycle_time_hours": 158.56,
+      "author": "dev3"
+    },
+    {
+      "repo": "data-pipeline",
+      "pr_number": 1180,
+      "created_at": "2026-01-05T12:04:33.577308",
+      "merged_at": "2026-01-06T17:45:28.037524",
+      "cycle_time_hours": 29.68,
+      "author": "dev18"
+    },
+    {
+      "repo": "data-pipeline",
+      "pr_number": 1181,
+      "created_at": "2026-01-05T12:09:27.872428",
+      "merged_at": "2026-01-05T21:13:17.079193",
+      "cycle_time_hours": 9.06,
+      "author": "dev7"
+    },
+    {
+      "repo": "data-pipeline",
+      "pr_number": 1182,
+      "created_at": "2026-01-05T11:53:41.165256",
+      "merged_at": "2026-01-05T19:32:02.095936",
+      "cycle_time_hours": 7.64,
+      "author": "dev25"
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1183,
+      "created_at": "2026-01-05T17:27:38.233209",
+      "merged_at": "2026-01-06T19:55:46.985328",
+      "cycle_time_hours": 26.47,
+      "author": "dev1"
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1184,
+      "created_at": "2026-01-05T11:48:13.717041",
+      "merged_at": "2026-01-06T02:51:05.687106",
+      "cycle_time_hours": 15.05,
+      "author": "dev1"
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1185,
+      "created_at": "2026-01-06T15:32:05.104502",
+      "merged_at": "2026-01-07T23:23:23.797125",
+      "cycle_time_hours": 31.86,
+      "author": "dev14"
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1186,
+      "created_at": "2026-01-06T15:28:30.564083",
+      "merged_at": "2026-01-07T17:44:57.932900",
+      "cycle_time_hours": 26.27,
+      "author": "dev18"
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1187,
+      "created_at": "2026-01-06T16:58:41.208506",
+      "merged_at": "2026-01-07T09:57:10.914961",
+      "cycle_time_hours": 16.97,
+      "author": "dev16"
+    },
+    {
+      "repo": "frontend-web",
+      "pr_number": 1188,
+      "created_at": "2026-01-06T10:43:45.671223",
+      "merged_at": "2026-01-06T19:52:06.533650",
+      "cycle_time_hours": 9.14,
+      "author": "dev16"
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1189,
+      "created_at": "2026-01-06T11:53:18.859317",
+      "merged_at": "2026-01-06T17:14:38.623650",
+      "cycle_time_hours": 5.36,
+      "author": "dev22"
+    },
+    {
+      "repo": "data-pipeline",
+      "pr_number": 1190,
+      "created_at": "2026-01-07T15:14:30.529595",
+      "merged_at": "2026-01-08T03:49:49.326258",
+      "cycle_time_hours": 12.59,
+      "author": "dev15"
+    },
+    {
+      "repo": "frontend-web",
+      "pr_number": 1191,
+      "created_at": "2026-01-07T17:48:25.991191",
+      "merged_at": "2026-01-09T05:30:21.923170",
+      "cycle_time_hours": 35.7,
+      "author": "dev18"
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1192,
+      "created_at": "2026-01-07T17:04:09.439053",
+      "merged_at": "2026-01-08T14:25:26.600396",
+      "cycle_time_hours": 21.35,
+      "author": "dev19"
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1193,
+      "created_at": "2026-01-07T14:37:47.991246",
+      "merged_at": "2026-01-07T21:16:19.092112",
+      "cycle_time_hours": 6.64,
+      "author": "dev3"
+    },
+    {
+      "repo": "data-pipeline",
+      "pr_number": 1194,
+      "created_at": "2026-01-07T09:21:25.181540",
+      "merged_at": "2026-01-08T06:01:26.866295",
+      "cycle_time_hours": 20.67,
+      "author": "dev15"
+    },
+    {
+      "repo": "frontend-web",
+      "pr_number": 1195,
+      "created_at": "2026-01-07T08:30:10.246806",
+      "merged_at": "2026-01-08T08:59:33.279901",
+      "cycle_time_hours": 24.49,
+      "author": "dev13"
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1196,
+      "created_at": "2026-01-07T10:06:59.770232",
+      "merged_at": "2026-01-07T18:59:19.411028",
+      "cycle_time_hours": 8.87,
+      "author": "dev11"
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1197,
+      "created_at": "2026-01-07T15:36:44.269484",
+      "merged_at": "2026-01-08T11:57:36.883261",
+      "cycle_time_hours": 20.35,
+      "author": "dev13"
+    },
+    {
+      "repo": "data-pipeline",
+      "pr_number": 1198,
+      "created_at": "2026-01-08T10:31:21.775144",
+      "merged_at": "2026-01-09T05:22:25.443813",
+      "cycle_time_hours": 18.85,
+      "author": "dev3"
+    },
+    {
+      "repo": "data-pipeline",
+      "pr_number": 1199,
+      "created_at": "2026-01-08T08:11:37.798334",
+      "merged_at": "2026-01-08T15:24:17.816905",
+      "cycle_time_hours": 7.21,
+      "author": "dev18"
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1200,
+      "created_at": "2026-01-08T17:59:56.681826",
+      "merged_at": "2026-01-09T17:57:19.236860",
+      "cycle_time_hours": 23.96,
+      "author": "dev12"
+    },
+    {
+      "repo": "frontend-web",
+      "pr_number": 1201,
+      "created_at": "2026-01-08T14:30:05.187357",
+      "merged_at": "2026-01-09T18:40:54.720717",
+      "cycle_time_hours": 28.18,
+      "author": "dev25"
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1202,
+      "created_at": "2026-01-08T15:32:32.395346",
+      "merged_at": "2026-01-10T10:20:17.433664",
+      "cycle_time_hours": 42.8,
+      "author": "dev8"
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1203,
+      "created_at": "2026-01-09T14:12:48.083637",
+      "merged_at": "2026-01-11T08:01:09.950285",
+      "cycle_time_hours": 41.81,
+      "author": "dev8"
+    },
+    {
+      "repo": "frontend-web",
+      "pr_number": 1204,
+      "created_at": "2026-01-09T12:44:08.198194",
+      "merged_at": "2026-01-09T18:42:44.230612",
+      "cycle_time_hours": 5.98,
+      "author": "dev4"
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1205,
+      "created_at": "2026-01-09T17:28:39.252800",
+      "merged_at": "2026-01-10T01:58:29.272848",
+      "cycle_time_hours": 8.5,
+      "author": "dev15"
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1206,
+      "created_at": "2026-01-09T15:40:08.331541",
+      "merged_at": "2026-01-10T18:50:11.997368",
+      "cycle_time_hours": 27.17,
+      "author": "dev6"
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1207,
+      "created_at": "2026-01-10T17:38:14.450788",
+      "merged_at": "2026-01-11T20:46:40.415276",
+      "cycle_time_hours": 27.14,
+      "author": "dev23"
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1208,
+      "created_at": "2026-01-10T15:46:40.507902",
+      "merged_at": "2026-01-11T18:56:45.145440",
+      "cycle_time_hours": 27.17,
+      "author": "dev6"
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1209,
+      "created_at": "2026-01-11T13:47:12.650370",
+      "merged_at": "2026-01-18T13:47:12.650370",
+      "cycle_time_hours": 168.0,
+      "author": "dev10"
+    },
+    {
+      "repo": "data-pipeline",
+      "pr_number": 1210,
+      "created_at": "2026-01-12T11:57:59.559895",
+      "merged_at": "2026-01-13T16:22:32.615686",
+      "cycle_time_hours": 28.41,
+      "author": "dev23"
+    },
+    {
+      "repo": "frontend-web",
+      "pr_number": 1211,
+      "created_at": "2026-01-12T08:45:35.873202",
+      "merged_at": "2026-01-14T05:23:31.301618",
+      "cycle_time_hours": 44.63,
+      "author": "dev23"
+    },
+    {
+      "repo": "frontend-web",
+      "pr_number": 1212,
+      "created_at": "2026-01-12T09:01:08.446996",
+      "merged_at": "2026-01-13T23:37:01.378881",
+      "cycle_time_hours": 38.6,
+      "author": "dev25"
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1213,
+      "created_at": "2026-01-12T16:30:10.556607",
+      "merged_at": "2026-01-13T22:48:06.770345",
+      "cycle_time_hours": 30.3,
+      "author": "dev20"
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1214,
+      "created_at": "2026-01-12T15:57:44.179798",
+      "merged_at": "2026-01-13T05:56:40.075244",
+      "cycle_time_hours": 13.98,
+      "author": "dev19"
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1215,
+      "created_at": "2026-01-12T11:28:19.335551",
+      "merged_at": "2026-01-13T20:29:38.698461",
+      "cycle_time_hours": 33.02,
+      "author": "dev14"
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1216,
+      "created_at": "2026-01-12T08:41:22.442515",
+      "merged_at": "2026-01-12T18:23:08.964002",
+      "cycle_time_hours": 9.7,
+      "author": "dev21"
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1217,
+      "created_at": "2026-01-13T16:29:44.722572",
+      "merged_at": "2026-01-14T07:23:00.964915",
+      "cycle_time_hours": 14.89,
+      "author": "dev16"
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1218,
+      "created_at": "2026-01-13T12:20:06.842448",
+      "merged_at": "2026-01-14T00:32:18.843470",
+      "cycle_time_hours": 12.2,
+      "author": "dev12"
+    },
+    {
+      "repo": "data-pipeline",
+      "pr_number": 1219,
+      "created_at": "2026-01-13T15:04:23.111173",
+      "merged_at": "2026-01-14T10:17:03.837091",
+      "cycle_time_hours": 19.21,
+      "author": "dev14"
+    },
+    {
+      "repo": "frontend-web",
+      "pr_number": 1220,
+      "created_at": "2026-01-13T15:20:16.630944",
+      "merged_at": "2026-01-18T09:58:11.771488",
+      "cycle_time_hours": 114.63,
+      "author": "dev21"
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1221,
+      "created_at": "2026-01-13T14:09:32.844746",
+      "merged_at": "2026-01-13T18:11:56.018001",
+      "cycle_time_hours": 4.04,
+      "author": "dev18"
+    },
+    {
+      "repo": "data-pipeline",
+      "pr_number": 1222,
+      "created_at": "2026-01-14T12:21:20.681748",
+      "merged_at": "2026-01-15T19:30:42.428595",
+      "cycle_time_hours": 31.16,
+      "author": "dev24"
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1223,
+      "created_at": "2026-01-14T10:41:02.239370",
+      "merged_at": "2026-01-14T15:38:10.077019",
+      "cycle_time_hours": 4.95,
+      "author": "dev8"
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1224,
+      "created_at": "2026-01-14T10:47:21.416971",
+      "merged_at": "2026-01-14T23:07:28.027886",
+      "cycle_time_hours": 12.34,
+      "author": "dev15"
+    },
+    {
+      "repo": "frontend-web",
+      "pr_number": 1225,
+      "created_at": "2026-01-14T15:30:17.146146",
+      "merged_at": "2026-01-16T10:30:11.010287",
+      "cycle_time_hours": 43.0,
+      "author": "dev19"
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1226,
+      "created_at": "2026-01-14T14:40:54.784936",
+      "merged_at": "2026-01-15T09:37:28.871972",
+      "cycle_time_hours": 18.94,
+      "author": "dev11"
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1227,
+      "created_at": "2026-01-14T12:56:35.034130",
+      "merged_at": "2026-01-14T20:32:25.622004",
+      "cycle_time_hours": 7.6,
+      "author": "dev11"
+    },
+    {
+      "repo": "data-pipeline",
+      "pr_number": 1228,
+      "created_at": "2026-01-15T10:07:16.314606",
+      "merged_at": "2026-01-15T20:16:26.668845",
+      "cycle_time_hours": 10.15,
+      "author": "dev9"
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1229,
+      "created_at": "2026-01-15T10:47:47.705569",
+      "merged_at": "2026-01-16T17:47:13.225901",
+      "cycle_time_hours": 30.99,
+      "author": "dev20"
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1230,
+      "created_at": "2026-01-15T13:33:28.477005",
+      "merged_at": "2026-01-15T23:35:21.030246",
+      "cycle_time_hours": 10.03,
+      "author": "dev17"
+    },
+    {
+      "repo": "frontend-web",
+      "pr_number": 1231,
+      "created_at": "2026-01-15T08:51:22.066630",
+      "merged_at": "2026-01-16T06:15:04.807724",
+      "cycle_time_hours": 21.4,
+      "author": "dev24"
+    },
+    {
+      "repo": "data-pipeline",
+      "pr_number": 1232,
+      "created_at": "2026-01-16T13:33:06.343617",
+      "merged_at": "2026-01-17T08:12:47.400582",
+      "cycle_time_hours": 18.66,
+      "author": "dev8"
+    },
+    {
+      "repo": "data-pipeline",
+      "pr_number": 1233,
+      "created_at": "2026-01-16T14:27:32.504391",
+      "merged_at": "2026-01-17T01:08:33.843869",
+      "cycle_time_hours": 10.68,
+      "author": "dev16"
+    },
+    {
+      "repo": "data-pipeline",
+      "pr_number": 1234,
+      "created_at": "2026-01-16T15:55:45.583253",
+      "merged_at": "2026-01-20T19:55:40.214063",
+      "cycle_time_hours": 100.0,
+      "author": "dev3"
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1235,
+      "created_at": "2026-01-16T10:12:57.470417",
+      "merged_at": "2026-01-17T16:05:39.646584",
+      "cycle_time_hours": 29.88,
+      "author": "dev23"
+    },
+    {
+      "repo": "frontend-web",
+      "pr_number": 1236,
+      "created_at": "2026-01-16T11:03:43.417085",
+      "merged_at": "2026-01-16T14:37:21.024130",
+      "cycle_time_hours": 3.56,
+      "author": "dev19"
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1237,
+      "created_at": "2026-01-16T12:43:57.377595",
+      "merged_at": "2026-01-17T09:37:13.321892",
+      "cycle_time_hours": 20.89,
+      "author": "dev17"
+    },
+    {
+      "repo": "data-pipeline",
+      "pr_number": 1238,
+      "created_at": "2026-01-17T17:57:58.732703",
+      "merged_at": "2026-01-18T04:33:47.928354",
+      "cycle_time_hours": 10.6,
+      "author": "dev18"
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1239,
+      "created_at": "2026-01-18T15:01:42.777919",
+      "merged_at": "2026-01-20T02:36:51.656120",
+      "cycle_time_hours": 35.59,
+      "author": "dev9"
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1240,
+      "created_at": "2026-01-19T10:18:19.369487",
+      "merged_at": "2026-01-19T19:51:00.199552",
+      "cycle_time_hours": 9.54,
+      "author": "dev24"
+    },
+    {
+      "repo": "frontend-web",
+      "pr_number": 1241,
+      "created_at": "2026-01-19T11:09:19.725984",
+      "merged_at": "2026-01-20T03:34:14.629885",
+      "cycle_time_hours": 16.42,
+      "author": "dev24"
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1242,
+      "created_at": "2026-01-19T17:30:31.592174",
+      "merged_at": "2026-01-20T20:27:32.225312",
+      "cycle_time_hours": 26.95,
+      "author": "dev23"
+    },
+    {
+      "repo": "frontend-web",
+      "pr_number": 1243,
+      "created_at": "2026-01-19T09:54:55.475028",
+      "merged_at": "2026-01-20T21:52:56.973346",
+      "cycle_time_hours": 35.97,
+      "author": "dev24"
+    },
+    {
+      "repo": "data-pipeline",
+      "pr_number": 1244,
+      "created_at": "2026-01-19T10:45:53.986571",
+      "merged_at": "2026-01-19T17:39:10.342892",
+      "cycle_time_hours": 6.89,
+      "author": "dev19"
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1245,
+      "created_at": "2026-01-20T10:49:47.953318",
+      "merged_at": "2026-01-21T00:35:55.328396",
+      "cycle_time_hours": 13.77,
+      "author": "dev4"
+    },
+    {
+      "repo": "frontend-web",
+      "pr_number": 1246,
+      "created_at": "2026-01-20T10:57:44.872678",
+      "merged_at": "2026-01-20T23:16:04.559012",
+      "cycle_time_hours": 12.31,
+      "author": "dev12"
+    },
+    {
+      "repo": "frontend-web",
+      "pr_number": 1247,
+      "created_at": "2026-01-20T11:01:21.633196",
+      "merged_at": "2026-01-20T21:41:29.813260",
+      "cycle_time_hours": 10.67,
+      "author": "dev23"
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1248,
+      "created_at": "2026-01-20T09:15:56.986555",
+      "merged_at": "2026-01-23T11:08:24.038914",
+      "cycle_time_hours": 73.87,
+      "author": "dev2"
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1249,
+      "created_at": "2026-01-20T13:32:00.922805",
+      "merged_at": "2026-01-21T14:24:41.856249",
+      "cycle_time_hours": 24.88,
+      "author": "dev23"
+    },
+    {
+      "repo": "frontend-web",
+      "pr_number": 1250,
+      "created_at": "2026-01-20T14:22:43.307584",
+      "merged_at": "2026-01-20T20:56:26.446211",
+      "cycle_time_hours": 6.56,
+      "author": "dev25"
+    },
+    {
+      "repo": "data-pipeline",
+      "pr_number": 1251,
+      "created_at": "2026-01-20T09:01:33.155284",
+      "merged_at": "2026-01-21T22:31:26.219792",
+      "cycle_time_hours": 37.5,
+      "author": "dev1"
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1252,
+      "created_at": "2026-01-21T12:41:38.290017",
+      "merged_at": "2026-01-25T14:57:52.471112",
+      "cycle_time_hours": 98.27,
+      "author": "dev15"
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1253,
+      "created_at": "2026-01-21T09:50:37.092134",
+      "merged_at": "2026-01-23T02:56:31.778533",
+      "cycle_time_hours": 41.1,
+      "author": "dev2"
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1254,
+      "created_at": "2026-01-21T17:24:38.289484",
+      "merged_at": "2026-01-21T22:44:48.421955",
+      "cycle_time_hours": 5.34,
+      "author": "dev16"
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1255,
+      "created_at": "2026-01-21T16:13:16.163231",
+      "merged_at": "2026-01-22T04:26:07.878269",
+      "cycle_time_hours": 12.21,
+      "author": "dev13"
+    },
+    {
+      "repo": "data-pipeline",
+      "pr_number": 1256,
+      "created_at": "2026-01-21T08:44:26.958129",
+      "merged_at": "2026-01-23T10:19:04.497743",
+      "cycle_time_hours": 49.58,
+      "author": "dev21"
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1257,
+      "created_at": "2026-01-21T09:31:02.172250",
+      "merged_at": "2026-01-21T19:43:56.436996",
+      "cycle_time_hours": 10.22,
+      "author": "dev19"
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1258,
+      "created_at": "2026-01-21T08:51:06.512702",
+      "merged_at": "2026-01-22T10:30:53.800199",
+      "cycle_time_hours": 25.66,
+      "author": "dev8"
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1259,
+      "created_at": "2026-01-22T15:38:39.964032",
+      "merged_at": "2026-01-24T01:04:58.481211",
+      "cycle_time_hours": 33.44,
+      "author": "dev20"
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1260,
+      "created_at": "2026-01-22T15:54:26.669874",
+      "merged_at": "2026-01-23T00:28:44.467205",
+      "cycle_time_hours": 8.57,
+      "author": "dev8"
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1261,
+      "created_at": "2026-01-22T11:48:13.608941",
+      "merged_at": "2026-01-23T04:57:37.169810",
+      "cycle_time_hours": 17.16,
+      "author": "dev15"
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1262,
+      "created_at": "2026-01-23T17:54:01.125377",
+      "merged_at": "2026-01-23T19:14:45.993246",
+      "cycle_time_hours": 1.35,
+      "author": "dev10"
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1263,
+      "created_at": "2026-01-23T14:12:36.983559",
+      "merged_at": "2026-01-23T22:08:20.326369",
+      "cycle_time_hours": 7.93,
+      "author": "dev20"
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1264,
+      "created_at": "2026-01-23T17:28:33.247212",
+      "merged_at": "2026-01-24T08:10:38.432838",
+      "cycle_time_hours": 14.7,
+      "author": "dev7"
+    },
+    {
+      "repo": "frontend-web",
+      "pr_number": 1265,
+      "created_at": "2026-01-23T10:38:47.260510",
+      "merged_at": "2026-01-23T17:16:39.286193",
+      "cycle_time_hours": 6.63,
+      "author": "dev3"
+    },
+    {
+      "repo": "frontend-web",
+      "pr_number": 1266,
+      "created_at": "2026-01-23T10:23:55.146396",
+      "merged_at": "2026-01-26T04:48:50.606921",
+      "cycle_time_hours": 66.42,
+      "author": "dev18"
+    },
+    {
+      "repo": "data-pipeline",
+      "pr_number": 1267,
+      "created_at": "2026-01-26T12:30:18.133366",
+      "merged_at": "2026-01-26T18:14:09.668625",
+      "cycle_time_hours": 5.73,
+      "author": "dev20"
+    },
+    {
+      "repo": "data-pipeline",
+      "pr_number": 1268,
+      "created_at": "2026-01-26T10:54:45.334405",
+      "merged_at": "2026-01-26T23:33:59.326236",
+      "cycle_time_hours": 12.65,
+      "author": "dev8"
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1269,
+      "created_at": "2026-01-26T15:04:10.409876",
+      "merged_at": "2026-01-27T11:02:48.390184",
+      "cycle_time_hours": 19.98,
+      "author": "dev23"
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1270,
+      "created_at": "2026-01-27T14:52:25.857123",
+      "merged_at": "2026-01-29T23:52:19.160206",
+      "cycle_time_hours": 57.0,
+      "author": "dev9"
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1271,
+      "created_at": "2026-01-27T14:36:42.589543",
+      "merged_at": "2026-01-27T20:18:59.917874",
+      "cycle_time_hours": 5.7,
+      "author": "dev7"
+    },
+    {
+      "repo": "data-pipeline",
+      "pr_number": 1272,
+      "created_at": "2026-01-27T09:08:51.946889",
+      "merged_at": "2026-01-29T06:46:34.297281",
+      "cycle_time_hours": 45.63,
+      "author": "dev8"
+    },
+    {
+      "repo": "frontend-web",
+      "pr_number": 1273,
+      "created_at": "2026-01-27T17:05:02.812028",
+      "merged_at": "2026-01-28T11:13:31.187812",
+      "cycle_time_hours": 18.14,
+      "author": "dev5"
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1274,
+      "created_at": "2026-01-27T08:35:46.969422",
+      "merged_at": "2026-01-27T16:48:06.427295",
+      "cycle_time_hours": 8.21,
+      "author": "dev10"
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1275,
+      "created_at": "2026-01-27T15:29:22.477995",
+      "merged_at": "2026-01-28T17:31:51.068008",
+      "cycle_time_hours": 26.04,
+      "author": "dev19"
+    },
+    {
+      "repo": "data-pipeline",
+      "pr_number": 1276,
+      "created_at": "2026-01-28T09:14:36.731694",
+      "merged_at": "2026-01-29T06:20:34.811144",
+      "cycle_time_hours": 21.1,
+      "author": "dev23"
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1277,
+      "created_at": "2026-01-28T14:59:50.412659",
+      "merged_at": "2026-01-29T02:07:45.719043",
+      "cycle_time_hours": 11.13,
+      "author": "dev9"
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1278,
+      "created_at": "2026-01-28T13:23:59.336254",
+      "merged_at": "2026-01-29T08:25:35.347491",
+      "cycle_time_hours": 19.03,
+      "author": "dev15"
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1279,
+      "created_at": "2026-01-28T13:58:49.319833",
+      "merged_at": "2026-01-29T03:12:02.190208",
+      "cycle_time_hours": 13.22,
+      "author": "dev14"
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1280,
+      "created_at": "2026-01-28T14:02:13.691074",
+      "merged_at": "2026-01-29T09:44:27.538879",
+      "cycle_time_hours": 19.7,
+      "author": "dev1"
+    },
+    {
+      "repo": "frontend-web",
+      "pr_number": 1281,
+      "created_at": "2026-01-29T17:37:08.799679",
+      "merged_at": "2026-01-31T00:10:46.183174",
+      "cycle_time_hours": 30.56,
+      "author": "dev19"
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1282,
+      "created_at": "2026-01-29T17:30:28.306001",
+      "merged_at": "2026-02-01T09:30:12.263705",
+      "cycle_time_hours": 64.0,
+      "author": "dev25"
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1283,
+      "created_at": "2026-01-29T13:45:44.891446",
+      "merged_at": "2026-01-29T20:26:48.037156",
+      "cycle_time_hours": 6.68,
+      "author": "dev25"
+    },
+    {
+      "repo": "data-pipeline",
+      "pr_number": 1284,
+      "created_at": "2026-01-30T13:11:22.698276",
+      "merged_at": "2026-02-03T16:19:08.763943",
+      "cycle_time_hours": 99.13,
+      "author": "dev15"
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1285,
+      "created_at": "2026-01-30T09:48:53.609300",
+      "merged_at": "2026-01-30T13:35:22.649577",
+      "cycle_time_hours": 3.77,
+      "author": "dev19"
+    },
+    {
+      "repo": "data-pipeline",
+      "pr_number": 1286,
+      "created_at": "2026-01-30T14:20:52.249900",
+      "merged_at": "2026-01-31T06:17:01.346377",
+      "cycle_time_hours": 15.94,
+      "author": "dev16"
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1287,
+      "created_at": "2026-01-30T12:42:00.374219",
+      "merged_at": "2026-01-31T17:30:29.240472",
+      "cycle_time_hours": 28.81,
+      "author": "dev14"
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1288,
+      "created_at": "2026-01-31T14:42:04.806343",
+      "merged_at": "2026-02-01T13:13:48.405522",
+      "cycle_time_hours": 22.53,
+      "author": "dev6"
+    },
+    {
+      "repo": "data-pipeline",
+      "pr_number": 1289,
+      "created_at": "2026-02-01T14:56:12.252263",
+      "merged_at": "2026-02-02T01:52:13.203111",
+      "cycle_time_hours": 10.93,
+      "author": "dev10"
+    },
+    {
+      "repo": "data-pipeline",
+      "pr_number": 1290,
+      "created_at": "2026-02-02T16:08:08.377251",
+      "merged_at": "2026-02-03T07:22:09.265144",
+      "cycle_time_hours": 15.23,
+      "author": "dev18"
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1291,
+      "created_at": "2026-02-02T12:32:53.732710",
+      "merged_at": "2026-02-03T00:40:38.131529",
+      "cycle_time_hours": 12.13,
+      "author": "dev11"
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1292,
+      "created_at": "2026-02-02T11:13:57.856306",
+      "merged_at": "2026-02-02T22:27:42.598979",
+      "cycle_time_hours": 11.23,
+      "author": "dev25"
+    },
+    {
+      "repo": "data-pipeline",
+      "pr_number": 1293,
+      "created_at": "2026-02-02T16:38:56.781026",
+      "merged_at": "2026-02-04T04:09:15.822233",
+      "cycle_time_hours": 35.51,
+      "author": "dev1"
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1294,
+      "created_at": "2026-02-02T12:37:11.148419",
+      "merged_at": "2026-02-03T12:33:40.465157",
+      "cycle_time_hours": 23.94,
+      "author": "dev2"
+    },
+    {
+      "repo": "frontend-web",
+      "pr_number": 1295,
+      "created_at": "2026-02-02T13:11:03.818129",
+      "merged_at": "2026-02-02T23:31:14.883351",
+      "cycle_time_hours": 10.34,
+      "author": "dev20"
+    },
+    {
+      "repo": "data-pipeline",
+      "pr_number": 1296,
+      "created_at": "2026-02-02T14:15:14.714717",
+      "merged_at": "2026-02-04T03:12:29.913513",
+      "cycle_time_hours": 36.95,
+      "author": "dev25"
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1297,
+      "created_at": "2026-02-02T10:02:08.096581",
+      "merged_at": "2026-02-03T09:02:36.700705",
+      "cycle_time_hours": 23.01,
+      "author": "dev18"
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1298,
+      "created_at": "2026-02-03T12:22:52.179423",
+      "merged_at": "2026-02-04T22:51:29.039345",
+      "cycle_time_hours": 34.48,
+      "author": "dev23"
+    },
+    {
+      "repo": "data-pipeline",
+      "pr_number": 1299,
+      "created_at": "2026-02-03T09:12:51.339001",
+      "merged_at": "2026-02-04T14:59:24.979053",
+      "cycle_time_hours": 29.78,
+      "author": "dev21"
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1300,
+      "created_at": "2026-02-03T15:59:35.294398",
+      "merged_at": "2026-02-04T01:15:47.982258",
+      "cycle_time_hours": 9.27,
+      "author": "dev23"
+    },
+    {
+      "repo": "frontend-web",
+      "pr_number": 1301,
+      "created_at": "2026-02-03T11:06:27.004982",
+      "merged_at": "2026-02-03T22:36:06.646674",
+      "cycle_time_hours": 11.49,
+      "author": "dev1"
+    },
+    {
+      "repo": "data-pipeline",
+      "pr_number": 1302,
+      "created_at": "2026-02-04T08:55:55.531246",
+      "merged_at": "2026-02-05T17:38:49.672078",
+      "cycle_time_hours": 32.72,
+      "author": "dev4"
+    },
+    {
+      "repo": "data-pipeline",
+      "pr_number": 1303,
+      "created_at": "2026-02-04T17:28:14.186725",
+      "merged_at": "2026-02-05T22:47:28.966508",
+      "cycle_time_hours": 29.32,
+      "author": "dev21"
+    },
+    {
+      "repo": "frontend-web",
+      "pr_number": 1304,
+      "created_at": "2026-02-04T12:59:01.518169",
+      "merged_at": "2026-02-05T06:40:43.302285",
+      "cycle_time_hours": 17.69,
+      "author": "dev23"
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1305,
+      "created_at": "2026-02-04T13:05:19.392543",
+      "merged_at": "2026-02-05T08:51:09.778716",
+      "cycle_time_hours": 19.76,
+      "author": "dev9"
+    },
+    {
+      "repo": "data-pipeline",
+      "pr_number": 1306,
+      "created_at": "2026-02-04T16:20:50.062041",
+      "merged_at": "2026-02-06T18:21:09.667125",
+      "cycle_time_hours": 50.01,
+      "author": "dev16"
+    },
+    {
+      "repo": "frontend-web",
+      "pr_number": 1307,
+      "created_at": "2026-02-04T12:34:04.313018",
+      "merged_at": "2026-02-04T23:46:37.756621",
+      "cycle_time_hours": 11.21,
+      "author": "dev5"
+    },
+    {
+      "repo": "data-pipeline",
+      "pr_number": 1308,
+      "created_at": "2026-02-04T09:54:21.973354",
+      "merged_at": "2026-02-05T13:46:46.722693",
+      "cycle_time_hours": 27.87,
+      "author": "dev20"
+    },
+    {
+      "repo": "frontend-web",
+      "pr_number": 1309,
+      "created_at": "2026-02-05T16:38:24.969639",
+      "merged_at": "2026-02-06T07:56:46.623069",
+      "cycle_time_hours": 15.31,
+      "author": "dev9"
+    },
+    {
+      "repo": "data-pipeline",
+      "pr_number": 1310,
+      "created_at": "2026-02-05T11:23:55.508752",
+      "merged_at": "2026-02-06T02:30:58.618918",
+      "cycle_time_hours": 15.12,
+      "author": "dev17"
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1311,
+      "created_at": "2026-02-05T16:12:19.781035",
+      "merged_at": "2026-02-07T11:32:35.275694",
+      "cycle_time_hours": 43.34,
+      "author": "dev10"
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1312,
+      "created_at": "2026-02-05T16:22:29.133214",
+      "merged_at": "2026-02-07T03:11:58.827252",
+      "cycle_time_hours": 34.82,
+      "author": "dev19"
+    },
+    {
+      "repo": "data-pipeline",
+      "pr_number": 1313,
+      "created_at": "2026-02-05T16:39:09.381409",
+      "merged_at": "2026-02-07T03:08:50.552224",
+      "cycle_time_hours": 34.49,
+      "author": "dev15"
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1314,
+      "created_at": "2026-02-05T12:50:36.289880",
+      "merged_at": "2026-02-07T15:58:26.431824",
+      "cycle_time_hours": 51.13,
+      "author": "dev11"
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1315,
+      "created_at": "2026-02-05T15:37:43.416394",
+      "merged_at": "2026-02-06T09:55:36.961357",
+      "cycle_time_hours": 18.3,
+      "author": "dev13"
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1316,
+      "created_at": "2026-02-06T16:41:45.660596",
+      "merged_at": "2026-02-07T23:44:41.588375",
+      "cycle_time_hours": 31.05,
+      "author": "dev23"
+    },
+    {
+      "repo": "frontend-web",
+      "pr_number": 1317,
+      "created_at": "2026-02-06T13:43:04.715111",
+      "merged_at": "2026-02-07T03:45:22.457955",
+      "cycle_time_hours": 14.04,
+      "author": "dev8"
+    },
+    {
+      "repo": "data-pipeline",
+      "pr_number": 1318,
+      "created_at": "2026-02-06T08:26:11.302768",
+      "merged_at": "2026-02-07T07:45:25.126268",
+      "cycle_time_hours": 23.32,
+      "author": "dev24"
+    },
+    {
+      "repo": "data-pipeline",
+      "pr_number": 1319,
+      "created_at": "2026-02-06T15:03:08.203717",
+      "merged_at": "2026-02-07T07:15:59.216022",
+      "cycle_time_hours": 16.21,
+      "author": "dev13"
+    },
+    {
+      "repo": "data-pipeline",
+      "pr_number": 1320,
+      "created_at": "2026-02-06T17:53:02.904070",
+      "merged_at": "2026-02-07T13:19:45.380392",
+      "cycle_time_hours": 19.45,
+      "author": "dev21"
+    },
+    {
+      "repo": "frontend-web",
+      "pr_number": 1321,
+      "created_at": "2026-02-06T12:57:11.831386",
+      "merged_at": "2026-02-07T17:55:09.732954",
+      "cycle_time_hours": 28.97,
+      "author": "dev2"
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1322,
+      "created_at": "2026-02-08T11:19:11.809342",
+      "merged_at": "2026-02-08T20:40:13.395106",
+      "cycle_time_hours": 9.35,
+      "author": "dev4"
+    },
+    {
+      "repo": "data-pipeline",
+      "pr_number": 1323,
+      "created_at": "2026-02-08T08:59:49.621119",
+      "merged_at": "2026-02-12T08:57:18.153331",
+      "cycle_time_hours": 95.96,
+      "author": "dev15"
+    },
+    {
+      "repo": "frontend-web",
+      "pr_number": 1324,
+      "created_at": "2026-02-09T12:05:59.230311",
+      "merged_at": "2026-02-09T20:08:45.149551",
+      "cycle_time_hours": 8.05,
+      "author": "dev21"
+    },
+    {
+      "repo": "frontend-web",
+      "pr_number": 1325,
+      "created_at": "2026-02-09T08:44:53.816937",
+      "merged_at": "2026-02-09T15:33:36.118104",
+      "cycle_time_hours": 6.81,
+      "author": "dev9"
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1326,
+      "created_at": "2026-02-09T14:13:57.338419",
+      "merged_at": "2026-02-11T11:40:37.030867",
+      "cycle_time_hours": 45.44,
+      "author": "dev13"
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1327,
+      "created_at": "2026-02-10T16:31:03.550525",
+      "merged_at": "2026-02-12T02:24:53.194746",
+      "cycle_time_hours": 33.9,
+      "author": "dev22"
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1328,
+      "created_at": "2026-02-10T11:48:00.338311",
+      "merged_at": "2026-02-11T17:26:42.591934",
+      "cycle_time_hours": 29.65,
+      "author": "dev11"
+    },
+    {
+      "repo": "data-pipeline",
+      "pr_number": 1329,
+      "created_at": "2026-02-10T16:43:25.788626",
+      "merged_at": "2026-02-11T22:28:09.433072",
+      "cycle_time_hours": 29.75,
+      "author": "dev2"
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1330,
+      "created_at": "2026-02-10T08:41:03.146899",
+      "merged_at": "2026-02-11T02:30:07.523508",
+      "cycle_time_hours": 17.82,
+      "author": "dev21"
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1331,
+      "created_at": "2026-02-10T17:58:27.333226",
+      "merged_at": "2026-02-11T02:45:06.487232",
+      "cycle_time_hours": 8.78,
+      "author": "dev24"
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1332,
+      "created_at": "2026-02-10T12:20:22.972989",
+      "merged_at": "2026-02-11T07:27:28.691594",
+      "cycle_time_hours": 19.12,
+      "author": "dev4"
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1333,
+      "created_at": "2026-02-10T12:26:12.427860",
+      "merged_at": "2026-02-10T22:54:15.254966",
+      "cycle_time_hours": 10.47,
+      "author": "dev23"
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1334,
+      "created_at": "2026-02-10T17:02:03.266234",
+      "merged_at": "2026-02-12T08:17:23.663302",
+      "cycle_time_hours": 39.26,
+      "author": "dev2"
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1335,
+      "created_at": "2026-02-11T10:56:01.239935",
+      "merged_at": "2026-02-12T02:55:47.726980",
+      "cycle_time_hours": 16.0,
+      "author": "dev12"
+    },
+    {
+      "repo": "data-pipeline",
+      "pr_number": 1336,
+      "created_at": "2026-02-11T09:27:20.512645",
+      "merged_at": "2026-02-11T18:45:06.716452",
+      "cycle_time_hours": 9.3,
+      "author": "dev17"
+    },
+    {
+      "repo": "data-pipeline",
+      "pr_number": 1337,
+      "created_at": "2026-02-11T13:39:33.410229",
+      "merged_at": "2026-02-12T03:34:23.599808",
+      "cycle_time_hours": 13.91,
+      "author": "dev6"
+    },
+    {
+      "repo": "frontend-web",
+      "pr_number": 1338,
+      "created_at": "2026-02-11T09:45:02.496782",
+      "merged_at": "2026-02-12T10:47:14.834452",
+      "cycle_time_hours": 25.04,
+      "author": "dev20"
+    },
+    {
+      "repo": "data-pipeline",
+      "pr_number": 1339,
+      "created_at": "2026-02-11T14:11:49.573267",
+      "merged_at": "2026-02-12T01:39:32.077642",
+      "cycle_time_hours": 11.46,
+      "author": "dev8"
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1340,
+      "created_at": "2026-02-12T09:25:52.237925",
+      "merged_at": "2026-02-12T18:45:06.286500",
+      "cycle_time_hours": 9.32,
+      "author": "dev15"
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1341,
+      "created_at": "2026-02-12T12:35:44.537970",
+      "merged_at": "2026-02-13T10:27:43.464387",
+      "cycle_time_hours": 21.87,
+      "author": "dev22"
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1342,
+      "created_at": "2026-02-12T16:59:20.707141",
+      "merged_at": "2026-02-13T14:52:40.242655",
+      "cycle_time_hours": 21.89,
+      "author": "dev15"
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1343,
+      "created_at": "2026-02-12T14:46:33.991885",
+      "merged_at": "2026-02-13T02:46:14.073067",
+      "cycle_time_hours": 11.99,
+      "author": "dev6"
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1344,
+      "created_at": "2026-02-12T12:25:02.272210",
+      "merged_at": "2026-02-13T00:45:40.638457",
+      "cycle_time_hours": 12.34,
+      "author": "dev12"
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1345,
+      "created_at": "2026-02-12T10:59:29.552968",
+      "merged_at": "2026-02-13T08:39:19.021234",
+      "cycle_time_hours": 21.66,
+      "author": "dev14"
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1346,
+      "created_at": "2026-02-13T12:34:06.089256",
+      "merged_at": "2026-02-13T18:13:03.587217",
+      "cycle_time_hours": 5.65,
+      "author": "dev10"
+    },
+    {
+      "repo": "frontend-web",
+      "pr_number": 1347,
+      "created_at": "2026-02-13T17:59:37.448358",
+      "merged_at": "2026-02-13T23:49:46.698548",
+      "cycle_time_hours": 5.84,
+      "author": "dev16"
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1348,
+      "created_at": "2026-02-13T10:22:19.405269",
+      "merged_at": "2026-02-13T20:29:58.045308",
+      "cycle_time_hours": 10.13,
+      "author": "dev19"
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1349,
+      "created_at": "2026-02-13T13:44:53.229486",
+      "merged_at": "2026-02-14T04:55:00.996416",
+      "cycle_time_hours": 15.17,
+      "author": "dev23"
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1350,
+      "created_at": "2026-02-13T08:13:09.825523",
+      "merged_at": "2026-02-14T07:17:37.854469",
+      "cycle_time_hours": 23.07,
+      "author": "dev22"
+    },
+    {
+      "repo": "data-pipeline",
+      "pr_number": 1351,
+      "created_at": "2026-02-13T10:44:41.293686",
+      "merged_at": "2026-02-15T21:19:06.441447",
+      "cycle_time_hours": 58.57,
+      "author": "dev19"
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1352,
+      "created_at": "2026-02-13T17:06:22.210334",
+      "merged_at": "2026-02-15T04:50:27.836990",
+      "cycle_time_hours": 35.73,
+      "author": "dev24"
+    },
+    {
+      "repo": "data-pipeline",
+      "pr_number": 1353,
+      "created_at": "2026-02-13T16:19:42.200388",
+      "merged_at": "2026-02-14T08:09:38.310479",
+      "cycle_time_hours": 15.83,
+      "author": "dev10"
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1354,
+      "created_at": "2026-02-15T10:11:24.163401",
+      "merged_at": "2026-02-16T03:54:42.101979",
+      "cycle_time_hours": 17.72,
+      "author": "dev7"
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1355,
+      "created_at": "2026-02-15T10:30:22.564802",
+      "merged_at": "2026-02-15T18:34:29.423809",
+      "cycle_time_hours": 8.07,
+      "author": "dev25"
+    },
+    {
+      "repo": "frontend-web",
+      "pr_number": 1356,
+      "created_at": "2026-02-16T14:16:56.931733",
+      "merged_at": "2026-02-17T08:00:40.551439",
+      "cycle_time_hours": 17.73,
+      "author": "dev21"
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1357,
+      "created_at": "2026-02-16T11:05:21.583822",
+      "merged_at": "2026-02-17T01:22:20.541677",
+      "cycle_time_hours": 14.28,
+      "author": "dev15"
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1358,
+      "created_at": "2026-02-16T13:47:44.656993",
+      "merged_at": "2026-02-17T13:05:21.298634",
+      "cycle_time_hours": 23.29,
+      "author": "dev24"
+    },
+    {
+      "repo": "frontend-web",
+      "pr_number": 1359,
+      "created_at": "2026-02-16T08:54:04.801527",
+      "merged_at": "2026-02-16T18:11:04.619972",
+      "cycle_time_hours": 9.28,
+      "author": "dev10"
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1360,
+      "created_at": "2026-02-16T15:28:29.311138",
+      "merged_at": "2026-02-17T18:44:10.883961",
+      "cycle_time_hours": 27.26,
+      "author": "dev6"
+    },
+    {
+      "repo": "frontend-web",
+      "pr_number": 1361,
+      "created_at": "2026-02-16T09:19:17.752719",
+      "merged_at": "2026-02-18T22:38:48.534303",
+      "cycle_time_hours": 61.33,
+      "author": "dev18"
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1362,
+      "created_at": "2026-02-16T13:18:30.685453",
+      "merged_at": "2026-02-17T05:48:08.800605",
+      "cycle_time_hours": 16.49,
+      "author": "dev9"
+    },
+    {
+      "repo": "frontend-web",
+      "pr_number": 1363,
+      "created_at": "2026-02-16T10:34:10.923044",
+      "merged_at": "2026-02-17T11:22:57.872068",
+      "cycle_time_hours": 24.81,
+      "author": "dev16"
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1364,
+      "created_at": "2026-02-17T16:02:32.371390",
+      "merged_at": "2026-02-18T23:17:43.151340",
+      "cycle_time_hours": 31.25,
+      "author": "dev15"
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1365,
+      "created_at": "2026-02-17T09:24:27.252540",
+      "merged_at": "2026-02-17T22:27:38.317103",
+      "cycle_time_hours": 13.05,
+      "author": "dev8"
+    },
+    {
+      "repo": "data-pipeline",
+      "pr_number": 1366,
+      "created_at": "2026-02-17T17:40:21.710903",
+      "merged_at": "2026-02-18T15:11:56.277921",
+      "cycle_time_hours": 21.53,
+      "author": "dev18"
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1367,
+      "created_at": "2026-02-17T08:54:10.903520",
+      "merged_at": "2026-02-18T03:04:42.663428",
+      "cycle_time_hours": 18.18,
+      "author": "dev13"
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1368,
+      "created_at": "2026-02-17T10:38:40.508821",
+      "merged_at": "2026-02-18T06:06:01.084334",
+      "cycle_time_hours": 19.46,
+      "author": "dev4"
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1369,
+      "created_at": "2026-02-18T14:43:41.821747",
+      "merged_at": "2026-02-19T00:25:23.189476",
+      "cycle_time_hours": 9.69,
+      "author": "dev22"
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1370,
+      "created_at": "2026-02-18T13:50:44.163299",
+      "merged_at": "2026-02-19T08:11:42.747312",
+      "cycle_time_hours": 18.35,
+      "author": "dev21"
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1371,
+      "created_at": "2026-02-18T09:05:00.459679",
+      "merged_at": "2026-02-19T11:53:00.145683",
+      "cycle_time_hours": 26.8,
+      "author": "dev8"
+    },
+    {
+      "repo": "data-pipeline",
+      "pr_number": 1372,
+      "created_at": "2026-02-18T08:15:00.887387",
+      "merged_at": "2026-02-20T17:42:00.862970",
+      "cycle_time_hours": 57.45,
+      "author": "dev18"
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1373,
+      "created_at": "2026-02-18T17:09:09.212715",
+      "merged_at": "2026-02-20T07:54:49.102174",
+      "cycle_time_hours": 38.76,
+      "author": "dev8"
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1374,
+      "created_at": "2026-02-18T14:21:14.541206",
+      "merged_at": "2026-02-22T19:05:39.638517",
+      "cycle_time_hours": 100.74,
+      "author": "dev15"
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1375,
+      "created_at": "2026-02-19T14:29:32.620066",
+      "merged_at": "2026-02-20T00:13:52.441809",
+      "cycle_time_hours": 9.74,
+      "author": "dev4"
+    },
+    {
+      "repo": "frontend-web",
+      "pr_number": 1376,
+      "created_at": "2026-02-19T08:27:12.485196",
+      "merged_at": "2026-02-20T20:36:35.855333",
+      "cycle_time_hours": 36.16,
+      "author": "dev2"
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1377,
+      "created_at": "2026-02-19T17:57:33.385491",
+      "merged_at": "2026-02-20T14:47:42.336264",
+      "cycle_time_hours": 20.84,
+      "author": "dev4"
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1378,
+      "created_at": "2026-02-19T10:20:52.801168",
+      "merged_at": "2026-02-23T18:04:59.837941",
+      "cycle_time_hours": 103.74,
+      "author": "dev18"
+    },
+    {
+      "repo": "frontend-web",
+      "pr_number": 1379,
+      "created_at": "2026-02-19T11:53:11.249921",
+      "merged_at": "2026-02-19T21:18:41.101932",
+      "cycle_time_hours": 9.42,
+      "author": "dev12"
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1380,
+      "created_at": "2026-02-19T12:11:28.563123",
+      "merged_at": "2026-02-19T21:22:56.089731",
+      "cycle_time_hours": 9.19,
+      "author": "dev24"
+    },
+    {
+      "repo": "frontend-web",
+      "pr_number": 1381,
+      "created_at": "2026-02-19T16:51:14.896220",
+      "merged_at": "2026-02-20T03:59:36.636389",
+      "cycle_time_hours": 11.14,
+      "author": "dev21"
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1382,
+      "created_at": "2026-02-19T16:20:12.950999",
+      "merged_at": "2026-02-19T19:37:36.901915",
+      "cycle_time_hours": 3.29,
+      "author": "dev20"
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1383,
+      "created_at": "2026-02-20T08:19:37.786327",
+      "merged_at": "2026-02-20T20:08:32.895289",
+      "cycle_time_hours": 11.82,
+      "author": "dev12"
+    },
+    {
+      "repo": "frontend-web",
+      "pr_number": 1384,
+      "created_at": "2026-02-20T12:26:01.791098",
+      "merged_at": "2026-02-20T22:14:12.782003",
+      "cycle_time_hours": 9.8,
+      "author": "dev8"
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1385,
+      "created_at": "2026-02-20T08:59:36.766486",
+      "merged_at": "2026-02-21T05:17:14.417884",
+      "cycle_time_hours": 20.29,
+      "author": "dev22"
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1386,
+      "created_at": "2026-02-20T13:26:40.771013",
+      "merged_at": "2026-02-21T13:05:44.318503",
+      "cycle_time_hours": 23.65,
+      "author": "dev21"
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1387,
+      "created_at": "2026-02-20T08:36:19.803210",
+      "merged_at": "2026-02-23T17:19:17.359789",
+      "cycle_time_hours": 80.72,
+      "author": "dev9"
+    },
+    {
+      "repo": "frontend-web",
+      "pr_number": 1388,
+      "created_at": "2026-02-20T17:40:55.447534",
+      "merged_at": "2026-02-22T08:10:11.217528",
+      "cycle_time_hours": 38.49,
+      "author": "dev15"
+    }
+  ],
+  "summary": {
+    "median_hours": 18.88,
+    "p95_hours": 63.35,
+    "total_prs": 389
+  },
+  "generated_at": "2026-02-21T14:45:24.305202",
+  "seed": 42
+}

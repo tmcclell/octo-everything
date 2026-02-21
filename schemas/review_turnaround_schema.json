@@ -1,0 +1,72 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Review Turnaround Times",
+  "description": "Schema for tracking time from PR open to first review",
+  "type": "object",
+  "required": ["metadata", "data"],
+  "properties": {
+    "metadata": {
+      "type": "object",
+      "required": ["last_updated", "version"],
+      "properties": {
+        "last_updated": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "version": {
+          "type": "string",
+          "pattern": "^\\d+\\.\\d+$"
+        },
+        "source": {
+          "type": "string",
+          "enum": ["github_api", "dummy_data"]
+        }
+      }
+    },
+    "data": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["pr_id", "repo", "opened_at", "first_review_at", "turnaround_hours"],
+        "properties": {
+          "pr_id": {
+            "type": "integer"
+          },
+          "pr_url": {
+            "type": "string",
+            "format": "uri"
+          },
+          "repo": {
+            "type": "string"
+          },
+          "author": {
+            "type": "string"
+          },
+          "opened_at": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "first_review_at": {
+            "type": "string",
+            "format": "date-time",
+            "description": "When first review was submitted"
+          },
+          "first_reviewer": {
+            "type": "string",
+            "description": "GitHub username of first reviewer"
+          },
+          "turnaround_hours": {
+            "type": "number",
+            "minimum": 0,
+            "description": "Hours from PR open to first review"
+          },
+          "review_type": {
+            "type": "string",
+            "enum": ["APPROVED", "CHANGES_REQUESTED", "COMMENTED"],
+            "description": "Type of first review"
+          }
+        }
+      }
+    }
+  }
+}

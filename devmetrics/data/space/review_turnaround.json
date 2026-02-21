@@ -1,0 +1,2601 @@
+{
+  "reviews": [
+    {
+      "repo": "frontend-web",
+      "pr_number": 1000,
+      "created_at": "2025-11-24T14:25:01.360820",
+      "first_review_at": "2025-11-24T16:49:47.430493",
+      "turnaround_hours": 2.41
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1001,
+      "created_at": "2025-11-24T17:42:39.359234",
+      "first_review_at": "2025-11-24T19:31:02.990266",
+      "turnaround_hours": 1.81
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1002,
+      "created_at": "2025-11-24T15:52:04.605256",
+      "first_review_at": "2025-11-24T22:10:54.047513",
+      "turnaround_hours": 6.31
+    },
+    {
+      "repo": "frontend-web",
+      "pr_number": 1003,
+      "created_at": "2025-11-24T17:53:17.552542",
+      "first_review_at": "2025-11-24T19:07:26.751004",
+      "turnaround_hours": 1.24
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1004,
+      "created_at": "2025-11-24T10:03:07.400705",
+      "first_review_at": "2025-11-25T07:07:54.502621",
+      "turnaround_hours": 21.08
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1005,
+      "created_at": "2025-11-24T10:04:17.665332",
+      "first_review_at": "2025-11-24T21:47:38.076070",
+      "turnaround_hours": 11.72
+    },
+    {
+      "repo": "frontend-web",
+      "pr_number": 1006,
+      "created_at": "2025-11-24T16:07:49.907320",
+      "first_review_at": "2025-11-24T18:47:20.314562",
+      "turnaround_hours": 2.66
+    },
+    {
+      "repo": "frontend-web",
+      "pr_number": 1007,
+      "created_at": "2025-11-24T11:17:08.143924",
+      "first_review_at": "2025-11-24T12:09:12.139355",
+      "turnaround_hours": 0.87
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1008,
+      "created_at": "2025-11-25T08:01:42.079853",
+      "first_review_at": "2025-11-25T21:44:35.833594",
+      "turnaround_hours": 13.71
+    },
+    {
+      "repo": "frontend-web",
+      "pr_number": 1009,
+      "created_at": "2025-11-25T17:52:30.982957",
+      "first_review_at": "2025-11-25T21:31:59.751211",
+      "turnaround_hours": 3.66
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1010,
+      "created_at": "2025-11-25T10:30:23.551082",
+      "first_review_at": "2025-11-25T22:51:40.387612",
+      "turnaround_hours": 12.35
+    },
+    {
+      "repo": "frontend-web",
+      "pr_number": 1011,
+      "created_at": "2025-11-25T09:05:57.348524",
+      "first_review_at": "2025-11-25T10:03:53.580538",
+      "turnaround_hours": 0.97
+    },
+    {
+      "repo": "frontend-web",
+      "pr_number": 1012,
+      "created_at": "2025-11-26T08:08:54.971780",
+      "first_review_at": "2025-11-26T10:30:47.136848",
+      "turnaround_hours": 2.36
+    },
+    {
+      "repo": "frontend-web",
+      "pr_number": 1013,
+      "created_at": "2025-11-26T13:53:18.705194",
+      "first_review_at": "2025-11-26T17:57:46.484076",
+      "turnaround_hours": 4.07
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1014,
+      "created_at": "2025-11-26T09:44:32.863251",
+      "first_review_at": "2025-11-26T13:58:22.089784",
+      "turnaround_hours": 4.23
+    },
+    {
+      "repo": "frontend-web",
+      "pr_number": 1015,
+      "created_at": "2025-11-27T15:25:01.850050",
+      "first_review_at": "2025-11-27T18:07:18.283949",
+      "turnaround_hours": 2.7
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1016,
+      "created_at": "2025-11-27T09:08:11.375044",
+      "first_review_at": "2025-11-27T16:14:23.395033",
+      "turnaround_hours": 7.1
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1017,
+      "created_at": "2025-11-27T12:45:44.854755",
+      "first_review_at": "2025-11-27T14:18:49.804638",
+      "turnaround_hours": 1.55
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1018,
+      "created_at": "2025-11-28T13:56:11.976643",
+      "first_review_at": "2025-11-28T17:30:14.891791",
+      "turnaround_hours": 3.57
+    },
+    {
+      "repo": "data-pipeline",
+      "pr_number": 1019,
+      "created_at": "2025-11-28T13:02:18.192832",
+      "first_review_at": "2025-11-28T17:33:26.191627",
+      "turnaround_hours": 4.52
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1020,
+      "created_at": "2025-11-28T08:26:01.141328",
+      "first_review_at": "2025-11-28T14:52:35.957112",
+      "turnaround_hours": 6.44
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1021,
+      "created_at": "2025-11-28T11:00:58.691845",
+      "first_review_at": "2025-11-28T18:42:37.440458",
+      "turnaround_hours": 7.69
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1022,
+      "created_at": "2025-11-28T08:36:29.714670",
+      "first_review_at": "2025-11-28T10:04:55.278042",
+      "turnaround_hours": 1.47
+    },
+    {
+      "repo": "data-pipeline",
+      "pr_number": 1023,
+      "created_at": "2025-11-29T12:15:45.850294",
+      "first_review_at": "2025-11-29T13:16:55.995004",
+      "turnaround_hours": 1.02
+    },
+    {
+      "repo": "data-pipeline",
+      "pr_number": 1024,
+      "created_at": "2025-12-01T08:44:05.665768",
+      "first_review_at": "2025-12-01T21:32:27.050410",
+      "turnaround_hours": 12.81
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1025,
+      "created_at": "2025-12-01T11:13:16.025511",
+      "first_review_at": "2025-12-01T16:41:24.166146",
+      "turnaround_hours": 5.47
+    },
+    {
+      "repo": "frontend-web",
+      "pr_number": 1026,
+      "created_at": "2025-12-01T08:39:24.560400",
+      "first_review_at": "2025-12-01T10:43:27.723918",
+      "turnaround_hours": 2.07
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1027,
+      "created_at": "2025-12-01T14:14:35.429794",
+      "first_review_at": "2025-12-02T06:37:21.996862",
+      "turnaround_hours": 16.38
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1028,
+      "created_at": "2025-12-01T13:29:00.831626",
+      "first_review_at": "2025-12-01T17:59:01.313973",
+      "turnaround_hours": 4.5
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1029,
+      "created_at": "2025-12-01T11:48:32.558357",
+      "first_review_at": "2025-12-01T23:31:47.540657",
+      "turnaround_hours": 11.72
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1030,
+      "created_at": "2025-12-02T10:56:56.318854",
+      "first_review_at": "2025-12-02T15:15:29.661643",
+      "turnaround_hours": 4.31
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1031,
+      "created_at": "2025-12-02T14:03:15.364495",
+      "first_review_at": "2025-12-03T15:57:55.481585",
+      "turnaround_hours": 25.91
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1032,
+      "created_at": "2025-12-02T15:55:51.459352",
+      "first_review_at": "2025-12-03T11:36:53.904363",
+      "turnaround_hours": 19.68
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1033,
+      "created_at": "2025-12-02T16:31:40.538543",
+      "first_review_at": "2025-12-02T19:46:08.725931",
+      "turnaround_hours": 3.24
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1034,
+      "created_at": "2025-12-02T15:12:30.237000",
+      "first_review_at": "2025-12-03T00:55:50.224394",
+      "turnaround_hours": 9.72
+    },
+    {
+      "repo": "frontend-web",
+      "pr_number": 1035,
+      "created_at": "2025-12-02T12:18:02.517900",
+      "first_review_at": "2025-12-02T19:32:58.260966",
+      "turnaround_hours": 7.25
+    },
+    {
+      "repo": "frontend-web",
+      "pr_number": 1036,
+      "created_at": "2025-12-02T12:08:17.288562",
+      "first_review_at": "2025-12-03T02:02:11.262189",
+      "turnaround_hours": 13.9
+    },
+    {
+      "repo": "data-pipeline",
+      "pr_number": 1037,
+      "created_at": "2025-12-03T12:09:35.627409",
+      "first_review_at": "2025-12-03T13:51:41.386800",
+      "turnaround_hours": 1.7
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1038,
+      "created_at": "2025-12-03T11:07:31.740600",
+      "first_review_at": "2025-12-03T18:38:40.496920",
+      "turnaround_hours": 7.52
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1039,
+      "created_at": "2025-12-03T14:39:03.883070",
+      "first_review_at": "2025-12-04T01:09:49.526927",
+      "turnaround_hours": 10.51
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1040,
+      "created_at": "2025-12-03T17:32:09.330634",
+      "first_review_at": "2025-12-03T18:22:07.699135",
+      "turnaround_hours": 0.83
+    },
+    {
+      "repo": "data-pipeline",
+      "pr_number": 1041,
+      "created_at": "2025-12-03T08:40:16.799093",
+      "first_review_at": "2025-12-03T10:04:09.723378",
+      "turnaround_hours": 1.4
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1042,
+      "created_at": "2025-12-03T08:55:56.283661",
+      "first_review_at": "2025-12-03T09:34:45.716650",
+      "turnaround_hours": 0.65
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1043,
+      "created_at": "2025-12-04T16:07:03.694270",
+      "first_review_at": "2025-12-04T19:17:59.168271",
+      "turnaround_hours": 3.18
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1044,
+      "created_at": "2025-12-04T08:35:59.315207",
+      "first_review_at": "2025-12-04T16:20:06.221503",
+      "turnaround_hours": 7.74
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1045,
+      "created_at": "2025-12-04T13:37:00.601737",
+      "first_review_at": "2025-12-05T05:17:33.663733",
+      "turnaround_hours": 15.68
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1046,
+      "created_at": "2025-12-05T12:06:29.110785",
+      "first_review_at": "2025-12-05T16:26:34.544175",
+      "turnaround_hours": 4.33
+    },
+    {
+      "repo": "data-pipeline",
+      "pr_number": 1047,
+      "created_at": "2025-12-05T16:40:51.317359",
+      "first_review_at": "2025-12-06T10:14:35.561440",
+      "turnaround_hours": 17.56
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1048,
+      "created_at": "2025-12-05T17:41:02.350511",
+      "first_review_at": "2025-12-05T18:51:18.163838",
+      "turnaround_hours": 1.17
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1049,
+      "created_at": "2025-12-05T11:07:28.160367",
+      "first_review_at": "2025-12-05T11:59:59.695412",
+      "turnaround_hours": 0.88
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1050,
+      "created_at": "2025-12-05T13:46:45.066662",
+      "first_review_at": "2025-12-05T17:38:11.896766",
+      "turnaround_hours": 3.86
+    },
+    {
+      "repo": "frontend-web",
+      "pr_number": 1051,
+      "created_at": "2025-12-05T09:32:50.286331",
+      "first_review_at": "2025-12-05T15:16:37.118269",
+      "turnaround_hours": 5.73
+    },
+    {
+      "repo": "data-pipeline",
+      "pr_number": 1052,
+      "created_at": "2025-12-05T10:14:32.815288",
+      "first_review_at": "2025-12-05T14:10:48.222436",
+      "turnaround_hours": 3.94
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1053,
+      "created_at": "2025-12-05T11:30:04.103792",
+      "first_review_at": "2025-12-05T12:07:55.139429",
+      "turnaround_hours": 0.63
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1054,
+      "created_at": "2025-12-06T09:08:55.871287",
+      "first_review_at": "2025-12-06T12:53:29.384984",
+      "turnaround_hours": 3.74
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1055,
+      "created_at": "2025-12-06T13:44:27.600156",
+      "first_review_at": "2025-12-06T14:59:40.370785",
+      "turnaround_hours": 1.25
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1056,
+      "created_at": "2025-12-07T17:44:43.677677",
+      "first_review_at": "2025-12-08T01:09:16.339508",
+      "turnaround_hours": 7.41
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1057,
+      "created_at": "2025-12-08T14:44:59.161607",
+      "first_review_at": "2025-12-08T20:23:24.265281",
+      "turnaround_hours": 5.64
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1058,
+      "created_at": "2025-12-08T08:15:45.137932",
+      "first_review_at": "2025-12-08T10:00:10.535455",
+      "turnaround_hours": 1.74
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1059,
+      "created_at": "2025-12-08T08:17:22.314518",
+      "first_review_at": "2025-12-08T10:50:35.418353",
+      "turnaround_hours": 2.55
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1060,
+      "created_at": "2025-12-08T15:01:37.155823",
+      "first_review_at": "2025-12-08T16:35:24.522914",
+      "turnaround_hours": 1.56
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1061,
+      "created_at": "2025-12-08T17:12:55.350757",
+      "first_review_at": "2025-12-08T21:02:53.337011",
+      "turnaround_hours": 3.83
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1062,
+      "created_at": "2025-12-08T08:03:39.808419",
+      "first_review_at": "2025-12-08T17:38:26.101183",
+      "turnaround_hours": 9.58
+    },
+    {
+      "repo": "frontend-web",
+      "pr_number": 1063,
+      "created_at": "2025-12-08T13:39:47.559411",
+      "first_review_at": "2025-12-08T15:19:59.697279",
+      "turnaround_hours": 1.67
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1064,
+      "created_at": "2025-12-09T09:25:07.487549",
+      "first_review_at": "2025-12-09T15:48:06.371599",
+      "turnaround_hours": 6.38
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1065,
+      "created_at": "2025-12-09T08:55:03.276590",
+      "first_review_at": "2025-12-09T11:26:01.762509",
+      "turnaround_hours": 2.52
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1066,
+      "created_at": "2025-12-09T10:09:04.783681",
+      "first_review_at": "2025-12-09T12:08:16.470849",
+      "turnaround_hours": 1.99
+    },
+    {
+      "repo": "data-pipeline",
+      "pr_number": 1067,
+      "created_at": "2025-12-09T12:32:11.248464",
+      "first_review_at": "2025-12-09T16:13:09.319762",
+      "turnaround_hours": 3.68
+    },
+    {
+      "repo": "frontend-web",
+      "pr_number": 1068,
+      "created_at": "2025-12-09T11:42:01.911329",
+      "first_review_at": "2025-12-09T13:17:52.002757",
+      "turnaround_hours": 1.6
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1069,
+      "created_at": "2025-12-09T15:46:06.082319",
+      "first_review_at": "2025-12-09T18:13:55.857683",
+      "turnaround_hours": 2.46
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1070,
+      "created_at": "2025-12-10T08:50:58.453439",
+      "first_review_at": "2025-12-10T10:13:45.591057",
+      "turnaround_hours": 1.38
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1071,
+      "created_at": "2025-12-10T09:33:20.876523",
+      "first_review_at": "2025-12-11T09:19:18.188345",
+      "turnaround_hours": 23.77
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1072,
+      "created_at": "2025-12-10T08:29:51.449728",
+      "first_review_at": "2025-12-10T12:41:00.922733",
+      "turnaround_hours": 4.19
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1073,
+      "created_at": "2025-12-10T10:43:15.702368",
+      "first_review_at": "2025-12-10T12:52:52.781916",
+      "turnaround_hours": 2.16
+    },
+    {
+      "repo": "data-pipeline",
+      "pr_number": 1074,
+      "created_at": "2025-12-10T12:51:23.821376",
+      "first_review_at": "2025-12-10T17:46:22.956319",
+      "turnaround_hours": 4.92
+    },
+    {
+      "repo": "data-pipeline",
+      "pr_number": 1075,
+      "created_at": "2025-12-10T12:08:30.614564",
+      "first_review_at": "2025-12-10T15:48:25.622887",
+      "turnaround_hours": 3.67
+    },
+    {
+      "repo": "frontend-web",
+      "pr_number": 1076,
+      "created_at": "2025-12-10T15:32:57.953172",
+      "first_review_at": "2025-12-10T18:52:23.856378",
+      "turnaround_hours": 3.32
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1077,
+      "created_at": "2025-12-11T12:17:56.890802",
+      "first_review_at": "2025-12-11T19:20:49.846627",
+      "turnaround_hours": 7.05
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1078,
+      "created_at": "2025-12-11T14:46:55.844146",
+      "first_review_at": "2025-12-11T22:48:02.604849",
+      "turnaround_hours": 8.02
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1079,
+      "created_at": "2025-12-11T12:51:58.779121",
+      "first_review_at": "2025-12-11T15:22:55.279852",
+      "turnaround_hours": 2.52
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1080,
+      "created_at": "2025-12-12T08:27:15.025054",
+      "first_review_at": "2025-12-12T10:52:09.584064",
+      "turnaround_hours": 2.42
+    },
+    {
+      "repo": "data-pipeline",
+      "pr_number": 1081,
+      "created_at": "2025-12-12T17:50:40.043700",
+      "first_review_at": "2025-12-12T21:00:37.467165",
+      "turnaround_hours": 3.17
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1082,
+      "created_at": "2025-12-12T08:04:36.735092",
+      "first_review_at": "2025-12-12T08:35:15.703556",
+      "turnaround_hours": 0.51
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1083,
+      "created_at": "2025-12-12T17:27:11.667140",
+      "first_review_at": "2025-12-12T18:29:24.852636",
+      "turnaround_hours": 1.04
+    },
+    {
+      "repo": "frontend-web",
+      "pr_number": 1084,
+      "created_at": "2025-12-12T15:38:29.792247",
+      "first_review_at": "2025-12-13T05:31:04.696632",
+      "turnaround_hours": 13.88
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1085,
+      "created_at": "2025-12-12T11:16:52.404814",
+      "first_review_at": "2025-12-13T05:06:13.997545",
+      "turnaround_hours": 17.82
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1086,
+      "created_at": "2025-12-12T12:58:25.871830",
+      "first_review_at": "2025-12-12T16:12:53.304287",
+      "turnaround_hours": 3.24
+    },
+    {
+      "repo": "data-pipeline",
+      "pr_number": 1087,
+      "created_at": "2025-12-12T09:45:25.012868",
+      "first_review_at": "2025-12-12T16:34:13.498284",
+      "turnaround_hours": 6.81
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1088,
+      "created_at": "2025-12-13T15:02:12.165482",
+      "first_review_at": "2025-12-13T20:24:10.584316",
+      "turnaround_hours": 5.37
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1089,
+      "created_at": "2025-12-14T16:20:00.751287",
+      "first_review_at": "2025-12-17T09:06:47.775049",
+      "turnaround_hours": 64.78
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1090,
+      "created_at": "2025-12-14T08:43:14.717877",
+      "first_review_at": "2025-12-14T19:49:41.592496",
+      "turnaround_hours": 11.11
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1091,
+      "created_at": "2025-12-15T12:21:43.905438",
+      "first_review_at": "2025-12-15T15:58:35.072755",
+      "turnaround_hours": 3.61
+    },
+    {
+      "repo": "data-pipeline",
+      "pr_number": 1092,
+      "created_at": "2025-12-15T17:12:41.847642",
+      "first_review_at": "2025-12-15T18:55:39.556384",
+      "turnaround_hours": 1.72
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1093,
+      "created_at": "2025-12-15T13:45:27.329787",
+      "first_review_at": "2025-12-15T14:42:46.162744",
+      "turnaround_hours": 0.96
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1094,
+      "created_at": "2025-12-15T12:02:39.223842",
+      "first_review_at": "2025-12-15T16:54:51.632959",
+      "turnaround_hours": 4.87
+    },
+    {
+      "repo": "data-pipeline",
+      "pr_number": 1095,
+      "created_at": "2025-12-15T10:53:42.547401",
+      "first_review_at": "2025-12-15T12:56:53.215781",
+      "turnaround_hours": 2.05
+    },
+    {
+      "repo": "data-pipeline",
+      "pr_number": 1096,
+      "created_at": "2025-12-15T08:12:30.836125",
+      "first_review_at": "2025-12-15T09:20:09.709766",
+      "turnaround_hours": 1.13
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1097,
+      "created_at": "2025-12-15T09:43:07.434501",
+      "first_review_at": "2025-12-15T11:59:05.591207",
+      "turnaround_hours": 2.27
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1098,
+      "created_at": "2025-12-15T12:36:03.488468",
+      "first_review_at": "2025-12-15T14:07:58.868958",
+      "turnaround_hours": 1.53
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1099,
+      "created_at": "2025-12-16T08:52:52.675727",
+      "first_review_at": "2025-12-17T03:23:36.428942",
+      "turnaround_hours": 18.51
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1100,
+      "created_at": "2025-12-16T10:25:59.393094",
+      "first_review_at": "2025-12-16T19:23:58.159483",
+      "turnaround_hours": 8.97
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1101,
+      "created_at": "2025-12-16T12:00:16.193387",
+      "first_review_at": "2025-12-16T16:01:50.536864",
+      "turnaround_hours": 4.03
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1102,
+      "created_at": "2025-12-16T11:57:27.601087",
+      "first_review_at": "2025-12-17T03:19:13.721031",
+      "turnaround_hours": 15.36
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1103,
+      "created_at": "2025-12-16T15:27:28.973753",
+      "first_review_at": "2025-12-16T19:48:20.451267",
+      "turnaround_hours": 4.35
+    },
+    {
+      "repo": "frontend-web",
+      "pr_number": 1104,
+      "created_at": "2025-12-16T11:19:50.470410",
+      "first_review_at": "2025-12-16T13:11:55.108203",
+      "turnaround_hours": 1.87
+    },
+    {
+      "repo": "frontend-web",
+      "pr_number": 1105,
+      "created_at": "2025-12-16T08:45:49.657589",
+      "first_review_at": "2025-12-17T00:44:07.390248",
+      "turnaround_hours": 15.97
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1106,
+      "created_at": "2025-12-16T13:18:21.773548",
+      "first_review_at": "2025-12-16T19:53:33.100982",
+      "turnaround_hours": 6.59
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1107,
+      "created_at": "2025-12-17T11:30:39.590458",
+      "first_review_at": "2025-12-17T13:06:19.321237",
+      "turnaround_hours": 1.59
+    },
+    {
+      "repo": "frontend-web",
+      "pr_number": 1108,
+      "created_at": "2025-12-17T10:21:45.678562",
+      "first_review_at": "2025-12-17T13:46:46.044773",
+      "turnaround_hours": 3.42
+    },
+    {
+      "repo": "frontend-web",
+      "pr_number": 1109,
+      "created_at": "2025-12-17T10:33:34.855992",
+      "first_review_at": "2025-12-17T12:24:13.298789",
+      "turnaround_hours": 1.84
+    },
+    {
+      "repo": "frontend-web",
+      "pr_number": 1110,
+      "created_at": "2025-12-17T14:01:26.363470",
+      "first_review_at": "2025-12-17T15:11:31.951346",
+      "turnaround_hours": 1.17
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1111,
+      "created_at": "2025-12-18T09:46:17.260642",
+      "first_review_at": "2025-12-18T19:06:16.171054",
+      "turnaround_hours": 9.33
+    },
+    {
+      "repo": "data-pipeline",
+      "pr_number": 1112,
+      "created_at": "2025-12-18T12:38:22.310466",
+      "first_review_at": "2025-12-19T11:15:05.041390",
+      "turnaround_hours": 22.61
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1113,
+      "created_at": "2025-12-18T15:35:55.577386",
+      "first_review_at": "2025-12-18T16:45:01.904995",
+      "turnaround_hours": 1.15
+    },
+    {
+      "repo": "data-pipeline",
+      "pr_number": 1114,
+      "created_at": "2025-12-18T14:48:40.805219",
+      "first_review_at": "2025-12-18T21:32:31.159553",
+      "turnaround_hours": 6.73
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1115,
+      "created_at": "2025-12-18T14:25:47.705904",
+      "first_review_at": "2025-12-18T16:41:16.036252",
+      "turnaround_hours": 2.26
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1116,
+      "created_at": "2025-12-18T11:13:55.496699",
+      "first_review_at": "2025-12-18T13:50:52.538450",
+      "turnaround_hours": 2.62
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1117,
+      "created_at": "2025-12-18T09:30:34.466450",
+      "first_review_at": "2025-12-18T11:53:20.281722",
+      "turnaround_hours": 2.38
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1118,
+      "created_at": "2025-12-18T12:41:21.159007",
+      "first_review_at": "2025-12-18T14:33:09.436112",
+      "turnaround_hours": 1.86
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1119,
+      "created_at": "2025-12-19T15:57:47.868449",
+      "first_review_at": "2025-12-19T20:11:58.231519",
+      "turnaround_hours": 4.24
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1120,
+      "created_at": "2025-12-19T08:33:42.196328",
+      "first_review_at": "2025-12-19T10:28:52.950270",
+      "turnaround_hours": 1.92
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1121,
+      "created_at": "2025-12-19T08:44:30.863622",
+      "first_review_at": "2025-12-19T13:54:52.888039",
+      "turnaround_hours": 5.17
+    },
+    {
+      "repo": "data-pipeline",
+      "pr_number": 1122,
+      "created_at": "2025-12-19T12:31:08.899093",
+      "first_review_at": "2025-12-19T16:23:42.248035",
+      "turnaround_hours": 3.88
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1123,
+      "created_at": "2025-12-19T11:41:14.553582",
+      "first_review_at": "2025-12-19T14:57:28.399257",
+      "turnaround_hours": 3.27
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1124,
+      "created_at": "2025-12-19T08:46:02.316042",
+      "first_review_at": "2025-12-19T10:33:32.615450",
+      "turnaround_hours": 1.79
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1125,
+      "created_at": "2025-12-19T14:09:00.301983",
+      "first_review_at": "2025-12-19T16:33:47.406164",
+      "turnaround_hours": 2.41
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1126,
+      "created_at": "2025-12-19T11:50:41.369157",
+      "first_review_at": "2025-12-19T19:50:53.195758",
+      "turnaround_hours": 8.0
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1127,
+      "created_at": "2025-12-20T17:32:32.333162",
+      "first_review_at": "2025-12-20T23:54:26.590645",
+      "turnaround_hours": 6.37
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1128,
+      "created_at": "2025-12-20T12:29:50.413331",
+      "first_review_at": "2025-12-20T14:10:46.925745",
+      "turnaround_hours": 1.68
+    },
+    {
+      "repo": "frontend-web",
+      "pr_number": 1129,
+      "created_at": "2025-12-21T11:12:54.963464",
+      "first_review_at": "2025-12-21T15:38:58.911312",
+      "turnaround_hours": 4.43
+    },
+    {
+      "repo": "data-pipeline",
+      "pr_number": 1130,
+      "created_at": "2025-12-21T13:00:49.222867",
+      "first_review_at": "2025-12-21T20:59:17.407372",
+      "turnaround_hours": 7.97
+    },
+    {
+      "repo": "data-pipeline",
+      "pr_number": 1131,
+      "created_at": "2025-12-22T09:02:06.067582",
+      "first_review_at": "2025-12-22T09:56:15.463451",
+      "turnaround_hours": 0.9
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1132,
+      "created_at": "2025-12-22T17:49:25.880919",
+      "first_review_at": "2025-12-23T00:26:12.365825",
+      "turnaround_hours": 6.61
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1133,
+      "created_at": "2025-12-22T13:02:43.764054",
+      "first_review_at": "2025-12-22T15:16:44.916906",
+      "turnaround_hours": 2.23
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1134,
+      "created_at": "2025-12-23T10:28:38.774050",
+      "first_review_at": "2025-12-23T17:15:16.078362",
+      "turnaround_hours": 6.78
+    },
+    {
+      "repo": "data-pipeline",
+      "pr_number": 1135,
+      "created_at": "2025-12-23T17:54:35.496815",
+      "first_review_at": "2025-12-23T19:57:00.355755",
+      "turnaround_hours": 2.04
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1136,
+      "created_at": "2025-12-23T13:13:38.929270",
+      "first_review_at": "2025-12-23T14:01:35.330543",
+      "turnaround_hours": 0.8
+    },
+    {
+      "repo": "frontend-web",
+      "pr_number": 1137,
+      "created_at": "2025-12-23T11:38:20.326549",
+      "first_review_at": "2025-12-23T12:34:34.484008",
+      "turnaround_hours": 0.94
+    },
+    {
+      "repo": "data-pipeline",
+      "pr_number": 1138,
+      "created_at": "2025-12-24T12:05:15.698301",
+      "first_review_at": "2025-12-24T16:19:20.068955",
+      "turnaround_hours": 4.23
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1139,
+      "created_at": "2025-12-24T14:47:20.317940",
+      "first_review_at": "2025-12-24T19:54:43.303228",
+      "turnaround_hours": 5.12
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1140,
+      "created_at": "2025-12-24T15:53:32.169536",
+      "first_review_at": "2025-12-24T17:41:21.346438",
+      "turnaround_hours": 1.8
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1141,
+      "created_at": "2025-12-24T08:39:32.826754",
+      "first_review_at": "2025-12-24T15:51:49.736952",
+      "turnaround_hours": 7.2
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1142,
+      "created_at": "2025-12-24T13:34:46.675647",
+      "first_review_at": "2025-12-24T14:29:19.213512",
+      "turnaround_hours": 0.91
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1143,
+      "created_at": "2025-12-25T10:31:11.848259",
+      "first_review_at": "2025-12-25T14:20:27.668526",
+      "turnaround_hours": 3.82
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1144,
+      "created_at": "2025-12-25T16:43:58.067834",
+      "first_review_at": "2025-12-25T18:05:46.817533",
+      "turnaround_hours": 1.36
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1145,
+      "created_at": "2025-12-25T08:48:54.071548",
+      "first_review_at": "2025-12-25T11:04:13.675255",
+      "turnaround_hours": 2.26
+    },
+    {
+      "repo": "frontend-web",
+      "pr_number": 1146,
+      "created_at": "2025-12-25T17:10:02.872382",
+      "first_review_at": "2025-12-25T21:23:57.830291",
+      "turnaround_hours": 4.23
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1147,
+      "created_at": "2025-12-25T17:40:37.074277",
+      "first_review_at": "2025-12-25T19:32:46.984587",
+      "turnaround_hours": 1.87
+    },
+    {
+      "repo": "data-pipeline",
+      "pr_number": 1148,
+      "created_at": "2025-12-25T09:17:22.259698",
+      "first_review_at": "2025-12-25T12:09:30.003589",
+      "turnaround_hours": 2.87
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1149,
+      "created_at": "2025-12-26T11:05:44.947947",
+      "first_review_at": "2025-12-26T21:07:35.942375",
+      "turnaround_hours": 10.03
+    },
+    {
+      "repo": "data-pipeline",
+      "pr_number": 1150,
+      "created_at": "2025-12-26T14:26:05.757481",
+      "first_review_at": "2025-12-26T16:50:51.919292",
+      "turnaround_hours": 2.41
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1151,
+      "created_at": "2025-12-26T16:07:54.652217",
+      "first_review_at": "2025-12-27T00:44:05.821429",
+      "turnaround_hours": 8.6
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1152,
+      "created_at": "2025-12-26T08:56:04.306742",
+      "first_review_at": "2025-12-26T10:24:05.740871",
+      "turnaround_hours": 1.47
+    },
+    {
+      "repo": "data-pipeline",
+      "pr_number": 1153,
+      "created_at": "2025-12-26T13:05:05.585511",
+      "first_review_at": "2025-12-26T19:37:03.386084",
+      "turnaround_hours": 6.53
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1154,
+      "created_at": "2025-12-26T11:37:33.516083",
+      "first_review_at": "2025-12-27T02:28:02.085144",
+      "turnaround_hours": 14.84
+    },
+    {
+      "repo": "frontend-web",
+      "pr_number": 1155,
+      "created_at": "2025-12-26T17:30:42.095289",
+      "first_review_at": "2025-12-26T18:00:42.095289",
+      "turnaround_hours": 0.5
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1156,
+      "created_at": "2025-12-26T17:28:36.057631",
+      "first_review_at": "2025-12-26T19:27:21.901205",
+      "turnaround_hours": 1.98
+    },
+    {
+      "repo": "frontend-web",
+      "pr_number": 1157,
+      "created_at": "2025-12-27T10:15:55.549675",
+      "first_review_at": "2025-12-27T17:04:55.410304",
+      "turnaround_hours": 6.82
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1158,
+      "created_at": "2025-12-29T10:57:28.515660",
+      "first_review_at": "2025-12-29T14:20:09.015708",
+      "turnaround_hours": 3.38
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1159,
+      "created_at": "2025-12-29T13:04:36.829658",
+      "first_review_at": "2025-12-29T18:44:25.209674",
+      "turnaround_hours": 5.66
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1160,
+      "created_at": "2025-12-29T16:21:04.313759",
+      "first_review_at": "2025-12-29T18:42:21.233769",
+      "turnaround_hours": 2.35
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1161,
+      "created_at": "2025-12-29T08:22:38.909725",
+      "first_review_at": "2025-12-29T12:45:40.824567",
+      "turnaround_hours": 4.38
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1162,
+      "created_at": "2025-12-30T09:18:37.765491",
+      "first_review_at": "2025-12-30T12:50:07.893050",
+      "turnaround_hours": 3.53
+    },
+    {
+      "repo": "data-pipeline",
+      "pr_number": 1163,
+      "created_at": "2025-12-30T09:32:33.099408",
+      "first_review_at": "2025-12-30T21:08:33.047516",
+      "turnaround_hours": 11.6
+    },
+    {
+      "repo": "frontend-web",
+      "pr_number": 1164,
+      "created_at": "2025-12-30T16:18:48.422041",
+      "first_review_at": "2025-12-30T21:24:43.616375",
+      "turnaround_hours": 5.1
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1165,
+      "created_at": "2025-12-30T16:05:25.573907",
+      "first_review_at": "2025-12-30T21:35:07.649237",
+      "turnaround_hours": 5.5
+    },
+    {
+      "repo": "frontend-web",
+      "pr_number": 1166,
+      "created_at": "2025-12-30T15:12:42.587921",
+      "first_review_at": "2025-12-30T18:00:39.476839",
+      "turnaround_hours": 2.8
+    },
+    {
+      "repo": "data-pipeline",
+      "pr_number": 1167,
+      "created_at": "2025-12-31T11:38:34.778909",
+      "first_review_at": "2025-12-31T14:15:27.746258",
+      "turnaround_hours": 2.61
+    },
+    {
+      "repo": "frontend-web",
+      "pr_number": 1168,
+      "created_at": "2025-12-31T17:41:45.189723",
+      "first_review_at": "2025-12-31T20:26:36.251281",
+      "turnaround_hours": 2.75
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1169,
+      "created_at": "2025-12-31T10:50:57.405572",
+      "first_review_at": "2025-12-31T16:37:57.961690",
+      "turnaround_hours": 5.78
+    },
+    {
+      "repo": "data-pipeline",
+      "pr_number": 1170,
+      "created_at": "2026-01-01T10:20:24.105996",
+      "first_review_at": "2026-01-01T13:06:58.734636",
+      "turnaround_hours": 2.78
+    },
+    {
+      "repo": "frontend-web",
+      "pr_number": 1171,
+      "created_at": "2026-01-01T11:05:40.844276",
+      "first_review_at": "2026-01-01T16:21:29.466380",
+      "turnaround_hours": 5.26
+    },
+    {
+      "repo": "data-pipeline",
+      "pr_number": 1172,
+      "created_at": "2026-01-01T17:02:23.076173",
+      "first_review_at": "2026-01-02T19:17:41.479926",
+      "turnaround_hours": 26.26
+    },
+    {
+      "repo": "frontend-web",
+      "pr_number": 1173,
+      "created_at": "2026-01-01T11:40:42.274496",
+      "first_review_at": "2026-01-01T20:33:37.010099",
+      "turnaround_hours": 8.88
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1174,
+      "created_at": "2026-01-01T17:50:39.832567",
+      "first_review_at": "2026-01-01T20:52:06.214743",
+      "turnaround_hours": 3.02
+    },
+    {
+      "repo": "data-pipeline",
+      "pr_number": 1175,
+      "created_at": "2026-01-01T15:41:39.787871",
+      "first_review_at": "2026-01-02T03:38:55.331721",
+      "turnaround_hours": 11.95
+    },
+    {
+      "repo": "data-pipeline",
+      "pr_number": 1176,
+      "created_at": "2026-01-01T13:01:44.640894",
+      "first_review_at": "2026-01-01T15:50:16.066269",
+      "turnaround_hours": 2.81
+    },
+    {
+      "repo": "data-pipeline",
+      "pr_number": 1177,
+      "created_at": "2026-01-01T17:39:45.653515",
+      "first_review_at": "2026-01-01T18:18:37.409823",
+      "turnaround_hours": 0.65
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1178,
+      "created_at": "2026-01-02T09:23:02.347246",
+      "first_review_at": "2026-01-02T11:01:14.704707",
+      "turnaround_hours": 1.64
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1179,
+      "created_at": "2026-01-02T08:31:18.472917",
+      "first_review_at": "2026-01-02T09:16:29.211443",
+      "turnaround_hours": 0.75
+    },
+    {
+      "repo": "data-pipeline",
+      "pr_number": 1180,
+      "created_at": "2026-01-02T16:44:28.210022",
+      "first_review_at": "2026-01-02T19:41:47.691078",
+      "turnaround_hours": 2.96
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1181,
+      "created_at": "2026-01-02T17:20:34.567944",
+      "first_review_at": "2026-01-02T21:27:57.300967",
+      "turnaround_hours": 4.12
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1182,
+      "created_at": "2026-01-03T16:30:41.977731",
+      "first_review_at": "2026-01-04T10:50:46.775081",
+      "turnaround_hours": 18.33
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1183,
+      "created_at": "2026-01-03T08:50:19.504513",
+      "first_review_at": "2026-01-03T14:16:52.428537",
+      "turnaround_hours": 5.44
+    },
+    {
+      "repo": "data-pipeline",
+      "pr_number": 1184,
+      "created_at": "2026-01-05T17:03:11.023523",
+      "first_review_at": "2026-01-05T20:22:57.072276",
+      "turnaround_hours": 3.33
+    },
+    {
+      "repo": "frontend-web",
+      "pr_number": 1185,
+      "created_at": "2026-01-05T16:18:37.681871",
+      "first_review_at": "2026-01-06T00:51:54.114777",
+      "turnaround_hours": 8.55
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1186,
+      "created_at": "2026-01-05T17:27:50.877468",
+      "first_review_at": "2026-01-05T18:01:06.412234",
+      "turnaround_hours": 0.55
+    },
+    {
+      "repo": "frontend-web",
+      "pr_number": 1187,
+      "created_at": "2026-01-05T16:10:01.317211",
+      "first_review_at": "2026-01-05T21:10:48.452235",
+      "turnaround_hours": 5.01
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1188,
+      "created_at": "2026-01-05T17:18:16.989377",
+      "first_review_at": "2026-01-06T01:25:12.872967",
+      "turnaround_hours": 8.12
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1189,
+      "created_at": "2026-01-06T11:57:52.342757",
+      "first_review_at": "2026-01-06T13:02:10.563864",
+      "turnaround_hours": 1.07
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1190,
+      "created_at": "2026-01-06T10:21:28.010659",
+      "first_review_at": "2026-01-06T21:42:34.585356",
+      "turnaround_hours": 11.35
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1191,
+      "created_at": "2026-01-06T11:44:56.856243",
+      "first_review_at": "2026-01-06T17:14:54.850100",
+      "turnaround_hours": 5.5
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1192,
+      "created_at": "2026-01-06T11:11:12.655516",
+      "first_review_at": "2026-01-06T13:58:38.657300",
+      "turnaround_hours": 2.79
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1193,
+      "created_at": "2026-01-06T16:23:30.346354",
+      "first_review_at": "2026-01-06T23:33:31.972657",
+      "turnaround_hours": 7.17
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1194,
+      "created_at": "2026-01-06T15:54:49.702949",
+      "first_review_at": "2026-01-07T23:12:50.319815",
+      "turnaround_hours": 31.3
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1195,
+      "created_at": "2026-01-07T10:52:07.658303",
+      "first_review_at": "2026-01-07T15:38:42.569425",
+      "turnaround_hours": 4.78
+    },
+    {
+      "repo": "data-pipeline",
+      "pr_number": 1196,
+      "created_at": "2026-01-07T14:57:38.591589",
+      "first_review_at": "2026-01-07T20:01:51.644944",
+      "turnaround_hours": 5.07
+    },
+    {
+      "repo": "frontend-web",
+      "pr_number": 1197,
+      "created_at": "2026-01-07T15:35:18.281572",
+      "first_review_at": "2026-01-07T18:16:13.601351",
+      "turnaround_hours": 2.68
+    },
+    {
+      "repo": "data-pipeline",
+      "pr_number": 1198,
+      "created_at": "2026-01-07T12:29:09.653063",
+      "first_review_at": "2026-01-07T14:22:23.884356",
+      "turnaround_hours": 1.89
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1199,
+      "created_at": "2026-01-08T08:11:24.139857",
+      "first_review_at": "2026-01-08T16:45:06.366697",
+      "turnaround_hours": 8.56
+    },
+    {
+      "repo": "frontend-web",
+      "pr_number": 1200,
+      "created_at": "2026-01-08T16:20:58.671574",
+      "first_review_at": "2026-01-08T18:13:34.856713",
+      "turnaround_hours": 1.88
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1201,
+      "created_at": "2026-01-08T17:24:08.134176",
+      "first_review_at": "2026-01-08T21:43:38.094832",
+      "turnaround_hours": 4.32
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1202,
+      "created_at": "2026-01-09T12:13:57.171322",
+      "first_review_at": "2026-01-09T14:52:14.799893",
+      "turnaround_hours": 2.64
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1203,
+      "created_at": "2026-01-09T10:22:35.048159",
+      "first_review_at": "2026-01-09T16:37:01.331983",
+      "turnaround_hours": 6.24
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1204,
+      "created_at": "2026-01-09T08:28:38.980078",
+      "first_review_at": "2026-01-09T13:57:11.022515",
+      "turnaround_hours": 5.48
+    },
+    {
+      "repo": "data-pipeline",
+      "pr_number": 1205,
+      "created_at": "2026-01-09T14:23:22.262358",
+      "first_review_at": "2026-01-10T00:42:23.199760",
+      "turnaround_hours": 10.32
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1206,
+      "created_at": "2026-01-09T12:34:16.090199",
+      "first_review_at": "2026-01-09T15:08:01.107695",
+      "turnaround_hours": 2.56
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1207,
+      "created_at": "2026-01-09T16:22:00.757942",
+      "first_review_at": "2026-01-09T19:32:51.406874",
+      "turnaround_hours": 3.18
+    },
+    {
+      "repo": "data-pipeline",
+      "pr_number": 1208,
+      "created_at": "2026-01-09T13:58:02.605541",
+      "first_review_at": "2026-01-09T15:38:52.534328",
+      "turnaround_hours": 1.68
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1209,
+      "created_at": "2026-01-11T13:45:01.708471",
+      "first_review_at": "2026-01-11T16:28:08.854660",
+      "turnaround_hours": 2.72
+    },
+    {
+      "repo": "frontend-web",
+      "pr_number": 1210,
+      "created_at": "2026-01-11T10:54:45.791560",
+      "first_review_at": "2026-01-11T16:36:27.419387",
+      "turnaround_hours": 5.69
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1211,
+      "created_at": "2026-01-12T11:31:41.377427",
+      "first_review_at": "2026-01-12T19:32:34.655189",
+      "turnaround_hours": 8.01
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1212,
+      "created_at": "2026-01-12T12:09:56.433428",
+      "first_review_at": "2026-01-12T13:56:02.520801",
+      "turnaround_hours": 1.77
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1213,
+      "created_at": "2026-01-12T13:14:05.444076",
+      "first_review_at": "2026-01-12T22:06:16.503110",
+      "turnaround_hours": 8.87
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1214,
+      "created_at": "2026-01-13T17:32:02.532407",
+      "first_review_at": "2026-01-14T07:16:14.800252",
+      "turnaround_hours": 13.74
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1215,
+      "created_at": "2026-01-13T13:04:23.797077",
+      "first_review_at": "2026-01-13T18:57:23.117595",
+      "turnaround_hours": 5.88
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1216,
+      "created_at": "2026-01-13T13:32:29.470287",
+      "first_review_at": "2026-01-14T11:29:57.060335",
+      "turnaround_hours": 21.96
+    },
+    {
+      "repo": "data-pipeline",
+      "pr_number": 1217,
+      "created_at": "2026-01-13T16:43:59.931787",
+      "first_review_at": "2026-01-13T18:45:15.512015",
+      "turnaround_hours": 2.02
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1218,
+      "created_at": "2026-01-13T14:21:24.148493",
+      "first_review_at": "2026-01-13T15:40:46.514535",
+      "turnaround_hours": 1.32
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1219,
+      "created_at": "2026-01-14T15:28:23.397296",
+      "first_review_at": "2026-01-14T16:17:28.328986",
+      "turnaround_hours": 0.82
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1220,
+      "created_at": "2026-01-14T15:53:06.720586",
+      "first_review_at": "2026-01-15T07:28:20.069108",
+      "turnaround_hours": 15.59
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1221,
+      "created_at": "2026-01-14T10:24:40.533278",
+      "first_review_at": "2026-01-14T17:43:08.266536",
+      "turnaround_hours": 7.31
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1222,
+      "created_at": "2026-01-14T15:42:54.049468",
+      "first_review_at": "2026-01-14T19:34:20.417498",
+      "turnaround_hours": 3.86
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1223,
+      "created_at": "2026-01-14T09:20:02.745235",
+      "first_review_at": "2026-01-14T14:33:04.870037",
+      "turnaround_hours": 5.22
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1224,
+      "created_at": "2026-01-15T11:23:07.701294",
+      "first_review_at": "2026-01-15T12:51:29.221988",
+      "turnaround_hours": 1.47
+    },
+    {
+      "repo": "frontend-web",
+      "pr_number": 1225,
+      "created_at": "2026-01-15T16:18:13.811643",
+      "first_review_at": "2026-01-17T04:56:42.592175",
+      "turnaround_hours": 36.64
+    },
+    {
+      "repo": "data-pipeline",
+      "pr_number": 1226,
+      "created_at": "2026-01-15T17:48:29.490688",
+      "first_review_at": "2026-01-15T22:21:48.696528",
+      "turnaround_hours": 4.56
+    },
+    {
+      "repo": "data-pipeline",
+      "pr_number": 1227,
+      "created_at": "2026-01-15T14:19:02.490519",
+      "first_review_at": "2026-01-15T18:47:31.668341",
+      "turnaround_hours": 4.47
+    },
+    {
+      "repo": "frontend-web",
+      "pr_number": 1228,
+      "created_at": "2026-01-15T08:37:51.619333",
+      "first_review_at": "2026-01-15T16:25:25.411248",
+      "turnaround_hours": 7.79
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1229,
+      "created_at": "2026-01-16T10:56:03.932562",
+      "first_review_at": "2026-01-16T17:11:11.287772",
+      "turnaround_hours": 6.25
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1230,
+      "created_at": "2026-01-16T15:54:39.931676",
+      "first_review_at": "2026-01-16T20:52:17.536665",
+      "turnaround_hours": 4.96
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1231,
+      "created_at": "2026-01-16T11:09:21.449522",
+      "first_review_at": "2026-01-16T13:08:48.590560",
+      "turnaround_hours": 1.99
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1232,
+      "created_at": "2026-01-16T13:09:13.809213",
+      "first_review_at": "2026-01-16T19:21:08.725951",
+      "turnaround_hours": 6.2
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1233,
+      "created_at": "2026-01-16T12:44:02.391636",
+      "first_review_at": "2026-01-17T10:47:42.841678",
+      "turnaround_hours": 22.06
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1234,
+      "created_at": "2026-01-16T15:31:58.473077",
+      "first_review_at": "2026-01-17T05:08:38.060934",
+      "turnaround_hours": 13.61
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1235,
+      "created_at": "2026-01-18T16:37:16.987097",
+      "first_review_at": "2026-01-19T09:37:57.062952",
+      "turnaround_hours": 17.01
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1236,
+      "created_at": "2026-01-19T10:43:55.797820",
+      "first_review_at": "2026-01-19T13:17:30.863666",
+      "turnaround_hours": 2.56
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1237,
+      "created_at": "2026-01-19T12:22:10.249792",
+      "first_review_at": "2026-01-19T14:02:01.436499",
+      "turnaround_hours": 1.66
+    },
+    {
+      "repo": "data-pipeline",
+      "pr_number": 1238,
+      "created_at": "2026-01-19T15:25:59.077399",
+      "first_review_at": "2026-01-19T19:03:15.218924",
+      "turnaround_hours": 3.62
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1239,
+      "created_at": "2026-01-20T17:44:14.049035",
+      "first_review_at": "2026-01-20T22:00:03.600706",
+      "turnaround_hours": 4.26
+    },
+    {
+      "repo": "data-pipeline",
+      "pr_number": 1240,
+      "created_at": "2026-01-20T14:55:14.465680",
+      "first_review_at": "2026-01-21T01:46:38.193500",
+      "turnaround_hours": 10.86
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1241,
+      "created_at": "2026-01-20T17:14:35.176799",
+      "first_review_at": "2026-01-20T18:07:37.831559",
+      "turnaround_hours": 0.88
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1242,
+      "created_at": "2026-01-20T10:40:01.945049",
+      "first_review_at": "2026-01-21T02:43:53.186141",
+      "turnaround_hours": 16.06
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1243,
+      "created_at": "2026-01-20T15:16:14.927676",
+      "first_review_at": "2026-01-20T18:47:18.464361",
+      "turnaround_hours": 3.52
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1244,
+      "created_at": "2026-01-20T12:18:21.857472",
+      "first_review_at": "2026-01-20T15:04:03.585809",
+      "turnaround_hours": 2.76
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1245,
+      "created_at": "2026-01-21T10:56:15.591084",
+      "first_review_at": "2026-01-21T12:34:06.678742",
+      "turnaround_hours": 1.63
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1246,
+      "created_at": "2026-01-21T08:48:02.480799",
+      "first_review_at": "2026-01-21T09:42:54.703207",
+      "turnaround_hours": 0.91
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1247,
+      "created_at": "2026-01-21T11:03:53.850819",
+      "first_review_at": "2026-01-21T19:34:17.953586",
+      "turnaround_hours": 8.51
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1248,
+      "created_at": "2026-01-21T15:10:35.864807",
+      "first_review_at": "2026-01-21T19:30:30.391753",
+      "turnaround_hours": 4.33
+    },
+    {
+      "repo": "data-pipeline",
+      "pr_number": 1249,
+      "created_at": "2026-01-22T11:30:55.691416",
+      "first_review_at": "2026-01-22T12:47:07.775038",
+      "turnaround_hours": 1.27
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1250,
+      "created_at": "2026-01-22T15:16:05.318246",
+      "first_review_at": "2026-01-22T16:31:56.390888",
+      "turnaround_hours": 1.26
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1251,
+      "created_at": "2026-01-22T14:08:54.653359",
+      "first_review_at": "2026-01-22T17:08:45.816981",
+      "turnaround_hours": 3.0
+    },
+    {
+      "repo": "data-pipeline",
+      "pr_number": 1252,
+      "created_at": "2026-01-22T10:44:43.992963",
+      "first_review_at": "2026-01-23T04:57:29.727376",
+      "turnaround_hours": 18.21
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1253,
+      "created_at": "2026-01-23T14:42:42.620000",
+      "first_review_at": "2026-01-23T17:55:19.739214",
+      "turnaround_hours": 3.21
+    },
+    {
+      "repo": "data-pipeline",
+      "pr_number": 1254,
+      "created_at": "2026-01-23T11:37:59.200703",
+      "first_review_at": "2026-01-23T12:40:53.086506",
+      "turnaround_hours": 1.05
+    },
+    {
+      "repo": "frontend-web",
+      "pr_number": 1255,
+      "created_at": "2026-01-23T17:31:40.418266",
+      "first_review_at": "2026-01-23T20:46:42.480526",
+      "turnaround_hours": 3.25
+    },
+    {
+      "repo": "data-pipeline",
+      "pr_number": 1256,
+      "created_at": "2026-01-25T08:20:52.762769",
+      "first_review_at": "2026-01-25T11:31:14.092459",
+      "turnaround_hours": 3.17
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1257,
+      "created_at": "2026-01-25T10:21:35.833695",
+      "first_review_at": "2026-01-25T10:51:35.833695",
+      "turnaround_hours": 0.5
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1258,
+      "created_at": "2026-01-26T11:37:17.420972",
+      "first_review_at": "2026-01-26T15:28:59.917990",
+      "turnaround_hours": 3.86
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1259,
+      "created_at": "2026-01-26T08:19:25.871663",
+      "first_review_at": "2026-01-26T11:37:04.939204",
+      "turnaround_hours": 3.29
+    },
+    {
+      "repo": "frontend-web",
+      "pr_number": 1260,
+      "created_at": "2026-01-26T14:47:26.234049",
+      "first_review_at": "2026-01-26T22:22:43.516912",
+      "turnaround_hours": 7.59
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1261,
+      "created_at": "2026-01-26T11:43:12.481625",
+      "first_review_at": "2026-01-27T09:08:04.082064",
+      "turnaround_hours": 21.41
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1262,
+      "created_at": "2026-01-26T13:44:21.184020",
+      "first_review_at": "2026-01-27T00:55:00.413281",
+      "turnaround_hours": 11.18
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1263,
+      "created_at": "2026-01-26T11:40:10.198152",
+      "first_review_at": "2026-01-26T14:51:11.015424",
+      "turnaround_hours": 3.18
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1264,
+      "created_at": "2026-01-26T14:29:44.186521",
+      "first_review_at": "2026-01-26T15:59:36.963855",
+      "turnaround_hours": 1.5
+    },
+    {
+      "repo": "frontend-web",
+      "pr_number": 1265,
+      "created_at": "2026-01-26T17:36:18.721882",
+      "first_review_at": "2026-01-28T10:42:21.045083",
+      "turnaround_hours": 41.1
+    },
+    {
+      "repo": "frontend-web",
+      "pr_number": 1266,
+      "created_at": "2026-01-27T12:59:25.582569",
+      "first_review_at": "2026-01-27T17:16:03.471784",
+      "turnaround_hours": 4.28
+    },
+    {
+      "repo": "data-pipeline",
+      "pr_number": 1267,
+      "created_at": "2026-01-27T17:08:07.530209",
+      "first_review_at": "2026-01-27T21:14:30.416916",
+      "turnaround_hours": 4.11
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1268,
+      "created_at": "2026-01-27T10:37:03.960357",
+      "first_review_at": "2026-01-27T14:35:09.120798",
+      "turnaround_hours": 3.97
+    },
+    {
+      "repo": "data-pipeline",
+      "pr_number": 1269,
+      "created_at": "2026-01-28T10:08:44.535315",
+      "first_review_at": "2026-01-28T14:59:32.275364",
+      "turnaround_hours": 4.85
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1270,
+      "created_at": "2026-01-28T10:51:20.767597",
+      "first_review_at": "2026-01-28T14:25:00.806355",
+      "turnaround_hours": 3.56
+    },
+    {
+      "repo": "data-pipeline",
+      "pr_number": 1271,
+      "created_at": "2026-01-28T10:00:06.420276",
+      "first_review_at": "2026-01-28T12:25:17.868420",
+      "turnaround_hours": 2.42
+    },
+    {
+      "repo": "frontend-web",
+      "pr_number": 1272,
+      "created_at": "2026-01-28T16:31:41.746454",
+      "first_review_at": "2026-01-28T19:00:25.893896",
+      "turnaround_hours": 2.48
+    },
+    {
+      "repo": "data-pipeline",
+      "pr_number": 1273,
+      "created_at": "2026-01-28T09:43:35.629103",
+      "first_review_at": "2026-01-28T13:39:50.289653",
+      "turnaround_hours": 3.94
+    },
+    {
+      "repo": "data-pipeline",
+      "pr_number": 1274,
+      "created_at": "2026-01-29T17:58:21.446545",
+      "first_review_at": "2026-01-29T20:27:33.218992",
+      "turnaround_hours": 2.49
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1275,
+      "created_at": "2026-01-29T14:40:42.232458",
+      "first_review_at": "2026-01-29T16:48:48.018398",
+      "turnaround_hours": 2.13
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1276,
+      "created_at": "2026-01-29T13:29:59.897310",
+      "first_review_at": "2026-01-29T17:57:46.151358",
+      "turnaround_hours": 4.46
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1277,
+      "created_at": "2026-01-29T16:54:47.940565",
+      "first_review_at": "2026-01-29T20:08:13.153055",
+      "turnaround_hours": 3.22
+    },
+    {
+      "repo": "frontend-web",
+      "pr_number": 1278,
+      "created_at": "2026-01-29T15:07:05.127744",
+      "first_review_at": "2026-01-30T06:49:01.339752",
+      "turnaround_hours": 15.7
+    },
+    {
+      "repo": "frontend-web",
+      "pr_number": 1279,
+      "created_at": "2026-01-29T15:56:13.069818",
+      "first_review_at": "2026-01-29T16:26:13.069818",
+      "turnaround_hours": 0.5
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1280,
+      "created_at": "2026-01-29T10:14:32.698149",
+      "first_review_at": "2026-01-29T21:04:22.105864",
+      "turnaround_hours": 10.83
+    },
+    {
+      "repo": "frontend-web",
+      "pr_number": 1281,
+      "created_at": "2026-01-29T15:55:14.364250",
+      "first_review_at": "2026-01-30T04:22:03.431760",
+      "turnaround_hours": 12.45
+    },
+    {
+      "repo": "data-pipeline",
+      "pr_number": 1282,
+      "created_at": "2026-01-30T08:15:46.224965",
+      "first_review_at": "2026-01-30T08:53:25.135508",
+      "turnaround_hours": 0.63
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1283,
+      "created_at": "2026-01-30T13:43:21.986656",
+      "first_review_at": "2026-01-30T16:42:06.316858",
+      "turnaround_hours": 2.98
+    },
+    {
+      "repo": "data-pipeline",
+      "pr_number": 1284,
+      "created_at": "2026-01-30T16:02:11.822146",
+      "first_review_at": "2026-01-30T18:56:22.188818",
+      "turnaround_hours": 2.9
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1285,
+      "created_at": "2026-01-30T09:17:51.764270",
+      "first_review_at": "2026-01-30T10:26:24.849126",
+      "turnaround_hours": 1.14
+    },
+    {
+      "repo": "data-pipeline",
+      "pr_number": 1286,
+      "created_at": "2026-02-02T17:59:45.421582",
+      "first_review_at": "2026-02-02T20:00:34.677464",
+      "turnaround_hours": 2.01
+    },
+    {
+      "repo": "data-pipeline",
+      "pr_number": 1287,
+      "created_at": "2026-02-02T13:15:25.043574",
+      "first_review_at": "2026-02-02T14:44:58.200322",
+      "turnaround_hours": 1.49
+    },
+    {
+      "repo": "data-pipeline",
+      "pr_number": 1288,
+      "created_at": "2026-02-02T16:14:00.218382",
+      "first_review_at": "2026-02-03T11:51:47.115319",
+      "turnaround_hours": 19.63
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1289,
+      "created_at": "2026-02-02T09:15:11.764161",
+      "first_review_at": "2026-02-02T18:39:59.202637",
+      "turnaround_hours": 9.41
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1290,
+      "created_at": "2026-02-02T14:25:24.189218",
+      "first_review_at": "2026-02-03T03:09:32.274207",
+      "turnaround_hours": 12.74
+    },
+    {
+      "repo": "data-pipeline",
+      "pr_number": 1291,
+      "created_at": "2026-02-03T14:48:03.923663",
+      "first_review_at": "2026-02-03T22:33:54.524692",
+      "turnaround_hours": 7.76
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1292,
+      "created_at": "2026-02-03T09:17:00.045987",
+      "first_review_at": "2026-02-03T10:45:04.594837",
+      "turnaround_hours": 1.47
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1293,
+      "created_at": "2026-02-03T14:23:52.581457",
+      "first_review_at": "2026-02-03T16:55:37.962897",
+      "turnaround_hours": 2.53
+    },
+    {
+      "repo": "frontend-web",
+      "pr_number": 1294,
+      "created_at": "2026-02-03T15:40:40.138945",
+      "first_review_at": "2026-02-03T21:58:37.586947",
+      "turnaround_hours": 6.3
+    },
+    {
+      "repo": "frontend-web",
+      "pr_number": 1295,
+      "created_at": "2026-02-03T12:19:34.258313",
+      "first_review_at": "2026-02-03T13:40:34.162959",
+      "turnaround_hours": 1.35
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1296,
+      "created_at": "2026-02-03T16:18:50.069033",
+      "first_review_at": "2026-02-04T00:01:03.329524",
+      "turnaround_hours": 7.7
+    },
+    {
+      "repo": "frontend-web",
+      "pr_number": 1297,
+      "created_at": "2026-02-04T11:02:28.483541",
+      "first_review_at": "2026-02-04T14:18:27.743209",
+      "turnaround_hours": 3.27
+    },
+    {
+      "repo": "frontend-web",
+      "pr_number": 1298,
+      "created_at": "2026-02-04T11:13:35.787042",
+      "first_review_at": "2026-02-04T14:07:14.412551",
+      "turnaround_hours": 2.89
+    },
+    {
+      "repo": "frontend-web",
+      "pr_number": 1299,
+      "created_at": "2026-02-04T11:27:36.830964",
+      "first_review_at": "2026-02-04T19:08:59.258222",
+      "turnaround_hours": 7.69
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1300,
+      "created_at": "2026-02-04T16:56:57.333006",
+      "first_review_at": "2026-02-04T22:59:52.513806",
+      "turnaround_hours": 6.05
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1301,
+      "created_at": "2026-02-04T10:30:21.791123",
+      "first_review_at": "2026-02-04T13:26:11.141646",
+      "turnaround_hours": 2.93
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1302,
+      "created_at": "2026-02-04T10:44:40.237196",
+      "first_review_at": "2026-02-04T22:15:23.721226",
+      "turnaround_hours": 11.51
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1303,
+      "created_at": "2026-02-04T14:08:39.418019",
+      "first_review_at": "2026-02-04T15:40:37.204889",
+      "turnaround_hours": 1.53
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1304,
+      "created_at": "2026-02-05T14:24:35.547383",
+      "first_review_at": "2026-02-05T21:28:08.929536",
+      "turnaround_hours": 7.06
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1305,
+      "created_at": "2026-02-05T17:24:57.851563",
+      "first_review_at": "2026-02-06T00:19:54.295454",
+      "turnaround_hours": 6.92
+    },
+    {
+      "repo": "frontend-web",
+      "pr_number": 1306,
+      "created_at": "2026-02-05T09:42:43.222430",
+      "first_review_at": "2026-02-05T12:46:52.245898",
+      "turnaround_hours": 3.07
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1307,
+      "created_at": "2026-02-06T11:22:34.305118",
+      "first_review_at": "2026-02-06T16:48:53.226845",
+      "turnaround_hours": 5.44
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1308,
+      "created_at": "2026-02-06T08:24:42.994927",
+      "first_review_at": "2026-02-06T09:43:37.757710",
+      "turnaround_hours": 1.32
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1309,
+      "created_at": "2026-02-06T08:48:44.022776",
+      "first_review_at": "2026-02-06T18:07:37.966212",
+      "turnaround_hours": 9.31
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1310,
+      "created_at": "2026-02-06T10:38:47.612682",
+      "first_review_at": "2026-02-06T14:04:48.310679",
+      "turnaround_hours": 3.43
+    },
+    {
+      "repo": "frontend-web",
+      "pr_number": 1311,
+      "created_at": "2026-02-06T15:40:10.524033",
+      "first_review_at": "2026-02-06T18:12:10.645539",
+      "turnaround_hours": 2.53
+    },
+    {
+      "repo": "data-pipeline",
+      "pr_number": 1312,
+      "created_at": "2026-02-06T14:10:51.903348",
+      "first_review_at": "2026-02-07T00:36:18.208160",
+      "turnaround_hours": 10.42
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1313,
+      "created_at": "2026-02-06T12:58:49.370165",
+      "first_review_at": "2026-02-06T15:07:54.192420",
+      "turnaround_hours": 2.15
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1314,
+      "created_at": "2026-02-07T10:53:48.179645",
+      "first_review_at": "2026-02-07T12:02:17.750790",
+      "turnaround_hours": 1.14
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1315,
+      "created_at": "2026-02-07T12:49:46.013454",
+      "first_review_at": "2026-02-07T13:49:42.536612",
+      "turnaround_hours": 1.0
+    },
+    {
+      "repo": "data-pipeline",
+      "pr_number": 1316,
+      "created_at": "2026-02-08T10:58:27.619371",
+      "first_review_at": "2026-02-08T17:58:14.992476",
+      "turnaround_hours": 7.0
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1317,
+      "created_at": "2026-02-08T14:53:10.088580",
+      "first_review_at": "2026-02-08T16:10:01.562039",
+      "turnaround_hours": 1.28
+    },
+    {
+      "repo": "data-pipeline",
+      "pr_number": 1318,
+      "created_at": "2026-02-09T12:09:22.382864",
+      "first_review_at": "2026-02-10T07:49:49.972523",
+      "turnaround_hours": 19.67
+    },
+    {
+      "repo": "data-pipeline",
+      "pr_number": 1319,
+      "created_at": "2026-02-09T10:02:24.828488",
+      "first_review_at": "2026-02-09T10:39:46.445259",
+      "turnaround_hours": 0.62
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1320,
+      "created_at": "2026-02-09T09:26:12.072882",
+      "first_review_at": "2026-02-10T04:06:16.866388",
+      "turnaround_hours": 18.67
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1321,
+      "created_at": "2026-02-09T15:20:31.191173",
+      "first_review_at": "2026-02-09T20:14:43.199550",
+      "turnaround_hours": 4.9
+    },
+    {
+      "repo": "data-pipeline",
+      "pr_number": 1322,
+      "created_at": "2026-02-10T09:18:27.581456",
+      "first_review_at": "2026-02-10T13:01:29.334218",
+      "turnaround_hours": 3.72
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1323,
+      "created_at": "2026-02-10T13:08:59.284827",
+      "first_review_at": "2026-02-10T15:37:59.026269",
+      "turnaround_hours": 2.48
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1324,
+      "created_at": "2026-02-10T11:11:28.171911",
+      "first_review_at": "2026-02-10T16:59:56.683903",
+      "turnaround_hours": 5.81
+    },
+    {
+      "repo": "data-pipeline",
+      "pr_number": 1325,
+      "created_at": "2026-02-10T09:13:30.788727",
+      "first_review_at": "2026-02-10T13:08:43.312490",
+      "turnaround_hours": 3.92
+    },
+    {
+      "repo": "data-pipeline",
+      "pr_number": 1326,
+      "created_at": "2026-02-10T10:28:45.079771",
+      "first_review_at": "2026-02-10T21:25:30.585241",
+      "turnaround_hours": 10.95
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1327,
+      "created_at": "2026-02-11T10:54:07.632179",
+      "first_review_at": "2026-02-11T15:23:47.030579",
+      "turnaround_hours": 4.49
+    },
+    {
+      "repo": "data-pipeline",
+      "pr_number": 1328,
+      "created_at": "2026-02-11T16:38:29.898613",
+      "first_review_at": "2026-02-11T21:17:03.208994",
+      "turnaround_hours": 4.64
+    },
+    {
+      "repo": "data-pipeline",
+      "pr_number": 1329,
+      "created_at": "2026-02-11T10:28:57.730094",
+      "first_review_at": "2026-02-11T13:24:21.987844",
+      "turnaround_hours": 2.92
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1330,
+      "created_at": "2026-02-12T17:20:15.055269",
+      "first_review_at": "2026-02-12T21:11:24.424889",
+      "turnaround_hours": 3.85
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1331,
+      "created_at": "2026-02-12T09:53:54.027644",
+      "first_review_at": "2026-02-12T15:14:52.583797",
+      "turnaround_hours": 5.35
+    },
+    {
+      "repo": "frontend-web",
+      "pr_number": 1332,
+      "created_at": "2026-02-12T12:58:57.559514",
+      "first_review_at": "2026-02-12T13:51:09.905663",
+      "turnaround_hours": 0.87
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1333,
+      "created_at": "2026-02-12T12:40:05.344239",
+      "first_review_at": "2026-02-12T13:52:24.010404",
+      "turnaround_hours": 1.21
+    },
+    {
+      "repo": "data-pipeline",
+      "pr_number": 1334,
+      "created_at": "2026-02-13T08:13:54.346736",
+      "first_review_at": "2026-02-13T16:08:53.418871",
+      "turnaround_hours": 7.92
+    },
+    {
+      "repo": "data-pipeline",
+      "pr_number": 1335,
+      "created_at": "2026-02-13T13:03:16.000669",
+      "first_review_at": "2026-02-13T17:47:01.509515",
+      "turnaround_hours": 4.73
+    },
+    {
+      "repo": "frontend-web",
+      "pr_number": 1336,
+      "created_at": "2026-02-13T10:09:05.199211",
+      "first_review_at": "2026-02-13T13:35:16.122744",
+      "turnaround_hours": 3.44
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1337,
+      "created_at": "2026-02-13T08:29:11.692785",
+      "first_review_at": "2026-02-13T12:36:34.633585",
+      "turnaround_hours": 4.12
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1338,
+      "created_at": "2026-02-13T12:56:56.191327",
+      "first_review_at": "2026-02-13T18:29:36.732438",
+      "turnaround_hours": 5.54
+    },
+    {
+      "repo": "data-pipeline",
+      "pr_number": 1339,
+      "created_at": "2026-02-14T10:51:26.941732",
+      "first_review_at": "2026-02-14T13:21:08.291086",
+      "turnaround_hours": 2.49
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1340,
+      "created_at": "2026-02-14T16:28:18.205154",
+      "first_review_at": "2026-02-14T18:29:04.277615",
+      "turnaround_hours": 2.01
+    },
+    {
+      "repo": "frontend-web",
+      "pr_number": 1341,
+      "created_at": "2026-02-15T16:49:28.406313",
+      "first_review_at": "2026-02-15T21:39:41.014897",
+      "turnaround_hours": 4.84
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1342,
+      "created_at": "2026-02-16T15:38:18.843510",
+      "first_review_at": "2026-02-16T17:19:10.901305",
+      "turnaround_hours": 1.68
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1343,
+      "created_at": "2026-02-16T08:27:08.726202",
+      "first_review_at": "2026-02-16T14:18:29.497785",
+      "turnaround_hours": 5.86
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1344,
+      "created_at": "2026-02-16T13:42:10.139180",
+      "first_review_at": "2026-02-16T14:34:43.940841",
+      "turnaround_hours": 0.88
+    },
+    {
+      "repo": "frontend-web",
+      "pr_number": 1345,
+      "created_at": "2026-02-16T11:37:30.855934",
+      "first_review_at": "2026-02-16T21:51:52.587171",
+      "turnaround_hours": 10.24
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1346,
+      "created_at": "2026-02-16T08:44:07.142991",
+      "first_review_at": "2026-02-16T14:56:24.747958",
+      "turnaround_hours": 6.2
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1347,
+      "created_at": "2026-02-16T12:30:12.757703",
+      "first_review_at": "2026-02-16T17:36:34.549646",
+      "turnaround_hours": 5.11
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1348,
+      "created_at": "2026-02-16T10:47:49.944394",
+      "first_review_at": "2026-02-16T20:37:01.971374",
+      "turnaround_hours": 9.82
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1349,
+      "created_at": "2026-02-16T14:48:14.351044",
+      "first_review_at": "2026-02-17T08:57:31.108937",
+      "turnaround_hours": 18.15
+    },
+    {
+      "repo": "frontend-web",
+      "pr_number": 1350,
+      "created_at": "2026-02-17T17:45:02.981355",
+      "first_review_at": "2026-02-18T03:51:17.442226",
+      "turnaround_hours": 10.1
+    },
+    {
+      "repo": "data-pipeline",
+      "pr_number": 1351,
+      "created_at": "2026-02-17T11:43:55.140108",
+      "first_review_at": "2026-02-17T12:30:19.859294",
+      "turnaround_hours": 0.77
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1352,
+      "created_at": "2026-02-17T13:34:41.946178",
+      "first_review_at": "2026-02-17T14:51:36.958673",
+      "turnaround_hours": 1.28
+    },
+    {
+      "repo": "frontend-web",
+      "pr_number": 1353,
+      "created_at": "2026-02-18T09:59:26.083736",
+      "first_review_at": "2026-02-18T12:18:05.541878",
+      "turnaround_hours": 2.31
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1354,
+      "created_at": "2026-02-18T12:00:49.935034",
+      "first_review_at": "2026-02-18T16:09:55.517824",
+      "turnaround_hours": 4.15
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1355,
+      "created_at": "2026-02-18T08:27:10.920689",
+      "first_review_at": "2026-02-18T14:54:53.056446",
+      "turnaround_hours": 6.46
+    },
+    {
+      "repo": "frontend-web",
+      "pr_number": 1356,
+      "created_at": "2026-02-18T15:08:09.306468",
+      "first_review_at": "2026-02-18T17:14:46.389892",
+      "turnaround_hours": 2.11
+    },
+    {
+      "repo": "data-pipeline",
+      "pr_number": 1357,
+      "created_at": "2026-02-18T13:11:35.977572",
+      "first_review_at": "2026-02-18T17:59:26.893620",
+      "turnaround_hours": 4.8
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1358,
+      "created_at": "2026-02-19T16:55:52.740915",
+      "first_review_at": "2026-02-19T18:59:09.849605",
+      "turnaround_hours": 2.05
+    },
+    {
+      "repo": "frontend-web",
+      "pr_number": 1359,
+      "created_at": "2026-02-19T11:16:46.770515",
+      "first_review_at": "2026-02-19T13:37:06.416836",
+      "turnaround_hours": 2.34
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1360,
+      "created_at": "2026-02-19T11:11:07.081143",
+      "first_review_at": "2026-02-19T12:19:43.315928",
+      "turnaround_hours": 1.14
+    },
+    {
+      "repo": "data-pipeline",
+      "pr_number": 1361,
+      "created_at": "2026-02-19T17:54:22.166552",
+      "first_review_at": "2026-02-19T19:40:22.138229",
+      "turnaround_hours": 1.77
+    },
+    {
+      "repo": "mobile-app",
+      "pr_number": 1362,
+      "created_at": "2026-02-20T13:56:14.087603",
+      "first_review_at": "2026-02-20T15:08:19.111650",
+      "turnaround_hours": 1.2
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1363,
+      "created_at": "2026-02-20T16:16:58.417894",
+      "first_review_at": "2026-02-20T17:58:04.105555",
+      "turnaround_hours": 1.68
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1364,
+      "created_at": "2026-02-20T12:53:54.479474",
+      "first_review_at": "2026-02-20T23:21:57.569839",
+      "turnaround_hours": 10.47
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1365,
+      "created_at": "2026-02-20T10:59:52.460331",
+      "first_review_at": "2026-02-20T12:43:24.410264",
+      "turnaround_hours": 1.73
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1366,
+      "created_at": "2026-02-20T11:41:00.881155",
+      "first_review_at": "2026-02-22T07:01:35.469653",
+      "turnaround_hours": 43.34
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1367,
+      "created_at": "2026-02-20T17:47:56.329122",
+      "first_review_at": "2026-02-21T00:07:14.402501",
+      "turnaround_hours": 6.32
+    },
+    {
+      "repo": "infra-config",
+      "pr_number": 1368,
+      "created_at": "2026-02-20T11:04:36.402014",
+      "first_review_at": "2026-02-20T15:51:57.334578",
+      "turnaround_hours": 4.79
+    },
+    {
+      "repo": "backend-api",
+      "pr_number": 1369,
+      "created_at": "2026-02-20T13:58:08.746174",
+      "first_review_at": "2026-02-20T15:50:31.118521",
+      "turnaround_hours": 1.87
+    }
+  ],
+  "summary": {
+    "median_hours": 3.85,
+    "p95_hours": 18.28,
+    "total_reviews": 370
+  },
+  "generated_at": "2026-02-21T14:45:24.311669",
+  "seed": 42
+}

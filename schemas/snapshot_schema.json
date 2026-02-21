@@ -1,0 +1,91 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Daily Snapshot",
+  "description": "Full daily snapshot combining all metrics for historical trending",
+  "type": "object",
+  "required": ["date", "metadata", "space", "copilot"],
+  "properties": {
+    "date": {
+      "type": "string",
+      "format": "date",
+      "description": "Snapshot date (YYYY-MM-DD)"
+    },
+    "metadata": {
+      "type": "object",
+      "required": ["captured_at", "version"],
+      "properties": {
+        "captured_at": {
+          "type": "string",
+          "format": "date-time",
+          "description": "When snapshot was taken"
+        },
+        "version": {
+          "type": "string",
+          "pattern": "^\\d+\\.\\d+$"
+        },
+        "source": {
+          "type": "string",
+          "enum": ["github_api", "dummy_data"]
+        }
+      }
+    },
+    "space": {
+      "type": "object",
+      "description": "SPACE metrics summary for this day",
+      "properties": {
+        "pr_cycle_time_median_hours": {
+          "type": "number",
+          "description": "Median PR cycle time for PRs merged today"
+        },
+        "review_turnaround_median_hours": {
+          "type": "number",
+          "description": "Median time to first review for PRs opened today"
+        },
+        "rework_rate": {
+          "type": "number",
+          "description": "Weekly rework rate (latest week)"
+        },
+        "open_prs": {
+          "type": "integer",
+          "description": "Total open PRs across all repos"
+        },
+        "merged_prs_today": {
+          "type": "integer",
+          "description": "PRs merged today"
+        }
+      }
+    },
+    "copilot": {
+      "type": "object",
+      "description": "Copilot metrics summary for this day",
+      "properties": {
+        "active_users": {
+          "type": "integer"
+        },
+        "engaged_users": {
+          "type": "integer"
+        },
+        "suggestions": {
+          "type": "integer"
+        },
+        "acceptances": {
+          "type": "integer"
+        },
+        "acceptance_rate": {
+          "type": "number"
+        },
+        "seat_utilization_rate": {
+          "type": "number"
+        },
+        "time_saved_hours": {
+          "type": "number",
+          "description": "Estimated time saved based on acceptances"
+        },
+        "roi_value_usd": {
+          "type": "number",
+          "description": "Dollar value of time saved"
+        }
+      }
+    }
+  }
+}

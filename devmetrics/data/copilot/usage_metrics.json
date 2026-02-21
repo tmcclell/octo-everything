@@ -1,0 +1,821 @@
+{
+  "daily_usage": [
+    {
+      "date": "2025-11-23",
+      "active_users": 4,
+      "engaged_users": 2,
+      "suggestions": 375,
+      "acceptances": 93,
+      "lines_suggested": 1500,
+      "lines_accepted": 465
+    },
+    {
+      "date": "2025-11-24",
+      "active_users": 11,
+      "engaged_users": 9,
+      "suggestions": 859,
+      "acceptances": 218,
+      "lines_suggested": 5154,
+      "lines_accepted": 1526
+    },
+    {
+      "date": "2025-11-25",
+      "active_users": 11,
+      "engaged_users": 8,
+      "suggestions": 1061,
+      "acceptances": 248,
+      "lines_suggested": 8488,
+      "lines_accepted": 744
+    },
+    {
+      "date": "2025-11-26",
+      "active_users": 13,
+      "engaged_users": 11,
+      "suggestions": 894,
+      "acceptances": 228,
+      "lines_suggested": 3576,
+      "lines_accepted": 684
+    },
+    {
+      "date": "2025-11-27",
+      "active_users": 12,
+      "engaged_users": 9,
+      "suggestions": 1419,
+      "acceptances": 369,
+      "lines_suggested": 4257,
+      "lines_accepted": 1476
+    },
+    {
+      "date": "2025-11-28",
+      "active_users": 11,
+      "engaged_users": 8,
+      "suggestions": 1140,
+      "acceptances": 277,
+      "lines_suggested": 3420,
+      "lines_accepted": 1108
+    },
+    {
+      "date": "2025-11-29",
+      "active_users": 3,
+      "engaged_users": 2,
+      "suggestions": 160,
+      "acceptances": 43,
+      "lines_suggested": 960,
+      "lines_accepted": 172
+    },
+    {
+      "date": "2025-11-30",
+      "active_users": 5,
+      "engaged_users": 3,
+      "suggestions": 204,
+      "acceptances": 51,
+      "lines_suggested": 816,
+      "lines_accepted": 357
+    },
+    {
+      "date": "2025-12-01",
+      "active_users": 13,
+      "engaged_users": 11,
+      "suggestions": 1189,
+      "acceptances": 305,
+      "lines_suggested": 9512,
+      "lines_accepted": 1525
+    },
+    {
+      "date": "2025-12-02",
+      "active_users": 13,
+      "engaged_users": 9,
+      "suggestions": 1325,
+      "acceptances": 374,
+      "lines_suggested": 7950,
+      "lines_accepted": 1122
+    },
+    {
+      "date": "2025-12-03",
+      "active_users": 14,
+      "engaged_users": 11,
+      "suggestions": 1127,
+      "acceptances": 322,
+      "lines_suggested": 5635,
+      "lines_accepted": 1610
+    },
+    {
+      "date": "2025-12-04",
+      "active_users": 14,
+      "engaged_users": 9,
+      "suggestions": 1026,
+      "acceptances": 283,
+      "lines_suggested": 3078,
+      "lines_accepted": 1415
+    },
+    {
+      "date": "2025-12-05",
+      "active_users": 15,
+      "engaged_users": 11,
+      "suggestions": 1000,
+      "acceptances": 253,
+      "lines_suggested": 6000,
+      "lines_accepted": 1771
+    },
+    {
+      "date": "2025-12-06",
+      "active_users": 3,
+      "engaged_users": 2,
+      "suggestions": 272,
+      "acceptances": 67,
+      "lines_suggested": 1632,
+      "lines_accepted": 536
+    },
+    {
+      "date": "2025-12-07",
+      "active_users": 5,
+      "engaged_users": 3,
+      "suggestions": 335,
+      "acceptances": 82,
+      "lines_suggested": 1675,
+      "lines_accepted": 328
+    },
+    {
+      "date": "2025-12-08",
+      "active_users": 13,
+      "engaged_users": 10,
+      "suggestions": 1300,
+      "acceptances": 322,
+      "lines_suggested": 9100,
+      "lines_accepted": 2576
+    },
+    {
+      "date": "2025-12-09",
+      "active_users": 12,
+      "engaged_users": 9,
+      "suggestions": 876,
+      "acceptances": 257,
+      "lines_suggested": 7008,
+      "lines_accepted": 771
+    },
+    {
+      "date": "2025-12-10",
+      "active_users": 12,
+      "engaged_users": 9,
+      "suggestions": 1445,
+      "acceptances": 365,
+      "lines_suggested": 11560,
+      "lines_accepted": 1460
+    },
+    {
+      "date": "2025-12-11",
+      "active_users": 13,
+      "engaged_users": 9,
+      "suggestions": 1266,
+      "acceptances": 332,
+      "lines_suggested": 8862,
+      "lines_accepted": 2656
+    },
+    {
+      "date": "2025-12-12",
+      "active_users": 16,
+      "engaged_users": 13,
+      "suggestions": 816,
+      "acceptances": 197,
+      "lines_suggested": 5712,
+      "lines_accepted": 1182
+    },
+    {
+      "date": "2025-12-13",
+      "active_users": 3,
+      "engaged_users": 1,
+      "suggestions": 240,
+      "acceptances": 65,
+      "lines_suggested": 1200,
+      "lines_accepted": 195
+    },
+    {
+      "date": "2025-12-14",
+      "active_users": 5,
+      "engaged_users": 3,
+      "suggestions": 320,
+      "acceptances": 93,
+      "lines_suggested": 1280,
+      "lines_accepted": 279
+    },
+    {
+      "date": "2025-12-15",
+      "active_users": 13,
+      "engaged_users": 10,
+      "suggestions": 1046,
+      "acceptances": 267,
+      "lines_suggested": 7322,
+      "lines_accepted": 1335
+    },
+    {
+      "date": "2025-12-16",
+      "active_users": 15,
+      "engaged_users": 11,
+      "suggestions": 1206,
+      "acceptances": 301,
+      "lines_suggested": 7236,
+      "lines_accepted": 1806
+    },
+    {
+      "date": "2025-12-17",
+      "active_users": 15,
+      "engaged_users": 13,
+      "suggestions": 1031,
+      "acceptances": 272,
+      "lines_suggested": 3093,
+      "lines_accepted": 2176
+    },
+    {
+      "date": "2025-12-18",
+      "active_users": 14,
+      "engaged_users": 10,
+      "suggestions": 1188,
+      "acceptances": 321,
+      "lines_suggested": 7128,
+      "lines_accepted": 963
+    },
+    {
+      "date": "2025-12-19",
+      "active_users": 14,
+      "engaged_users": 11,
+      "suggestions": 884,
+      "acceptances": 246,
+      "lines_suggested": 5304,
+      "lines_accepted": 1968
+    },
+    {
+      "date": "2025-12-20",
+      "active_users": 5,
+      "engaged_users": 3,
+      "suggestions": 148,
+      "acceptances": 44,
+      "lines_suggested": 444,
+      "lines_accepted": 176
+    },
+    {
+      "date": "2025-12-21",
+      "active_users": 4,
+      "engaged_users": 3,
+      "suggestions": 390,
+      "acceptances": 109,
+      "lines_suggested": 1170,
+      "lines_accepted": 327
+    },
+    {
+      "date": "2025-12-22",
+      "active_users": 16,
+      "engaged_users": 14,
+      "suggestions": 1377,
+      "acceptances": 401,
+      "lines_suggested": 5508,
+      "lines_accepted": 2005
+    },
+    {
+      "date": "2025-12-23",
+      "active_users": 15,
+      "engaged_users": 13,
+      "suggestions": 1401,
+      "acceptances": 367,
+      "lines_suggested": 11208,
+      "lines_accepted": 2202
+    },
+    {
+      "date": "2025-12-24",
+      "active_users": 15,
+      "engaged_users": 11,
+      "suggestions": 1377,
+      "acceptances": 370,
+      "lines_suggested": 8262,
+      "lines_accepted": 2960
+    },
+    {
+      "date": "2025-12-25",
+      "active_users": 17,
+      "engaged_users": 13,
+      "suggestions": 943,
+      "acceptances": 285,
+      "lines_suggested": 7544,
+      "lines_accepted": 2280
+    },
+    {
+      "date": "2025-12-26",
+      "active_users": 15,
+      "engaged_users": 12,
+      "suggestions": 1154,
+      "acceptances": 299,
+      "lines_suggested": 6924,
+      "lines_accepted": 1196
+    },
+    {
+      "date": "2025-12-27",
+      "active_users": 4,
+      "engaged_users": 2,
+      "suggestions": 303,
+      "acceptances": 95,
+      "lines_suggested": 1515,
+      "lines_accepted": 285
+    },
+    {
+      "date": "2025-12-28",
+      "active_users": 6,
+      "engaged_users": 3,
+      "suggestions": 330,
+      "acceptances": 95,
+      "lines_suggested": 1650,
+      "lines_accepted": 665
+    },
+    {
+      "date": "2025-12-29",
+      "active_users": 19,
+      "engaged_users": 14,
+      "suggestions": 1496,
+      "acceptances": 441,
+      "lines_suggested": 8976,
+      "lines_accepted": 1323
+    },
+    {
+      "date": "2025-12-30",
+      "active_users": 18,
+      "engaged_users": 15,
+      "suggestions": 875,
+      "acceptances": 232,
+      "lines_suggested": 3500,
+      "lines_accepted": 1392
+    },
+    {
+      "date": "2025-12-31",
+      "active_users": 17,
+      "engaged_users": 14,
+      "suggestions": 1124,
+      "acceptances": 319,
+      "lines_suggested": 3372,
+      "lines_accepted": 957
+    },
+    {
+      "date": "2026-01-01",
+      "active_users": 18,
+      "engaged_users": 14,
+      "suggestions": 1076,
+      "acceptances": 289,
+      "lines_suggested": 3228,
+      "lines_accepted": 1156
+    },
+    {
+      "date": "2026-01-02",
+      "active_users": 19,
+      "engaged_users": 15,
+      "suggestions": 1368,
+      "acceptances": 403,
+      "lines_suggested": 4104,
+      "lines_accepted": 1209
+    },
+    {
+      "date": "2026-01-03",
+      "active_users": 4,
+      "engaged_users": 2,
+      "suggestions": 147,
+      "acceptances": 44,
+      "lines_suggested": 735,
+      "lines_accepted": 264
+    },
+    {
+      "date": "2026-01-04",
+      "active_users": 5,
+      "engaged_users": 3,
+      "suggestions": 298,
+      "acceptances": 93,
+      "lines_suggested": 2384,
+      "lines_accepted": 651
+    },
+    {
+      "date": "2026-01-05",
+      "active_users": 18,
+      "engaged_users": 14,
+      "suggestions": 973,
+      "acceptances": 300,
+      "lines_suggested": 3892,
+      "lines_accepted": 1200
+    },
+    {
+      "date": "2026-01-06",
+      "active_users": 19,
+      "engaged_users": 14,
+      "suggestions": 1304,
+      "acceptances": 362,
+      "lines_suggested": 5216,
+      "lines_accepted": 2172
+    },
+    {
+      "date": "2026-01-07",
+      "active_users": 19,
+      "engaged_users": 14,
+      "suggestions": 1295,
+      "acceptances": 410,
+      "lines_suggested": 6475,
+      "lines_accepted": 2050
+    },
+    {
+      "date": "2026-01-08",
+      "active_users": 18,
+      "engaged_users": 15,
+      "suggestions": 1307,
+      "acceptances": 400,
+      "lines_suggested": 5228,
+      "lines_accepted": 2400
+    },
+    {
+      "date": "2026-01-09",
+      "active_users": 17,
+      "engaged_users": 12,
+      "suggestions": 806,
+      "acceptances": 265,
+      "lines_suggested": 4030,
+      "lines_accepted": 1855
+    },
+    {
+      "date": "2026-01-10",
+      "active_users": 6,
+      "engaged_users": 4,
+      "suggestions": 268,
+      "acceptances": 80,
+      "lines_suggested": 1608,
+      "lines_accepted": 640
+    },
+    {
+      "date": "2026-01-11",
+      "active_users": 7,
+      "engaged_users": 4,
+      "suggestions": 264,
+      "acceptances": 82,
+      "lines_suggested": 2112,
+      "lines_accepted": 328
+    },
+    {
+      "date": "2026-01-12",
+      "active_users": 21,
+      "engaged_users": 16,
+      "suggestions": 1207,
+      "acceptances": 402,
+      "lines_suggested": 6035,
+      "lines_accepted": 3216
+    },
+    {
+      "date": "2026-01-13",
+      "active_users": 21,
+      "engaged_users": 18,
+      "suggestions": 1048,
+      "acceptances": 310,
+      "lines_suggested": 5240,
+      "lines_accepted": 1860
+    },
+    {
+      "date": "2026-01-14",
+      "active_users": 20,
+      "engaged_users": 14,
+      "suggestions": 1377,
+      "acceptances": 399,
+      "lines_suggested": 9639,
+      "lines_accepted": 1596
+    },
+    {
+      "date": "2026-01-15",
+      "active_users": 18,
+      "engaged_users": 16,
+      "suggestions": 1272,
+      "acceptances": 426,
+      "lines_suggested": 5088,
+      "lines_accepted": 2556
+    },
+    {
+      "date": "2026-01-16",
+      "active_users": 21,
+      "engaged_users": 18,
+      "suggestions": 870,
+      "acceptances": 286,
+      "lines_suggested": 5220,
+      "lines_accepted": 2288
+    },
+    {
+      "date": "2026-01-17",
+      "active_users": 6,
+      "engaged_users": 3,
+      "suggestions": 255,
+      "acceptances": 75,
+      "lines_suggested": 2040,
+      "lines_accepted": 300
+    },
+    {
+      "date": "2026-01-18",
+      "active_users": 7,
+      "engaged_users": 4,
+      "suggestions": 293,
+      "acceptances": 83,
+      "lines_suggested": 2051,
+      "lines_accepted": 498
+    },
+    {
+      "date": "2026-01-19",
+      "active_users": 22,
+      "engaged_users": 17,
+      "suggestions": 1228,
+      "acceptances": 387,
+      "lines_suggested": 6140,
+      "lines_accepted": 3096
+    },
+    {
+      "date": "2026-01-20",
+      "active_users": 19,
+      "engaged_users": 13,
+      "suggestions": 1054,
+      "acceptances": 341,
+      "lines_suggested": 5270,
+      "lines_accepted": 1364
+    },
+    {
+      "date": "2026-01-21",
+      "active_users": 19,
+      "engaged_users": 15,
+      "suggestions": 1460,
+      "acceptances": 476,
+      "lines_suggested": 8760,
+      "lines_accepted": 2380
+    },
+    {
+      "date": "2026-01-22",
+      "active_users": 23,
+      "engaged_users": 16,
+      "suggestions": 900,
+      "acceptances": 271,
+      "lines_suggested": 6300,
+      "lines_accepted": 2168
+    },
+    {
+      "date": "2026-01-23",
+      "active_users": 21,
+      "engaged_users": 16,
+      "suggestions": 1200,
+      "acceptances": 378,
+      "lines_suggested": 9600,
+      "lines_accepted": 2646
+    },
+    {
+      "date": "2026-01-24",
+      "active_users": 8,
+      "engaged_users": 5,
+      "suggestions": 276,
+      "acceptances": 96,
+      "lines_suggested": 1656,
+      "lines_accepted": 288
+    },
+    {
+      "date": "2026-01-25",
+      "active_users": 7,
+      "engaged_users": 4,
+      "suggestions": 143,
+      "acceptances": 42,
+      "lines_suggested": 1144,
+      "lines_accepted": 168
+    },
+    {
+      "date": "2026-01-26",
+      "active_users": 22,
+      "engaged_users": 16,
+      "suggestions": 1266,
+      "acceptances": 428,
+      "lines_suggested": 8862,
+      "lines_accepted": 2568
+    },
+    {
+      "date": "2026-01-27",
+      "active_users": 22,
+      "engaged_users": 17,
+      "suggestions": 1248,
+      "acceptances": 418,
+      "lines_suggested": 7488,
+      "lines_accepted": 2090
+    },
+    {
+      "date": "2026-01-28",
+      "active_users": 21,
+      "engaged_users": 15,
+      "suggestions": 917,
+      "acceptances": 270,
+      "lines_suggested": 4585,
+      "lines_accepted": 2160
+    },
+    {
+      "date": "2026-01-29",
+      "active_users": 21,
+      "engaged_users": 17,
+      "suggestions": 968,
+      "acceptances": 339,
+      "lines_suggested": 7744,
+      "lines_accepted": 1356
+    },
+    {
+      "date": "2026-01-30",
+      "active_users": 22,
+      "engaged_users": 17,
+      "suggestions": 1138,
+      "acceptances": 374,
+      "lines_suggested": 6828,
+      "lines_accepted": 1496
+    },
+    {
+      "date": "2026-01-31",
+      "active_users": 7,
+      "engaged_users": 5,
+      "suggestions": 195,
+      "acceptances": 65,
+      "lines_suggested": 1170,
+      "lines_accepted": 390
+    },
+    {
+      "date": "2026-02-01",
+      "active_users": 6,
+      "engaged_users": 4,
+      "suggestions": 201,
+      "acceptances": 65,
+      "lines_suggested": 1206,
+      "lines_accepted": 390
+    },
+    {
+      "date": "2026-02-02",
+      "active_users": 21,
+      "engaged_users": 17,
+      "suggestions": 1010,
+      "acceptances": 318,
+      "lines_suggested": 8080,
+      "lines_accepted": 954
+    },
+    {
+      "date": "2026-02-03",
+      "active_users": 22,
+      "engaged_users": 18,
+      "suggestions": 1349,
+      "acceptances": 419,
+      "lines_suggested": 6745,
+      "lines_accepted": 1676
+    },
+    {
+      "date": "2026-02-04",
+      "active_users": 25,
+      "engaged_users": 18,
+      "suggestions": 1486,
+      "acceptances": 524,
+      "lines_suggested": 10402,
+      "lines_accepted": 4192
+    },
+    {
+      "date": "2026-02-05",
+      "active_users": 24,
+      "engaged_users": 19,
+      "suggestions": 1425,
+      "acceptances": 464,
+      "lines_suggested": 4275,
+      "lines_accepted": 2320
+    },
+    {
+      "date": "2026-02-06",
+      "active_users": 24,
+      "engaged_users": 20,
+      "suggestions": 1432,
+      "acceptances": 449,
+      "lines_suggested": 11456,
+      "lines_accepted": 3592
+    },
+    {
+      "date": "2026-02-07",
+      "active_users": 7,
+      "engaged_users": 5,
+      "suggestions": 143,
+      "acceptances": 49,
+      "lines_suggested": 715,
+      "lines_accepted": 147
+    },
+    {
+      "date": "2026-02-08",
+      "active_users": 6,
+      "engaged_users": 3,
+      "suggestions": 193,
+      "acceptances": 63,
+      "lines_suggested": 772,
+      "lines_accepted": 441
+    },
+    {
+      "date": "2026-02-09",
+      "active_users": 26,
+      "engaged_users": 20,
+      "suggestions": 941,
+      "acceptances": 321,
+      "lines_suggested": 5646,
+      "lines_accepted": 1284
+    },
+    {
+      "date": "2026-02-10",
+      "active_users": 26,
+      "engaged_users": 21,
+      "suggestions": 1460,
+      "acceptances": 530,
+      "lines_suggested": 5840,
+      "lines_accepted": 3710
+    },
+    {
+      "date": "2026-02-11",
+      "active_users": 24,
+      "engaged_users": 19,
+      "suggestions": 943,
+      "acceptances": 301,
+      "lines_suggested": 5658,
+      "lines_accepted": 2107
+    },
+    {
+      "date": "2026-02-12",
+      "active_users": 23,
+      "engaged_users": 20,
+      "suggestions": 809,
+      "acceptances": 274,
+      "lines_suggested": 3236,
+      "lines_accepted": 1644
+    },
+    {
+      "date": "2026-02-13",
+      "active_users": 26,
+      "engaged_users": 20,
+      "suggestions": 1303,
+      "acceptances": 437,
+      "lines_suggested": 7818,
+      "lines_accepted": 2622
+    },
+    {
+      "date": "2026-02-14",
+      "active_users": 6,
+      "engaged_users": 3,
+      "suggestions": 115,
+      "acceptances": 41,
+      "lines_suggested": 460,
+      "lines_accepted": 205
+    },
+    {
+      "date": "2026-02-15",
+      "active_users": 7,
+      "engaged_users": 4,
+      "suggestions": 375,
+      "acceptances": 123,
+      "lines_suggested": 2250,
+      "lines_accepted": 861
+    },
+    {
+      "date": "2026-02-16",
+      "active_users": 27,
+      "engaged_users": 21,
+      "suggestions": 915,
+      "acceptances": 319,
+      "lines_suggested": 4575,
+      "lines_accepted": 2233
+    },
+    {
+      "date": "2026-02-17",
+      "active_users": 26,
+      "engaged_users": 21,
+      "suggestions": 842,
+      "acceptances": 304,
+      "lines_suggested": 5052,
+      "lines_accepted": 2128
+    },
+    {
+      "date": "2026-02-18",
+      "active_users": 25,
+      "engaged_users": 22,
+      "suggestions": 904,
+      "acceptances": 326,
+      "lines_suggested": 7232,
+      "lines_accepted": 1304
+    },
+    {
+      "date": "2026-02-19",
+      "active_users": 26,
+      "engaged_users": 22,
+      "suggestions": 833,
+      "acceptances": 287,
+      "lines_suggested": 4165,
+      "lines_accepted": 861
+    },
+    {
+      "date": "2026-02-20",
+      "active_users": 27,
+      "engaged_users": 23,
+      "suggestions": 920,
+      "acceptances": 336,
+      "lines_suggested": 3680,
+      "lines_accepted": 1344
+    }
+  ],
+  "summary": {
+    "total_suggestions": 79942,
+    "total_acceptances": 23852,
+    "avg_active_users": 14.94
+  },
+  "generated_at": "2026-02-21T14:45:24.320710",
+  "seed": 42
+}

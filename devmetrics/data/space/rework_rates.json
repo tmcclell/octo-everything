@@ -1,0 +1,88 @@
+{
+  "weekly_rates": [
+    {
+      "week_start": "2025-11-23",
+      "total_merged": 23,
+      "changes_requested": 6,
+      "rework_rate": 0.297
+    },
+    {
+      "week_start": "2025-11-30",
+      "total_merged": 33,
+      "changes_requested": 8,
+      "rework_rate": 0.248
+    },
+    {
+      "week_start": "2025-12-07",
+      "total_merged": 16,
+      "changes_requested": 3,
+      "rework_rate": 0.238
+    },
+    {
+      "week_start": "2025-12-14",
+      "total_merged": 20,
+      "changes_requested": 4,
+      "rework_rate": 0.222
+    },
+    {
+      "week_start": "2025-12-21",
+      "total_merged": 34,
+      "changes_requested": 8,
+      "rework_rate": 0.237
+    },
+    {
+      "week_start": "2025-12-28",
+      "total_merged": 27,
+      "changes_requested": 4,
+      "rework_rate": 0.165
+    },
+    {
+      "week_start": "2026-01-04",
+      "total_merged": 22,
+      "changes_requested": 3,
+      "rework_rate": 0.143
+    },
+    {
+      "week_start": "2026-01-11",
+      "total_merged": 18,
+      "changes_requested": 2,
+      "rework_rate": 0.149
+    },
+    {
+      "week_start": "2026-01-18",
+      "total_merged": 29,
+      "changes_requested": 4,
+      "rework_rate": 0.151
+    },
+    {
+      "week_start": "2026-01-25",
+      "total_merged": 19,
+      "changes_requested": 2,
+      "rework_rate": 0.151
+    },
+    {
+      "week_start": "2026-02-01",
+      "total_merged": 21,
+      "changes_requested": 2,
+      "rework_rate": 0.141
+    },
+    {
+      "week_start": "2026-02-08",
+      "total_merged": 34,
+      "changes_requested": 6,
+      "rework_rate": 0.192
+    },
+    {
+      "week_start": "2026-02-15",
+      "total_merged": 16,
+      "changes_requested": 2,
+      "rework_rate": 0.171
+    }
+  ],
+  "summary": {
+    "overall_rate": 0.193,
+    "trend": "improving"
+  },
+  "generated_at": "2026-02-21T14:45:24.315932",
+  "seed": 42
+}

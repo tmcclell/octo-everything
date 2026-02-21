@@ -1,0 +1,9 @@
+streamlit>=1.30
+PyGithub>=2.1
+requests>=2.31
+plotly>=5.18
+pandas>=2.0
+numpy>=1.24
+playwright>=1.40
+python-dotenv>=1.0
+schedule>=1.2

@@ -1,0 +1,2261 @@
+{
+  "daily_wip": [
+    {
+      "date": "2025-11-23",
+      "repo": "backend-api",
+      "open_prs": 9
+    },
+    {
+      "date": "2025-11-23",
+      "repo": "frontend-web",
+      "open_prs": 7
+    },
+    {
+      "date": "2025-11-23",
+      "repo": "mobile-app",
+      "open_prs": 9
+    },
+    {
+      "date": "2025-11-23",
+      "repo": "data-pipeline",
+      "open_prs": 6
+    },
+    {
+      "date": "2025-11-23",
+      "repo": "infra-config",
+      "open_prs": 8
+    },
+    {
+      "date": "2025-11-24",
+      "repo": "backend-api",
+      "open_prs": 9
+    },
+    {
+      "date": "2025-11-24",
+      "repo": "frontend-web",
+      "open_prs": 8
+    },
+    {
+      "date": "2025-11-24",
+      "repo": "mobile-app",
+      "open_prs": 8
+    },
+    {
+      "date": "2025-11-24",
+      "repo": "data-pipeline",
+      "open_prs": 7
+    },
+    {
+      "date": "2025-11-24",
+      "repo": "infra-config",
+      "open_prs": 7
+    },
+    {
+      "date": "2025-11-25",
+      "repo": "backend-api",
+      "open_prs": 11
+    },
+    {
+      "date": "2025-11-25",
+      "repo": "frontend-web",
+      "open_prs": 11
+    },
+    {
+      "date": "2025-11-25",
+      "repo": "mobile-app",
+      "open_prs": 11
+    },
+    {
+      "date": "2025-11-25",
+      "repo": "data-pipeline",
+      "open_prs": 9
+    },
+    {
+      "date": "2025-11-25",
+      "repo": "infra-config",
+      "open_prs": 9
+    },
+    {
+      "date": "2025-11-26",
+      "repo": "backend-api",
+      "open_prs": 13
+    },
+    {
+      "date": "2025-11-26",
+      "repo": "frontend-web",
+      "open_prs": 14
+    },
+    {
+      "date": "2025-11-26",
+      "repo": "mobile-app",
+      "open_prs": 13
+    },
+    {
+      "date": "2025-11-26",
+      "repo": "data-pipeline",
+      "open_prs": 8
+    },
+    {
+      "date": "2025-11-26",
+      "repo": "infra-config",
+      "open_prs": 10
+    },
+    {
+      "date": "2025-11-27",
+      "repo": "backend-api",
+      "open_prs": 13
+    },
+    {
+      "date": "2025-11-27",
+      "repo": "frontend-web",
+      "open_prs": 12
+    },
+    {
+      "date": "2025-11-27",
+      "repo": "mobile-app",
+      "open_prs": 11
+    },
+    {
+      "date": "2025-11-27",
+      "repo": "data-pipeline",
+      "open_prs": 7
+    },
+    {
+      "date": "2025-11-27",
+      "repo": "infra-config",
+      "open_prs": 11
+    },
+    {
+      "date": "2025-11-28",
+      "repo": "backend-api",
+      "open_prs": 12
+    },
+    {
+      "date": "2025-11-28",
+      "repo": "frontend-web",
+      "open_prs": 10
+    },
+    {
+      "date": "2025-11-28",
+      "repo": "mobile-app",
+      "open_prs": 10
+    },
+    {
+      "date": "2025-11-28",
+      "repo": "data-pipeline",
+      "open_prs": 10
+    },
+    {
+      "date": "2025-11-28",
+      "repo": "infra-config",
+      "open_prs": 10
+    },
+    {
+      "date": "2025-11-29",
+      "repo": "backend-api",
+      "open_prs": 14
+    },
+    {
+      "date": "2025-11-29",
+      "repo": "frontend-web",
+      "open_prs": 8
+    },
+    {
+      "date": "2025-11-29",
+      "repo": "mobile-app",
+      "open_prs": 12
+    },
+    {
+      "date": "2025-11-29",
+      "repo": "data-pipeline",
+      "open_prs": 12
+    },
+    {
+      "date": "2025-11-29",
+      "repo": "infra-config",
+      "open_prs": 10
+    },
+    {
+      "date": "2025-11-30",
+      "repo": "backend-api",
+      "open_prs": 13
+    },
+    {
+      "date": "2025-11-30",
+      "repo": "frontend-web",
+      "open_prs": 8
+    },
+    {
+      "date": "2025-11-30",
+      "repo": "mobile-app",
+      "open_prs": 11
+    },
+    {
+      "date": "2025-11-30",
+      "repo": "data-pipeline",
+      "open_prs": 13
+    },
+    {
+      "date": "2025-11-30",
+      "repo": "infra-config",
+      "open_prs": 13
+    },
+    {
+      "date": "2025-12-01",
+      "repo": "backend-api",
+      "open_prs": 15
+    },
+    {
+      "date": "2025-12-01",
+      "repo": "frontend-web",
+      "open_prs": 7
+    },
+    {
+      "date": "2025-12-01",
+      "repo": "mobile-app",
+      "open_prs": 10
+    },
+    {
+      "date": "2025-12-01",
+      "repo": "data-pipeline",
+      "open_prs": 10
+    },
+    {
+      "date": "2025-12-01",
+      "repo": "infra-config",
+      "open_prs": 14
+    },
+    {
+      "date": "2025-12-02",
+      "repo": "backend-api",
+      "open_prs": 17
+    },
+    {
+      "date": "2025-12-02",
+      "repo": "frontend-web",
+      "open_prs": 8
+    },
+    {
+      "date": "2025-12-02",
+      "repo": "mobile-app",
+      "open_prs": 10
+    },
+    {
+      "date": "2025-12-02",
+      "repo": "data-pipeline",
+      "open_prs": 10
+    },
+    {
+      "date": "2025-12-02",
+      "repo": "infra-config",
+      "open_prs": 17
+    },
+    {
+      "date": "2025-12-03",
+      "repo": "backend-api",
+      "open_prs": 16
+    },
+    {
+      "date": "2025-12-03",
+      "repo": "frontend-web",
+      "open_prs": 11
+    },
+    {
+      "date": "2025-12-03",
+      "repo": "mobile-app",
+      "open_prs": 13
+    },
+    {
+      "date": "2025-12-03",
+      "repo": "data-pipeline",
+      "open_prs": 8
+    },
+    {
+      "date": "2025-12-03",
+      "repo": "infra-config",
+      "open_prs": 16
+    },
+    {
+      "date": "2025-12-04",
+      "repo": "backend-api",
+      "open_prs": 13
+    },
+    {
+      "date": "2025-12-04",
+      "repo": "frontend-web",
+      "open_prs": 10
+    },
+    {
+      "date": "2025-12-04",
+      "repo": "mobile-app",
+      "open_prs": 15
+    },
+    {
+      "date": "2025-12-04",
+      "repo": "data-pipeline",
+      "open_prs": 5
+    },
+    {
+      "date": "2025-12-04",
+      "repo": "infra-config",
+      "open_prs": 15
+    },
+    {
+      "date": "2025-12-05",
+      "repo": "backend-api",
+      "open_prs": 13
+    },
+    {
+      "date": "2025-12-05",
+      "repo": "frontend-web",
+      "open_prs": 12
+    },
+    {
+      "date": "2025-12-05",
+      "repo": "mobile-app",
+      "open_prs": 14
+    },
+    {
+      "date": "2025-12-05",
+      "repo": "data-pipeline",
+      "open_prs": 7
+    },
+    {
+      "date": "2025-12-05",
+      "repo": "infra-config",
+      "open_prs": 15
+    },
+    {
+      "date": "2025-12-06",
+      "repo": "backend-api",
+      "open_prs": 11
+    },
+    {
+      "date": "2025-12-06",
+      "repo": "frontend-web",
+      "open_prs": 10
+    },
+    {
+      "date": "2025-12-06",
+      "repo": "mobile-app",
+      "open_prs": 17
+    },
+    {
+      "date": "2025-12-06",
+      "repo": "data-pipeline",
+      "open_prs": 8
+    },
+    {
+      "date": "2025-12-06",
+      "repo": "infra-config",
+      "open_prs": 14
+    },
+    {
+      "date": "2025-12-07",
+      "repo": "backend-api",
+      "open_prs": 12
+    },
+    {
+      "date": "2025-12-07",
+      "repo": "frontend-web",
+      "open_prs": 12
+    },
+    {
+      "date": "2025-12-07",
+      "repo": "mobile-app",
+      "open_prs": 16
+    },
+    {
+      "date": "2025-12-07",
+      "repo": "data-pipeline",
+      "open_prs": 6
+    },
+    {
+      "date": "2025-12-07",
+      "repo": "infra-config",
+      "open_prs": 11
+    },
+    {
+      "date": "2025-12-08",
+      "repo": "backend-api",
+      "open_prs": 13
+    },
+    {
+      "date": "2025-12-08",
+      "repo": "frontend-web",
+      "open_prs": 14
+    },
+    {
+      "date": "2025-12-08",
+      "repo": "mobile-app",
+      "open_prs": 17
+    },
+    {
+      "date": "2025-12-08",
+      "repo": "data-pipeline",
+      "open_prs": 4
+    },
+    {
+      "date": "2025-12-08",
+      "repo": "infra-config",
+      "open_prs": 9
+    },
+    {
+      "date": "2025-12-09",
+      "repo": "backend-api",
+      "open_prs": 10
+    },
+    {
+      "date": "2025-12-09",
+      "repo": "frontend-web",
+      "open_prs": 16
+    },
+    {
+      "date": "2025-12-09",
+      "repo": "mobile-app",
+      "open_prs": 18
+    },
+    {
+      "date": "2025-12-09",
+      "repo": "data-pipeline",
+      "open_prs": 2
+    },
+    {
+      "date": "2025-12-09",
+      "repo": "infra-config",
+      "open_prs": 11
+    },
+    {
+      "date": "2025-12-10",
+      "repo": "backend-api",
+      "open_prs": 8
+    },
+    {
+      "date": "2025-12-10",
+      "repo": "frontend-web",
+      "open_prs": 13
+    },
+    {
+      "date": "2025-12-10",
+      "repo": "mobile-app",
+      "open_prs": 15
+    },
+    {
+      "date": "2025-12-10",
+      "repo": "data-pipeline",
+      "open_prs": 2
+    },
+    {
+      "date": "2025-12-10",
+      "repo": "infra-config",
+      "open_prs": 10
+    },
+    {
+      "date": "2025-12-11",
+      "repo": "backend-api",
+      "open_prs": 10
+    },
+    {
+      "date": "2025-12-11",
+      "repo": "frontend-web",
+      "open_prs": 13
+    },
+    {
+      "date": "2025-12-11",
+      "repo": "mobile-app",
+      "open_prs": 12
+    },
+    {
+      "date": "2025-12-11",
+      "repo": "data-pipeline",
+      "open_prs": 4
+    },
+    {
+      "date": "2025-12-11",
+      "repo": "infra-config",
+      "open_prs": 13
+    },
+    {
+      "date": "2025-12-12",
+      "repo": "backend-api",
+      "open_prs": 8
+    },
+    {
+      "date": "2025-12-12",
+      "repo": "frontend-web",
+      "open_prs": 10
+    },
+    {
+      "date": "2025-12-12",
+      "repo": "mobile-app",
+      "open_prs": 13
+    },
+    {
+      "date": "2025-12-12",
+      "repo": "data-pipeline",
+      "open_prs": 2
+    },
+    {
+      "date": "2025-12-12",
+      "repo": "infra-config",
+      "open_prs": 13
+    },
+    {
+      "date": "2025-12-13",
+      "repo": "backend-api",
+      "open_prs": 10
+    },
+    {
+      "date": "2025-12-13",
+      "repo": "frontend-web",
+      "open_prs": 10
+    },
+    {
+      "date": "2025-12-13",
+      "repo": "mobile-app",
+      "open_prs": 13
+    },
+    {
+      "date": "2025-12-13",
+      "repo": "data-pipeline",
+      "open_prs": 4
+    },
+    {
+      "date": "2025-12-13",
+      "repo": "infra-config",
+      "open_prs": 11
+    },
+    {
+      "date": "2025-12-14",
+      "repo": "backend-api",
+      "open_prs": 13
+    },
+    {
+      "date": "2025-12-14",
+      "repo": "frontend-web",
+      "open_prs": 9
+    },
+    {
+      "date": "2025-12-14",
+      "repo": "mobile-app",
+      "open_prs": 12
+    },
+    {
+      "date": "2025-12-14",
+      "repo": "data-pipeline",
+      "open_prs": 3
+    },
+    {
+      "date": "2025-12-14",
+      "repo": "infra-config",
+      "open_prs": 13
+    },
+    {
+      "date": "2025-12-15",
+      "repo": "backend-api",
+      "open_prs": 10
+    },
+    {
+      "date": "2025-12-15",
+      "repo": "frontend-web",
+      "open_prs": 12
+    },
+    {
+      "date": "2025-12-15",
+      "repo": "mobile-app",
+      "open_prs": 9
+    },
+    {
+      "date": "2025-12-15",
+      "repo": "data-pipeline",
+      "open_prs": 5
+    },
+    {
+      "date": "2025-12-15",
+      "repo": "infra-config",
+      "open_prs": 14
+    },
+    {
+      "date": "2025-12-16",
+      "repo": "backend-api",
+      "open_prs": 8
+    },
+    {
+      "date": "2025-12-16",
+      "repo": "frontend-web",
+      "open_prs": 13
+    },
+    {
+      "date": "2025-12-16",
+      "repo": "mobile-app",
+      "open_prs": 11
+    },
+    {
+      "date": "2025-12-16",
+      "repo": "data-pipeline",
+      "open_prs": 7
+    },
+    {
+      "date": "2025-12-16",
+      "repo": "infra-config",
+      "open_prs": 17
+    },
+    {
+      "date": "2025-12-17",
+      "repo": "backend-api",
+      "open_prs": 5
+    },
+    {
+      "date": "2025-12-17",
+      "repo": "frontend-web",
+      "open_prs": 11
+    },
+    {
+      "date": "2025-12-17",
+      "repo": "mobile-app",
+      "open_prs": 11
+    },
+    {
+      "date": "2025-12-17",
+      "repo": "data-pipeline",
+      "open_prs": 10
+    },
+    {
+      "date": "2025-12-17",
+      "repo": "infra-config",
+      "open_prs": 15
+    },
+    {
+      "date": "2025-12-18",
+      "repo": "backend-api",
+      "open_prs": 2
+    },
+    {
+      "date": "2025-12-18",
+      "repo": "frontend-web",
+      "open_prs": 14
+    },
+    {
+      "date": "2025-12-18",
+      "repo": "mobile-app",
+      "open_prs": 11
+    },
+    {
+      "date": "2025-12-18",
+      "repo": "data-pipeline",
+      "open_prs": 13
+    },
+    {
+      "date": "2025-12-18",
+      "repo": "infra-config",
+      "open_prs": 15
+    },
+    {
+      "date": "2025-12-19",
+      "repo": "backend-api",
+      "open_prs": 2
+    },
+    {
+      "date": "2025-12-19",
+      "repo": "frontend-web",
+      "open_prs": 16
+    },
+    {
+      "date": "2025-12-19",
+      "repo": "mobile-app",
+      "open_prs": 14
+    },
+    {
+      "date": "2025-12-19",
+      "repo": "data-pipeline",
+      "open_prs": 12
+    },
+    {
+      "date": "2025-12-19",
+      "repo": "infra-config",
+      "open_prs": 12
+    },
+    {
+      "date": "2025-12-20",
+      "repo": "backend-api",
+      "open_prs": 2
+    },
+    {
+      "date": "2025-12-20",
+      "repo": "frontend-web",
+      "open_prs": 15
+    },
+    {
+      "date": "2025-12-20",
+      "repo": "mobile-app",
+      "open_prs": 15
+    },
+    {
+      "date": "2025-12-20",
+      "repo": "data-pipeline",
+      "open_prs": 13
+    },
+    {
+      "date": "2025-12-20",
+      "repo": "infra-config",
+      "open_prs": 9
+    },
+    {
+      "date": "2025-12-21",
+      "repo": "backend-api",
+      "open_prs": 2
+    },
+    {
+      "date": "2025-12-21",
+      "repo": "frontend-web",
+      "open_prs": 14
+    },
+    {
+      "date": "2025-12-21",
+      "repo": "mobile-app",
+      "open_prs": 15
+    },
+    {
+      "date": "2025-12-21",
+      "repo": "data-pipeline",
+      "open_prs": 15
+    },
+    {
+      "date": "2025-12-21",
+      "repo": "infra-config",
+      "open_prs": 10
+    },
+    {
+      "date": "2025-12-22",
+      "repo": "backend-api",
+      "open_prs": 3
+    },
+    {
+      "date": "2025-12-22",
+      "repo": "frontend-web",
+      "open_prs": 14
+    },
+    {
+      "date": "2025-12-22",
+      "repo": "mobile-app",
+      "open_prs": 13
+    },
+    {
+      "date": "2025-12-22",
+      "repo": "data-pipeline",
+      "open_prs": 18
+    },
+    {
+      "date": "2025-12-22",
+      "repo": "infra-config",
+      "open_prs": 11
+    },
+    {
+      "date": "2025-12-23",
+      "repo": "backend-api",
+      "open_prs": 3
+    },
+    {
+      "date": "2025-12-23",
+      "repo": "frontend-web",
+      "open_prs": 13
+    },
+    {
+      "date": "2025-12-23",
+      "repo": "mobile-app",
+      "open_prs": 11
+    },
+    {
+      "date": "2025-12-23",
+      "repo": "data-pipeline",
+      "open_prs": 20
+    },
+    {
+      "date": "2025-12-23",
+      "repo": "infra-config",
+      "open_prs": 8
+    },
+    {
+      "date": "2025-12-24",
+      "repo": "backend-api",
+      "open_prs": 2
+    },
+    {
+      "date": "2025-12-24",
+      "repo": "frontend-web",
+      "open_prs": 11
+    },
+    {
+      "date": "2025-12-24",
+      "repo": "mobile-app",
+      "open_prs": 13
+    },
+    {
+      "date": "2025-12-24",
+      "repo": "data-pipeline",
+      "open_prs": 20
+    },
+    {
+      "date": "2025-12-24",
+      "repo": "infra-config",
+      "open_prs": 10
+    },
+    {
+      "date": "2025-12-25",
+      "repo": "backend-api",
+      "open_prs": 2
+    },
+    {
+      "date": "2025-12-25",
+      "repo": "frontend-web",
+      "open_prs": 13
+    },
+    {
+      "date": "2025-12-25",
+      "repo": "mobile-app",
+      "open_prs": 11
+    },
+    {
+      "date": "2025-12-25",
+      "repo": "data-pipeline",
+      "open_prs": 17
+    },
+    {
+      "date": "2025-12-25",
+      "repo": "infra-config",
+      "open_prs": 12
+    },
+    {
+      "date": "2025-12-26",
+      "repo": "backend-api",
+      "open_prs": 2
+    },
+    {
+      "date": "2025-12-26",
+      "repo": "frontend-web",
+      "open_prs": 16
+    },
+    {
+      "date": "2025-12-26",
+      "repo": "mobile-app",
+      "open_prs": 10
+    },
+    {
+      "date": "2025-12-26",
+      "repo": "data-pipeline",
+      "open_prs": 18
+    },
+    {
+      "date": "2025-12-26",
+      "repo": "infra-config",
+      "open_prs": 14
+    },
+    {
+      "date": "2025-12-27",
+      "repo": "backend-api",
+      "open_prs": 5
+    },
+    {
+      "date": "2025-12-27",
+      "repo": "frontend-web",
+      "open_prs": 14
+    },
+    {
+      "date": "2025-12-27",
+      "repo": "mobile-app",
+      "open_prs": 8
+    },
+    {
+      "date": "2025-12-27",
+      "repo": "data-pipeline",
+      "open_prs": 19
+    },
+    {
+      "date": "2025-12-27",
+      "repo": "infra-config",
+      "open_prs": 17
+    },
+    {
+      "date": "2025-12-28",
+      "repo": "backend-api",
+      "open_prs": 7
+    },
+    {
+      "date": "2025-12-28",
+      "repo": "frontend-web",
+      "open_prs": 14
+    },
+    {
+      "date": "2025-12-28",
+      "repo": "mobile-app",
+      "open_prs": 11
+    },
+    {
+      "date": "2025-12-28",
+      "repo": "data-pipeline",
+      "open_prs": 19
+    },
+    {
+      "date": "2025-12-28",
+      "repo": "infra-config",
+      "open_prs": 18
+    },
+    {
+      "date": "2025-12-29",
+      "repo": "backend-api",
+      "open_prs": 6
+    },
+    {
+      "date": "2025-12-29",
+      "repo": "frontend-web",
+      "open_prs": 11
+    },
+    {
+      "date": "2025-12-29",
+      "repo": "mobile-app",
+      "open_prs": 11
+    },
+    {
+      "date": "2025-12-29",
+      "repo": "data-pipeline",
+      "open_prs": 20
+    },
+    {
+      "date": "2025-12-29",
+      "repo": "infra-config",
+      "open_prs": 15
+    },
+    {
+      "date": "2025-12-30",
+      "repo": "backend-api",
+      "open_prs": 4
+    },
+    {
+      "date": "2025-12-30",
+      "repo": "frontend-web",
+      "open_prs": 9
+    },
+    {
+      "date": "2025-12-30",
+      "repo": "mobile-app",
+      "open_prs": 11
+    },
+    {
+      "date": "2025-12-30",
+      "repo": "data-pipeline",
+      "open_prs": 19
+    },
+    {
+      "date": "2025-12-30",
+      "repo": "infra-config",
+      "open_prs": 13
+    },
+    {
+      "date": "2025-12-31",
+      "repo": "backend-api",
+      "open_prs": 2
+    },
+    {
+      "date": "2025-12-31",
+      "repo": "frontend-web",
+      "open_prs": 8
+    },
+    {
+      "date": "2025-12-31",
+      "repo": "mobile-app",
+      "open_prs": 11
+    },
+    {
+      "date": "2025-12-31",
+      "repo": "data-pipeline",
+      "open_prs": 17
+    },
+    {
+      "date": "2025-12-31",
+      "repo": "infra-config",
+      "open_prs": 13
+    },
+    {
+      "date": "2026-01-01",
+      "repo": "backend-api",
+      "open_prs": 5
+    },
+    {
+      "date": "2026-01-01",
+      "repo": "frontend-web",
+      "open_prs": 7
+    },
+    {
+      "date": "2026-01-01",
+      "repo": "mobile-app",
+      "open_prs": 10
+    },
+    {
+      "date": "2026-01-01",
+      "repo": "data-pipeline",
+      "open_prs": 16
+    },
+    {
+      "date": "2026-01-01",
+      "repo": "infra-config",
+      "open_prs": 14
+    },
+    {
+      "date": "2026-01-02",
+      "repo": "backend-api",
+      "open_prs": 7
+    },
+    {
+      "date": "2026-01-02",
+      "repo": "frontend-web",
+      "open_prs": 8
+    },
+    {
+      "date": "2026-01-02",
+      "repo": "mobile-app",
+      "open_prs": 7
+    },
+    {
+      "date": "2026-01-02",
+      "repo": "data-pipeline",
+      "open_prs": 15
+    },
+    {
+      "date": "2026-01-02",
+      "repo": "infra-config",
+      "open_prs": 16
+    },
+    {
+      "date": "2026-01-03",
+      "repo": "backend-api",
+      "open_prs": 6
+    },
+    {
+      "date": "2026-01-03",
+      "repo": "frontend-web",
+      "open_prs": 10
+    },
+    {
+      "date": "2026-01-03",
+      "repo": "mobile-app",
+      "open_prs": 5
+    },
+    {
+      "date": "2026-01-03",
+      "repo": "data-pipeline",
+      "open_prs": 12
+    },
+    {
+      "date": "2026-01-03",
+      "repo": "infra-config",
+      "open_prs": 18
+    },
+    {
+      "date": "2026-01-04",
+      "repo": "backend-api",
+      "open_prs": 3
+    },
+    {
+      "date": "2026-01-04",
+      "repo": "frontend-web",
+      "open_prs": 10
+    },
+    {
+      "date": "2026-01-04",
+      "repo": "mobile-app",
+      "open_prs": 4
+    },
+    {
+      "date": "2026-01-04",
+      "repo": "data-pipeline",
+      "open_prs": 10
+    },
+    {
+      "date": "2026-01-04",
+      "repo": "infra-config",
+      "open_prs": 18
+    },
+    {
+      "date": "2026-01-05",
+      "repo": "backend-api",
+      "open_prs": 5
+    },
+    {
+      "date": "2026-01-05",
+      "repo": "frontend-web",
+      "open_prs": 11
+    },
+    {
+      "date": "2026-01-05",
+      "repo": "mobile-app",
+      "open_prs": 6
+    },
+    {
+      "date": "2026-01-05",
+      "repo": "data-pipeline",
+      "open_prs": 13
+    },
+    {
+      "date": "2026-01-05",
+      "repo": "infra-config",
+      "open_prs": 17
+    },
+    {
+      "date": "2026-01-06",
+      "repo": "backend-api",
+      "open_prs": 7
+    },
+    {
+      "date": "2026-01-06",
+      "repo": "frontend-web",
+      "open_prs": 8
+    },
+    {
+      "date": "2026-01-06",
+      "repo": "mobile-app",
+      "open_prs": 8
+    },
+    {
+      "date": "2026-01-06",
+      "repo": "data-pipeline",
+      "open_prs": 12
+    },
+    {
+      "date": "2026-01-06",
+      "repo": "infra-config",
+      "open_prs": 16
+    },
+    {
+      "date": "2026-01-07",
+      "repo": "backend-api",
+      "open_prs": 8
+    },
+    {
+      "date": "2026-01-07",
+      "repo": "frontend-web",
+      "open_prs": 6
+    },
+    {
+      "date": "2026-01-07",
+      "repo": "mobile-app",
+      "open_prs": 6
+    },
+    {
+      "date": "2026-01-07",
+      "repo": "data-pipeline",
+      "open_prs": 10
+    },
+    {
+      "date": "2026-01-07",
+      "repo": "infra-config",
+      "open_prs": 16
+    },
+    {
+      "date": "2026-01-08",
+      "repo": "backend-api",
+      "open_prs": 6
+    },
+    {
+      "date": "2026-01-08",
+      "repo": "frontend-web",
+      "open_prs": 6
+    },
+    {
+      "date": "2026-01-08",
+      "repo": "mobile-app",
+      "open_prs": 8
+    },
+    {
+      "date": "2026-01-08",
+      "repo": "data-pipeline",
+      "open_prs": 11
+    },
+    {
+      "date": "2026-01-08",
+      "repo": "infra-config",
+      "open_prs": 15
+    },
+    {
+      "date": "2026-01-09",
+      "repo": "backend-api",
+      "open_prs": 6
+    },
+    {
+      "date": "2026-01-09",
+      "repo": "frontend-web",
+      "open_prs": 8
+    },
+    {
+      "date": "2026-01-09",
+      "repo": "mobile-app",
+      "open_prs": 9
+    },
+    {
+      "date": "2026-01-09",
+      "repo": "data-pipeline",
+      "open_prs": 11
+    },
+    {
+      "date": "2026-01-09",
+      "repo": "infra-config",
+      "open_prs": 18
+    },
+    {
+      "date": "2026-01-10",
+      "repo": "backend-api",
+      "open_prs": 7
+    },
+    {
+      "date": "2026-01-10",
+      "repo": "frontend-web",
+      "open_prs": 11
+    },
+    {
+      "date": "2026-01-10",
+      "repo": "mobile-app",
+      "open_prs": 11
+    },
+    {
+      "date": "2026-01-10",
+      "repo": "data-pipeline",
+      "open_prs": 14
+    },
+    {
+      "date": "2026-01-10",
+      "repo": "infra-config",
+      "open_prs": 16
+    },
+    {
+      "date": "2026-01-11",
+      "repo": "backend-api",
+      "open_prs": 10
+    },
+    {
+      "date": "2026-01-11",
+      "repo": "frontend-web",
+      "open_prs": 9
+    },
+    {
+      "date": "2026-01-11",
+      "repo": "mobile-app",
+      "open_prs": 13
+    },
+    {
+      "date": "2026-01-11",
+      "repo": "data-pipeline",
+      "open_prs": 17
+    },
+    {
+      "date": "2026-01-11",
+      "repo": "infra-config",
+      "open_prs": 17
+    },
+    {
+      "date": "2026-01-12",
+      "repo": "backend-api",
+      "open_prs": 13
+    },
+    {
+      "date": "2026-01-12",
+      "repo": "frontend-web",
+      "open_prs": 12
+    },
+    {
+      "date": "2026-01-12",
+      "repo": "mobile-app",
+      "open_prs": 10
+    },
+    {
+      "date": "2026-01-12",
+      "repo": "data-pipeline",
+      "open_prs": 18
+    },
+    {
+      "date": "2026-01-12",
+      "repo": "infra-config",
+      "open_prs": 17
+    },
+    {
+      "date": "2026-01-13",
+      "repo": "backend-api",
+      "open_prs": 14
+    },
+    {
+      "date": "2026-01-13",
+      "repo": "frontend-web",
+      "open_prs": 14
+    },
+    {
+      "date": "2026-01-13",
+      "repo": "mobile-app",
+      "open_prs": 9
+    },
+    {
+      "date": "2026-01-13",
+      "repo": "data-pipeline",
+      "open_prs": 15
+    },
+    {
+      "date": "2026-01-13",
+      "repo": "infra-config",
+      "open_prs": 18
+    },
+    {
+      "date": "2026-01-14",
+      "repo": "backend-api",
+      "open_prs": 11
+    },
+    {
+      "date": "2026-01-14",
+      "repo": "frontend-web",
+      "open_prs": 11
+    },
+    {
+      "date": "2026-01-14",
+      "repo": "mobile-app",
+      "open_prs": 12
+    },
+    {
+      "date": "2026-01-14",
+      "repo": "data-pipeline",
+      "open_prs": 16
+    },
+    {
+      "date": "2026-01-14",
+      "repo": "infra-config",
+      "open_prs": 19
+    },
+    {
+      "date": "2026-01-15",
+      "repo": "backend-api",
+      "open_prs": 9
+    },
+    {
+      "date": "2026-01-15",
+      "repo": "frontend-web",
+      "open_prs": 12
+    },
+    {
+      "date": "2026-01-15",
+      "repo": "mobile-app",
+      "open_prs": 13
+    },
+    {
+      "date": "2026-01-15",
+      "repo": "data-pipeline",
+      "open_prs": 14
+    },
+    {
+      "date": "2026-01-15",
+      "repo": "infra-config",
+      "open_prs": 17
+    },
+    {
+      "date": "2026-01-16",
+      "repo": "backend-api",
+      "open_prs": 8
+    },
+    {
+      "date": "2026-01-16",
+      "repo": "frontend-web",
+      "open_prs": 15
+    },
+    {
+      "date": "2026-01-16",
+      "repo": "mobile-app",
+      "open_prs": 14
+    },
+    {
+      "date": "2026-01-16",
+      "repo": "data-pipeline",
+      "open_prs": 14
+    },
+    {
+      "date": "2026-01-16",
+      "repo": "infra-config",
+      "open_prs": 14
+    },
+    {
+      "date": "2026-01-17",
+      "repo": "backend-api",
+      "open_prs": 10
+    },
+    {
+      "date": "2026-01-17",
+      "repo": "frontend-web",
+      "open_prs": 13
+    },
+    {
+      "date": "2026-01-17",
+      "repo": "mobile-app",
+      "open_prs": 16
+    },
+    {
+      "date": "2026-01-17",
+      "repo": "data-pipeline",
+      "open_prs": 15
+    },
+    {
+      "date": "2026-01-17",
+      "repo": "infra-config",
+      "open_prs": 14
+    },
+    {
+      "date": "2026-01-18",
+      "repo": "backend-api",
+      "open_prs": 7
+    },
+    {
+      "date": "2026-01-18",
+      "repo": "frontend-web",
+      "open_prs": 14
+    },
+    {
+      "date": "2026-01-18",
+      "repo": "mobile-app",
+      "open_prs": 16
+    },
+    {
+      "date": "2026-01-18",
+      "repo": "data-pipeline",
+      "open_prs": 18
+    },
+    {
+      "date": "2026-01-18",
+      "repo": "infra-config",
+      "open_prs": 11
+    },
+    {
+      "date": "2026-01-19",
+      "repo": "backend-api",
+      "open_prs": 7
+    },
+    {
+      "date": "2026-01-19",
+      "repo": "frontend-web",
+      "open_prs": 12
+    },
+    {
+      "date": "2026-01-19",
+      "repo": "mobile-app",
+      "open_prs": 17
+    },
+    {
+      "date": "2026-01-19",
+      "repo": "data-pipeline",
+      "open_prs": 18
+    },
+    {
+      "date": "2026-01-19",
+      "repo": "infra-config",
+      "open_prs": 11
+    },
+    {
+      "date": "2026-01-20",
+      "repo": "backend-api",
+      "open_prs": 8
+    },
+    {
+      "date": "2026-01-20",
+      "repo": "frontend-web",
+      "open_prs": 9
+    },
+    {
+      "date": "2026-01-20",
+      "repo": "mobile-app",
+      "open_prs": 18
+    },
+    {
+      "date": "2026-01-20",
+      "repo": "data-pipeline",
+      "open_prs": 18
+    },
+    {
+      "date": "2026-01-20",
+      "repo": "infra-config",
+      "open_prs": 13
+    },
+    {
+      "date": "2026-01-21",
+      "repo": "backend-api",
+      "open_prs": 11
+    },
+    {
+      "date": "2026-01-21",
+      "repo": "frontend-web",
+      "open_prs": 8
+    },
+    {
+      "date": "2026-01-21",
+      "repo": "mobile-app",
+      "open_prs": 20
+    },
+    {
+      "date": "2026-01-21",
+      "repo": "data-pipeline",
+      "open_prs": 15
+    },
+    {
+      "date": "2026-01-21",
+      "repo": "infra-config",
+      "open_prs": 13
+    },
+    {
+      "date": "2026-01-22",
+      "repo": "backend-api",
+      "open_prs": 10
+    },
+    {
+      "date": "2026-01-22",
+      "repo": "frontend-web",
+      "open_prs": 11
+    },
+    {
+      "date": "2026-01-22",
+      "repo": "mobile-app",
+      "open_prs": 17
+    },
+    {
+      "date": "2026-01-22",
+      "repo": "data-pipeline",
+      "open_prs": 17
+    },
+    {
+      "date": "2026-01-22",
+      "repo": "infra-config",
+      "open_prs": 11
+    },
+    {
+      "date": "2026-01-23",
+      "repo": "backend-api",
+      "open_prs": 11
+    },
+    {
+      "date": "2026-01-23",
+      "repo": "frontend-web",
+      "open_prs": 8
+    },
+    {
+      "date": "2026-01-23",
+      "repo": "mobile-app",
+      "open_prs": 14
+    },
+    {
+      "date": "2026-01-23",
+      "repo": "data-pipeline",
+      "open_prs": 17
+    },
+    {
+      "date": "2026-01-23",
+      "repo": "infra-config",
+      "open_prs": 10
+    },
+    {
+      "date": "2026-01-24",
+      "repo": "backend-api",
+      "open_prs": 13
+    },
+    {
+      "date": "2026-01-24",
+      "repo": "frontend-web",
+      "open_prs": 5
+    },
+    {
+      "date": "2026-01-24",
+      "repo": "mobile-app",
+      "open_prs": 15
+    },
+    {
+      "date": "2026-01-24",
+      "repo": "data-pipeline",
+      "open_prs": 14
+    },
+    {
+      "date": "2026-01-24",
+      "repo": "infra-config",
+      "open_prs": 7
+    },
+    {
+      "date": "2026-01-25",
+      "repo": "backend-api",
+      "open_prs": 13
+    },
+    {
+      "date": "2026-01-25",
+      "repo": "frontend-web",
+      "open_prs": 2
+    },
+    {
+      "date": "2026-01-25",
+      "repo": "mobile-app",
+      "open_prs": 14
+    },
+    {
+      "date": "2026-01-25",
+      "repo": "data-pipeline",
+      "open_prs": 14
+    },
+    {
+      "date": "2026-01-25",
+      "repo": "infra-config",
+      "open_prs": 5
+    },
+    {
+      "date": "2026-01-26",
+      "repo": "backend-api",
+      "open_prs": 16
+    },
+    {
+      "date": "2026-01-26",
+      "repo": "frontend-web",
+      "open_prs": 2
+    },
+    {
+      "date": "2026-01-26",
+      "repo": "mobile-app",
+      "open_prs": 17
+    },
+    {
+      "date": "2026-01-26",
+      "repo": "data-pipeline",
+      "open_prs": 16
+    },
+    {
+      "date": "2026-01-26",
+      "repo": "infra-config",
+      "open_prs": 7
+    },
+    {
+      "date": "2026-01-27",
+      "repo": "backend-api",
+      "open_prs": 18
+    },
+    {
+      "date": "2026-01-27",
+      "repo": "frontend-web",
+      "open_prs": 2
+    },
+    {
+      "date": "2026-01-27",
+      "repo": "mobile-app",
+      "open_prs": 16
+    },
+    {
+      "date": "2026-01-27",
+      "repo": "data-pipeline",
+      "open_prs": 16
+    },
+    {
+      "date": "2026-01-27",
+      "repo": "infra-config",
+      "open_prs": 7
+    },
+    {
+      "date": "2026-01-28",
+      "repo": "backend-api",
+      "open_prs": 20
+    },
+    {
+      "date": "2026-01-28",
+      "repo": "frontend-web",
+      "open_prs": 2
+    },
+    {
+      "date": "2026-01-28",
+      "repo": "mobile-app",
+      "open_prs": 16
+    },
+    {
+      "date": "2026-01-28",
+      "repo": "data-pipeline",
+      "open_prs": 13
+    },
+    {
+      "date": "2026-01-28",
+      "repo": "infra-config",
+      "open_prs": 9
+    },
+    {
+      "date": "2026-01-29",
+      "repo": "backend-api",
+      "open_prs": 20
+    },
+    {
+      "date": "2026-01-29",
+      "repo": "frontend-web",
+      "open_prs": 5
+    },
+    {
+      "date": "2026-01-29",
+      "repo": "mobile-app",
+      "open_prs": 17
+    },
+    {
+      "date": "2026-01-29",
+      "repo": "data-pipeline",
+      "open_prs": 11
+    },
+    {
+      "date": "2026-01-29",
+      "repo": "infra-config",
+      "open_prs": 11
+    },
+    {
+      "date": "2026-01-30",
+      "repo": "backend-api",
+      "open_prs": 20
+    },
+    {
+      "date": "2026-01-30",
+      "repo": "frontend-web",
+      "open_prs": 4
+    },
+    {
+      "date": "2026-01-30",
+      "repo": "mobile-app",
+      "open_prs": 14
+    },
+    {
+      "date": "2026-01-30",
+      "repo": "data-pipeline",
+      "open_prs": 9
+    },
+    {
+      "date": "2026-01-30",
+      "repo": "infra-config",
+      "open_prs": 12
+    },
+    {
+      "date": "2026-01-31",
+      "repo": "backend-api",
+      "open_prs": 20
+    },
+    {
+      "date": "2026-01-31",
+      "repo": "frontend-web",
+      "open_prs": 5
+    },
+    {
+      "date": "2026-01-31",
+      "repo": "mobile-app",
+      "open_prs": 12
+    },
+    {
+      "date": "2026-01-31",
+      "repo": "data-pipeline",
+      "open_prs": 11
+    },
+    {
+      "date": "2026-01-31",
+      "repo": "infra-config",
+      "open_prs": 10
+    },
+    {
+      "date": "2026-02-01",
+      "repo": "backend-api",
+      "open_prs": 20
+    },
+    {
+      "date": "2026-02-01",
+      "repo": "frontend-web",
+      "open_prs": 2
+    },
+    {
+      "date": "2026-02-01",
+      "repo": "mobile-app",
+      "open_prs": 15
+    },
+    {
+      "date": "2026-02-01",
+      "repo": "data-pipeline",
+      "open_prs": 8
+    },
+    {
+      "date": "2026-02-01",
+      "repo": "infra-config",
+      "open_prs": 9
+    },
+    {
+      "date": "2026-02-02",
+      "repo": "backend-api",
+      "open_prs": 20
+    },
+    {
+      "date": "2026-02-02",
+      "repo": "frontend-web",
+      "open_prs": 4
+    },
+    {
+      "date": "2026-02-02",
+      "repo": "mobile-app",
+      "open_prs": 17
+    },
+    {
+      "date": "2026-02-02",
+      "repo": "data-pipeline",
+      "open_prs": 9
+    },
+    {
+      "date": "2026-02-02",
+      "repo": "infra-config",
+      "open_prs": 9
+    },
+    {
+      "date": "2026-02-03",
+      "repo": "backend-api",
+      "open_prs": 20
+    },
+    {
+      "date": "2026-02-03",
+      "repo": "frontend-web",
+      "open_prs": 4
+    },
+    {
+      "date": "2026-02-03",
+      "repo": "mobile-app",
+      "open_prs": 20
+    },
+    {
+      "date": "2026-02-03",
+      "repo": "data-pipeline",
+      "open_prs": 7
+    },
+    {
+      "date": "2026-02-03",
+      "repo": "infra-config",
+      "open_prs": 7
+    },
+    {
+      "date": "2026-02-04",
+      "repo": "backend-api",
+      "open_prs": 20
+    },
+    {
+      "date": "2026-02-04",
+      "repo": "frontend-web",
+      "open_prs": 3
+    },
+    {
+      "date": "2026-02-04",
+      "repo": "mobile-app",
+      "open_prs": 18
+    },
+    {
+      "date": "2026-02-04",
+      "repo": "data-pipeline",
+      "open_prs": 6
+    },
+    {
+      "date": "2026-02-04",
+      "repo": "infra-config",
+      "open_prs": 5
+    },
+    {
+      "date": "2026-02-05",
+      "repo": "backend-api",
+      "open_prs": 20
+    },
+    {
+      "date": "2026-02-05",
+      "repo": "frontend-web",
+      "open_prs": 6
+    },
+    {
+      "date": "2026-02-05",
+      "repo": "mobile-app",
+      "open_prs": 15
+    },
+    {
+      "date": "2026-02-05",
+      "repo": "data-pipeline",
+      "open_prs": 3
+    },
+    {
+      "date": "2026-02-05",
+      "repo": "infra-config",
+      "open_prs": 8
+    },
+    {
+      "date": "2026-02-06",
+      "repo": "backend-api",
+      "open_prs": 20
+    },
+    {
+      "date": "2026-02-06",
+      "repo": "frontend-web",
+      "open_prs": 6
+    },
+    {
+      "date": "2026-02-06",
+      "repo": "mobile-app",
+      "open_prs": 16
+    },
+    {
+      "date": "2026-02-06",
+      "repo": "data-pipeline",
+      "open_prs": 6
+    },
+    {
+      "date": "2026-02-06",
+      "repo": "infra-config",
+      "open_prs": 5
+    },
+    {
+      "date": "2026-02-07",
+      "repo": "backend-api",
+      "open_prs": 18
+    },
+    {
+      "date": "2026-02-07",
+      "repo": "frontend-web",
+      "open_prs": 4
+    },
+    {
+      "date": "2026-02-07",
+      "repo": "mobile-app",
+      "open_prs": 13
+    },
+    {
+      "date": "2026-02-07",
+      "repo": "data-pipeline",
+      "open_prs": 3
+    },
+    {
+      "date": "2026-02-07",
+      "repo": "infra-config",
+      "open_prs": 6
+    },
+    {
+      "date": "2026-02-08",
+      "repo": "backend-api",
+      "open_prs": 15
+    },
+    {
+      "date": "2026-02-08",
+      "repo": "frontend-web",
+      "open_prs": 4
+    },
+    {
+      "date": "2026-02-08",
+      "repo": "mobile-app",
+      "open_prs": 14
+    },
+    {
+      "date": "2026-02-08",
+      "repo": "data-pipeline",
+      "open_prs": 5
+    },
+    {
+      "date": "2026-02-08",
+      "repo": "infra-config",
+      "open_prs": 8
+    },
+    {
+      "date": "2026-02-09",
+      "repo": "backend-api",
+      "open_prs": 18
+    },
+    {
+      "date": "2026-02-09",
+      "repo": "frontend-web",
+      "open_prs": 2
+    },
+    {
+      "date": "2026-02-09",
+      "repo": "mobile-app",
+      "open_prs": 12
+    },
+    {
+      "date": "2026-02-09",
+      "repo": "data-pipeline",
+      "open_prs": 7
+    },
+    {
+      "date": "2026-02-09",
+      "repo": "infra-config",
+      "open_prs": 5
+    },
+    {
+      "date": "2026-02-10",
+      "repo": "backend-api",
+      "open_prs": 18
+    },
+    {
+      "date": "2026-02-10",
+      "repo": "frontend-web",
+      "open_prs": 2
+    },
+    {
+      "date": "2026-02-10",
+      "repo": "mobile-app",
+      "open_prs": 10
+    },
+    {
+      "date": "2026-02-10",
+      "repo": "data-pipeline",
+      "open_prs": 8
+    },
+    {
+      "date": "2026-02-10",
+      "repo": "infra-config",
+      "open_prs": 3
+    },
+    {
+      "date": "2026-02-11",
+      "repo": "backend-api",
+      "open_prs": 20
+    },
+    {
+      "date": "2026-02-11",
+      "repo": "frontend-web",
+      "open_prs": 5
+    },
+    {
+      "date": "2026-02-11",
+      "repo": "mobile-app",
+      "open_prs": 13
+    },
+    {
+      "date": "2026-02-11",
+      "repo": "data-pipeline",
+      "open_prs": 5
+    },
+    {
+      "date": "2026-02-11",
+      "repo": "infra-config",
+      "open_prs": 2
+    },
+    {
+      "date": "2026-02-12",
+      "repo": "backend-api",
+      "open_prs": 20
+    },
+    {
+      "date": "2026-02-12",
+      "repo": "frontend-web",
+      "open_prs": 4
+    },
+    {
+      "date": "2026-02-12",
+      "repo": "mobile-app",
+      "open_prs": 11
+    },
+    {
+      "date": "2026-02-12",
+      "repo": "data-pipeline",
+      "open_prs": 8
+    },
+    {
+      "date": "2026-02-12",
+      "repo": "infra-config",
+      "open_prs": 4
+    },
+    {
+      "date": "2026-02-13",
+      "repo": "backend-api",
+      "open_prs": 20
+    },
+    {
+      "date": "2026-02-13",
+      "repo": "frontend-web",
+      "open_prs": 3
+    },
+    {
+      "date": "2026-02-13",
+      "repo": "mobile-app",
+      "open_prs": 12
+    },
+    {
+      "date": "2026-02-13",
+      "repo": "data-pipeline",
+      "open_prs": 9
+    },
+    {
+      "date": "2026-02-13",
+      "repo": "infra-config",
+      "open_prs": 7
+    },
+    {
+      "date": "2026-02-14",
+      "repo": "backend-api",
+      "open_prs": 20
+    },
+    {
+      "date": "2026-02-14",
+      "repo": "frontend-web",
+      "open_prs": 6
+    },
+    {
+      "date": "2026-02-14",
+      "repo": "mobile-app",
+      "open_prs": 11
+    },
+    {
+      "date": "2026-02-14",
+      "repo": "data-pipeline",
+      "open_prs": 7
+    },
+    {
+      "date": "2026-02-14",
+      "repo": "infra-config",
+      "open_prs": 6
+    },
+    {
+      "date": "2026-02-15",
+      "repo": "backend-api",
+      "open_prs": 18
+    },
+    {
+      "date": "2026-02-15",
+      "repo": "frontend-web",
+      "open_prs": 8
+    },
+    {
+      "date": "2026-02-15",
+      "repo": "mobile-app",
+      "open_prs": 12
+    },
+    {
+      "date": "2026-02-15",
+      "repo": "data-pipeline",
+      "open_prs": 5
+    },
+    {
+      "date": "2026-02-15",
+      "repo": "infra-config",
+      "open_prs": 6
+    },
+    {
+      "date": "2026-02-16",
+      "repo": "backend-api",
+      "open_prs": 17
+    },
+    {
+      "date": "2026-02-16",
+      "repo": "frontend-web",
+      "open_prs": 7
+    },
+    {
+      "date": "2026-02-16",
+      "repo": "mobile-app",
+      "open_prs": 9
+    },
+    {
+      "date": "2026-02-16",
+      "repo": "data-pipeline",
+      "open_prs": 6
+    },
+    {
+      "date": "2026-02-16",
+      "repo": "infra-config",
+      "open_prs": 7
+    },
+    {
+      "date": "2026-02-17",
+      "repo": "backend-api",
+      "open_prs": 19
+    },
+    {
+      "date": "2026-02-17",
+      "repo": "frontend-web",
+      "open_prs": 5
+    },
+    {
+      "date": "2026-02-17",
+      "repo": "mobile-app",
+      "open_prs": 11
+    },
+    {
+      "date": "2026-02-17",
+      "repo": "data-pipeline",
+      "open_prs": 8
+    },
+    {
+      "date": "2026-02-17",
+      "repo": "infra-config",
+      "open_prs": 7
+    },
+    {
+      "date": "2026-02-18",
+      "repo": "backend-api",
+      "open_prs": 20
+    },
+    {
+      "date": "2026-02-18",
+      "repo": "frontend-web",
+      "open_prs": 5
+    },
+    {
+      "date": "2026-02-18",
+      "repo": "mobile-app",
+      "open_prs": 8
+    },
+    {
+      "date": "2026-02-18",
+      "repo": "data-pipeline",
+      "open_prs": 7
+    },
+    {
+      "date": "2026-02-18",
+      "repo": "infra-config",
+      "open_prs": 9
+    },
+    {
+      "date": "2026-02-19",
+      "repo": "backend-api",
+      "open_prs": 20
+    },
+    {
+      "date": "2026-02-19",
+      "repo": "frontend-web",
+      "open_prs": 5
+    },
+    {
+      "date": "2026-02-19",
+      "repo": "mobile-app",
+      "open_prs": 11
+    },
+    {
+      "date": "2026-02-19",
+      "repo": "data-pipeline",
+      "open_prs": 8
+    },
+    {
+      "date": "2026-02-19",
+      "repo": "infra-config",
+      "open_prs": 8
+    },
+    {
+      "date": "2026-02-20",
+      "repo": "backend-api",
+      "open_prs": 20
+    },
+    {
+      "date": "2026-02-20",
+      "repo": "frontend-web",
+      "open_prs": 5
+    },
+    {
+      "date": "2026-02-20",
+      "repo": "mobile-app",
+      "open_prs": 11
+    },
+    {
+      "date": "2026-02-20",
+      "repo": "data-pipeline",
+      "open_prs": 6
+    },
+    {
+      "date": "2026-02-20",
+      "repo": "infra-config",
+      "open_prs": 7
+    }
+  ],
+  "summary": {
+    "avg_wip_per_repo": 11.04,
+    "max_wip": 20,
+    "total_snapshots": 450
+  },
+  "generated_at": "2026-02-21T14:45:24.317310",
+  "seed": 42
+}

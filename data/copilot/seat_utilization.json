@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "last_updated": "2025-01-22T14:30:00Z",
+    "version": "1.0",
+    "source": "dummy_data"
+  },
+  "data": [
+    {
+      "date": "2025-01-20",
+      "total_seats": 100,
+      "active_seats": 82,
+      "inactive_seats": 18,
+      "utilization_rate": 0.82,
+      "cost_per_seat": 19.0,
+      "total_cost": 1900.0
+    },
+    {
+      "date": "2025-01-21",
+      "total_seats": 100,
+      "active_seats": 84,
+      "inactive_seats": 16,
+      "utilization_rate": 0.84,
+      "cost_per_seat": 19.0,
+      "total_cost": 1900.0
+    },
+    {
+      "date": "2025-01-22",
+      "total_seats": 100,
+      "active_seats": 85,
+      "inactive_seats": 15,
+      "utilization_rate": 0.85,
+      "cost_per_seat": 19.0,
+      "total_cost": 1900.0
+    }
+  ]
+}

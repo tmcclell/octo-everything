@@ -1,0 +1,67 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Rework Rates",
+  "description": "Schema for tracking PRs requiring changes (rework) vs clean merges",
+  "type": "object",
+  "required": ["metadata", "data"],
+  "properties": {
+    "metadata": {
+      "type": "object",
+      "required": ["last_updated", "version"],
+      "properties": {
+        "last_updated": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "version": {
+          "type": "string",
+          "pattern": "^\\d+\\.\\d+$"
+        },
+        "source": {
+          "type": "string",
+          "enum": ["github_api", "dummy_data"]
+        }
+      }
+    },
+    "data": {
+      "type": "array",
+      "description": "Weekly aggregated rework statistics",
+      "items": {
+        "type": "object",
+        "required": ["week_start", "total_merged", "changes_requested", "rework_rate"],
+        "properties": {
+          "week_start": {
+            "type": "string",
+            "format": "date",
+            "description": "Monday of the week (YYYY-MM-DD)"
+          },
+          "repo": {
+            "type": "string",
+            "description": "Repository name (optional, null for org-wide)"
+          },
+          "total_merged": {
+            "type": "integer",
+            "minimum": 0,
+            "description": "Total PRs merged this week"
+          },
+          "changes_requested": {
+            "type": "integer",
+            "minimum": 0,
+            "description": "PRs that received 'changes requested' review"
+          },
+          "approved_first_time": {
+            "type": "integer",
+            "minimum": 0,
+            "description": "PRs approved without changes requested"
+          },
+          "rework_rate": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1,
+            "description": "Ratio of changes_requested / total_merged"
+          }
+        }
+      }
+    }
+  }
+}

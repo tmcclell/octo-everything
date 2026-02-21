@@ -1,0 +1,61 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "WIP (Work in Progress) Counts",
+  "description": "Schema for tracking open PRs over time across repositories",
+  "type": "object",
+  "required": ["metadata", "data"],
+  "properties": {
+    "metadata": {
+      "type": "object",
+      "required": ["last_updated", "version"],
+      "properties": {
+        "last_updated": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "version": {
+          "type": "string",
+          "pattern": "^\\d+\\.\\d+$"
+        },
+        "source": {
+          "type": "string",
+          "enum": ["github_api", "dummy_data"]
+        }
+      }
+    },
+    "data": {
+      "type": "array",
+      "description": "Daily WIP snapshots",
+      "items": {
+        "type": "object",
+        "required": ["date", "open_prs"],
+        "properties": {
+          "date": {
+            "type": "string",
+            "format": "date",
+            "description": "Date of snapshot (YYYY-MM-DD)"
+          },
+          "repo": {
+            "type": "string",
+            "description": "Repository name (null for org-wide aggregate)"
+          },
+          "open_prs": {
+            "type": "integer",
+            "minimum": 0,
+            "description": "Count of open PRs at end of day"
+          },
+          "draft_prs": {
+            "type": "integer",
+            "minimum": 0,
+            "description": "Count of draft PRs"
+          },
+          "ready_prs": {
+            "type": "integer",
+            "minimum": 0,
+            "description": "Count of ready-for-review PRs"
+          }
+        }
+      }
+    }
+  }
+}

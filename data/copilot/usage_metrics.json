@@ -1,0 +1,107 @@
+{
+  "metadata": {
+    "last_updated": "2025-01-22T14:30:00Z",
+    "version": "1.0",
+    "source": "dummy_data"
+  },
+  "data": [
+    {
+      "date": "2025-01-20",
+      "total_active_users": 82,
+      "total_engaged_users": 68,
+      "total_code_suggestions": 11850,
+      "total_code_acceptances": 3620,
+      "total_code_lines_suggested": 45200,
+      "total_code_lines_accepted": 14100,
+      "total_chat_turns": 485,
+      "breakdown": {
+        "by_language": {
+          "python": {
+            "suggestions": 4200,
+            "acceptances": 1300
+          },
+          "javascript": {
+            "suggestions": 3100,
+            "acceptances": 1050
+          },
+          "typescript": {
+            "suggestions": 2800,
+            "acceptances": 920
+          },
+          "java": {
+            "suggestions": 1750,
+            "acceptances": 350
+          }
+        },
+        "by_editor": {
+          "vscode": {
+            "suggestions": 7500,
+            "acceptances": 2400
+          },
+          "jetbrains": {
+            "suggestions": 2400,
+            "acceptances": 750
+          },
+          "neovim": {
+            "suggestions": 1950,
+            "acceptances": 470
+          }
+        }
+      }
+    },
+    {
+      "date": "2025-01-21",
+      "total_active_users": 84,
+      "total_engaged_users": 71,
+      "total_code_suggestions": 12200,
+      "total_code_acceptances": 3780,
+      "total_code_lines_suggested": 47000,
+      "total_code_lines_accepted": 14850,
+      "total_chat_turns": 520
+    },
+    {
+      "date": "2025-01-22",
+      "total_active_users": 85,
+      "total_engaged_users": 72,
+      "total_code_suggestions": 12450,
+      "total_code_acceptances": 3890,
+      "total_code_lines_suggested": 48200,
+      "total_code_lines_accepted": 15300,
+      "total_chat_turns": 540,
+      "breakdown": {
+        "by_language": {
+          "python": {
+            "suggestions": 4500,
+            "acceptances": 1400
+          },
+          "javascript": {
+            "suggestions": 3200,
+            "acceptances": 1100
+          },
+          "typescript": {
+            "suggestions": 2900,
+            "acceptances": 950
+          },
+          "java": {
+            "suggestions": 1850,
+            "acceptances": 440
+          }
+        },
+        "by_editor": {
+          "vscode": {
+            "suggestions": 8000,
+            "acceptances": 2600
+          },
+          "jetbrains": {
+            "suggestions": 2500,
+            "acceptances": 800
+          },
+          "neovim": {
+            "suggestions": 1950,
+            "acceptances": 490
+          }
+        }
+      }
+    }
+  ]
+}

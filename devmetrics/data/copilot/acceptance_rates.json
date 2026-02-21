@@ -1,0 +1,550 @@
+{
+  "daily_rates": [
+    {
+      "date": "2025-11-23",
+      "acceptance_rate": 0.269,
+      "suggestions": 279,
+      "acceptances": 74
+    },
+    {
+      "date": "2025-11-24",
+      "acceptance_rate": 0.273,
+      "suggestions": 1424,
+      "acceptances": 388
+    },
+    {
+      "date": "2025-11-25",
+      "acceptance_rate": 0.26,
+      "suggestions": 969,
+      "acceptances": 252
+    },
+    {
+      "date": "2025-11-26",
+      "acceptance_rate": 0.26,
+      "suggestions": 1011,
+      "acceptances": 263
+    },
+    {
+      "date": "2025-11-27",
+      "acceptance_rate": 0.273,
+      "suggestions": 860,
+      "acceptances": 235
+    },
+    {
+      "date": "2025-11-28",
+      "acceptance_rate": 0.26,
+      "suggestions": 1345,
+      "acceptances": 349
+    },
+    {
+      "date": "2025-11-29",
+      "acceptance_rate": 0.244,
+      "suggestions": 375,
+      "acceptances": 91
+    },
+    {
+      "date": "2025-11-30",
+      "acceptance_rate": 0.238,
+      "suggestions": 249,
+      "acceptances": 59
+    },
+    {
+      "date": "2025-12-01",
+      "acceptance_rate": 0.246,
+      "suggestions": 1073,
+      "acceptances": 264
+    },
+    {
+      "date": "2025-12-02",
+      "acceptance_rate": 0.287,
+      "suggestions": 1326,
+      "acceptances": 380
+    },
+    {
+      "date": "2025-12-03",
+      "acceptance_rate": 0.29,
+      "suggestions": 1495,
+      "acceptances": 433
+    },
+    {
+      "date": "2025-12-04",
+      "acceptance_rate": 0.281,
+      "suggestions": 938,
+      "acceptances": 263
+    },
+    {
+      "date": "2025-12-05",
+      "acceptance_rate": 0.291,
+      "suggestions": 1221,
+      "acceptances": 355
+    },
+    {
+      "date": "2025-12-06",
+      "acceptance_rate": 0.29,
+      "suggestions": 241,
+      "acceptances": 69
+    },
+    {
+      "date": "2025-12-07",
+      "acceptance_rate": 0.288,
+      "suggestions": 164,
+      "acceptances": 47
+    },
+    {
+      "date": "2025-12-08",
+      "acceptance_rate": 0.279,
+      "suggestions": 935,
+      "acceptances": 260
+    },
+    {
+      "date": "2025-12-09",
+      "acceptance_rate": 0.253,
+      "suggestions": 1129,
+      "acceptances": 285
+    },
+    {
+      "date": "2025-12-10",
+      "acceptance_rate": 0.289,
+      "suggestions": 1492,
+      "acceptances": 430
+    },
+    {
+      "date": "2025-12-11",
+      "acceptance_rate": 0.264,
+      "suggestions": 945,
+      "acceptances": 249
+    },
+    {
+      "date": "2025-12-12",
+      "acceptance_rate": 0.276,
+      "suggestions": 1075,
+      "acceptances": 296
+    },
+    {
+      "date": "2025-12-13",
+      "acceptance_rate": 0.28,
+      "suggestions": 292,
+      "acceptances": 81
+    },
+    {
+      "date": "2025-12-14",
+      "acceptance_rate": 0.27,
+      "suggestions": 147,
+      "acceptances": 39
+    },
+    {
+      "date": "2025-12-15",
+      "acceptance_rate": 0.269,
+      "suggestions": 1084,
+      "acceptances": 291
+    },
+    {
+      "date": "2025-12-16",
+      "acceptance_rate": 0.287,
+      "suggestions": 1177,
+      "acceptances": 338
+    },
+    {
+      "date": "2025-12-17",
+      "acceptance_rate": 0.274,
+      "suggestions": 1299,
+      "acceptances": 355
+    },
+    {
+      "date": "2025-12-18",
+      "acceptance_rate": 0.267,
+      "suggestions": 802,
+      "acceptances": 214
+    },
+    {
+      "date": "2025-12-19",
+      "acceptance_rate": 0.301,
+      "suggestions": 895,
+      "acceptances": 269
+    },
+    {
+      "date": "2025-12-20",
+      "acceptance_rate": 0.294,
+      "suggestions": 334,
+      "acceptances": 98
+    },
+    {
+      "date": "2025-12-21",
+      "acceptance_rate": 0.289,
+      "suggestions": 283,
+      "acceptances": 81
+    },
+    {
+      "date": "2025-12-22",
+      "acceptance_rate": 0.303,
+      "suggestions": 1347,
+      "acceptances": 408
+    },
+    {
+      "date": "2025-12-23",
+      "acceptance_rate": 0.277,
+      "suggestions": 1239,
+      "acceptances": 343
+    },
+    {
+      "date": "2025-12-24",
+      "acceptance_rate": 0.304,
+      "suggestions": 1306,
+      "acceptances": 396
+    },
+    {
+      "date": "2025-12-25",
+      "acceptance_rate": 0.272,
+      "suggestions": 1090,
+      "acceptances": 296
+    },
+    {
+      "date": "2025-12-26",
+      "acceptance_rate": 0.277,
+      "suggestions": 1391,
+      "acceptances": 385
+    },
+    {
+      "date": "2025-12-27",
+      "acceptance_rate": 0.266,
+      "suggestions": 348,
+      "acceptances": 92
+    },
+    {
+      "date": "2025-12-28",
+      "acceptance_rate": 0.306,
+      "suggestions": 124,
+      "acceptances": 37
+    },
+    {
+      "date": "2025-12-29",
+      "acceptance_rate": 0.263,
+      "suggestions": 1441,
+      "acceptances": 378
+    },
+    {
+      "date": "2025-12-30",
+      "acceptance_rate": 0.308,
+      "suggestions": 1270,
+      "acceptances": 391
+    },
+    {
+      "date": "2025-12-31",
+      "acceptance_rate": 0.263,
+      "suggestions": 961,
+      "acceptances": 252
+    },
+    {
+      "date": "2026-01-01",
+      "acceptance_rate": 0.29,
+      "suggestions": 800,
+      "acceptances": 231
+    },
+    {
+      "date": "2026-01-02",
+      "acceptance_rate": 0.324,
+      "suggestions": 1238,
+      "acceptances": 401
+    },
+    {
+      "date": "2026-01-03",
+      "acceptance_rate": 0.278,
+      "suggestions": 167,
+      "acceptances": 46
+    },
+    {
+      "date": "2026-01-04",
+      "acceptance_rate": 0.32,
+      "suggestions": 254,
+      "acceptances": 81
+    },
+    {
+      "date": "2026-01-05",
+      "acceptance_rate": 0.277,
+      "suggestions": 1080,
+      "acceptances": 299
+    },
+    {
+      "date": "2026-01-06",
+      "acceptance_rate": 0.274,
+      "suggestions": 1169,
+      "acceptances": 320
+    },
+    {
+      "date": "2026-01-07",
+      "acceptance_rate": 0.285,
+      "suggestions": 1180,
+      "acceptances": 336
+    },
+    {
+      "date": "2026-01-08",
+      "acceptance_rate": 0.311,
+      "suggestions": 1464,
+      "acceptances": 455
+    },
+    {
+      "date": "2026-01-09",
+      "acceptance_rate": 0.282,
+      "suggestions": 1205,
+      "acceptances": 339
+    },
+    {
+      "date": "2026-01-10",
+      "acceptance_rate": 0.311,
+      "suggestions": 219,
+      "acceptances": 68
+    },
+    {
+      "date": "2026-01-11",
+      "acceptance_rate": 0.3,
+      "suggestions": 146,
+      "acceptances": 43
+    },
+    {
+      "date": "2026-01-12",
+      "acceptance_rate": 0.318,
+      "suggestions": 801,
+      "acceptances": 254
+    },
+    {
+      "date": "2026-01-13",
+      "acceptance_rate": 0.289,
+      "suggestions": 879,
+      "acceptances": 254
+    },
+    {
+      "date": "2026-01-14",
+      "acceptance_rate": 0.286,
+      "suggestions": 1031,
+      "acceptances": 294
+    },
+    {
+      "date": "2026-01-15",
+      "acceptance_rate": 0.31,
+      "suggestions": 1255,
+      "acceptances": 389
+    },
+    {
+      "date": "2026-01-16",
+      "acceptance_rate": 0.281,
+      "suggestions": 1151,
+      "acceptances": 322
+    },
+    {
+      "date": "2026-01-17",
+      "acceptance_rate": 0.33,
+      "suggestions": 316,
+      "acceptances": 104
+    },
+    {
+      "date": "2026-01-18",
+      "acceptance_rate": 0.324,
+      "suggestions": 344,
+      "acceptances": 111
+    },
+    {
+      "date": "2026-01-19",
+      "acceptance_rate": 0.288,
+      "suggestions": 1192,
+      "acceptances": 342
+    },
+    {
+      "date": "2026-01-20",
+      "acceptance_rate": 0.29,
+      "suggestions": 904,
+      "acceptances": 261
+    },
+    {
+      "date": "2026-01-21",
+      "acceptance_rate": 0.292,
+      "suggestions": 1176,
+      "acceptances": 343
+    },
+    {
+      "date": "2026-01-22",
+      "acceptance_rate": 0.34,
+      "suggestions": 940,
+      "acceptances": 319
+    },
+    {
+      "date": "2026-01-23",
+      "acceptance_rate": 0.311,
+      "suggestions": 936,
+      "acceptances": 290
+    },
+    {
+      "date": "2026-01-24",
+      "acceptance_rate": 0.327,
+      "suggestions": 173,
+      "acceptances": 56
+    },
+    {
+      "date": "2026-01-25",
+      "acceptance_rate": 0.294,
+      "suggestions": 388,
+      "acceptances": 114
+    },
+    {
+      "date": "2026-01-26",
+      "acceptance_rate": 0.292,
+      "suggestions": 1465,
+      "acceptances": 427
+    },
+    {
+      "date": "2026-01-27",
+      "acceptance_rate": 0.302,
+      "suggestions": 1159,
+      "acceptances": 350
+    },
+    {
+      "date": "2026-01-28",
+      "acceptance_rate": 0.337,
+      "suggestions": 1443,
+      "acceptances": 485
+    },
+    {
+      "date": "2026-01-29",
+      "acceptance_rate": 0.339,
+      "suggestions": 1221,
+      "acceptances": 414
+    },
+    {
+      "date": "2026-01-30",
+      "acceptance_rate": 0.333,
+      "suggestions": 1253,
+      "acceptances": 416
+    },
+    {
+      "date": "2026-01-31",
+      "acceptance_rate": 0.348,
+      "suggestions": 144,
+      "acceptances": 50
+    },
+    {
+      "date": "2026-02-01",
+      "acceptance_rate": 0.352,
+      "suggestions": 171,
+      "acceptances": 60
+    },
+    {
+      "date": "2026-02-02",
+      "acceptance_rate": 0.344,
+      "suggestions": 1403,
+      "acceptances": 482
+    },
+    {
+      "date": "2026-02-03",
+      "acceptance_rate": 0.344,
+      "suggestions": 1159,
+      "acceptances": 398
+    },
+    {
+      "date": "2026-02-04",
+      "acceptance_rate": 0.359,
+      "suggestions": 1122,
+      "acceptances": 402
+    },
+    {
+      "date": "2026-02-05",
+      "acceptance_rate": 0.35,
+      "suggestions": 1053,
+      "acceptances": 368
+    },
+    {
+      "date": "2026-02-06",
+      "acceptance_rate": 0.32,
+      "suggestions": 886,
+      "acceptances": 283
+    },
+    {
+      "date": "2026-02-07",
+      "acceptance_rate": 0.319,
+      "suggestions": 245,
+      "acceptances": 78
+    },
+    {
+      "date": "2026-02-08",
+      "acceptance_rate": 0.352,
+      "suggestions": 113,
+      "acceptances": 39
+    },
+    {
+      "date": "2026-02-09",
+      "acceptance_rate": 0.358,
+      "suggestions": 1474,
+      "acceptances": 527
+    },
+    {
+      "date": "2026-02-10",
+      "acceptance_rate": 0.36,
+      "suggestions": 1010,
+      "acceptances": 363
+    },
+    {
+      "date": "2026-02-11",
+      "acceptance_rate": 0.34,
+      "suggestions": 1321,
+      "acceptances": 449
+    },
+    {
+      "date": "2026-02-12",
+      "acceptance_rate": 0.321,
+      "suggestions": 1201,
+      "acceptances": 385
+    },
+    {
+      "date": "2026-02-13",
+      "acceptance_rate": 0.329,
+      "suggestions": 855,
+      "acceptances": 281
+    },
+    {
+      "date": "2026-02-14",
+      "acceptance_rate": 0.359,
+      "suggestions": 222,
+      "acceptances": 79
+    },
+    {
+      "date": "2026-02-15",
+      "acceptance_rate": 0.343,
+      "suggestions": 157,
+      "acceptances": 53
+    },
+    {
+      "date": "2026-02-16",
+      "acceptance_rate": 0.329,
+      "suggestions": 1453,
+      "acceptances": 477
+    },
+    {
+      "date": "2026-02-17",
+      "acceptance_rate": 0.351,
+      "suggestions": 1340,
+      "acceptances": 470
+    },
+    {
+      "date": "2026-02-18",
+      "acceptance_rate": 0.37,
+      "suggestions": 812,
+      "acceptances": 300
+    },
+    {
+      "date": "2026-02-19",
+      "acceptance_rate": 0.377,
+      "suggestions": 1124,
+      "acceptances": 423
+    },
+    {
+      "date": "2026-02-20",
+      "acceptance_rate": 0.327,
+      "suggestions": 1382,
+      "acceptances": 451
+    }
+  ],
+  "summary": {
+    "overall_rate": 0.302,
+    "trend": "improving"
+  },
+  "generated_at": "2026-02-21T14:45:24.322678",
+  "seed": 42
+}

@@ -1,0 +1,103 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Copilot Usage Metrics",
+  "description": "Schema for daily Copilot usage and engagement metrics",
+  "type": "object",
+  "required": ["metadata", "data"],
+  "properties": {
+    "metadata": {
+      "type": "object",
+      "required": ["last_updated", "version"],
+      "properties": {
+        "last_updated": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "version": {
+          "type": "string",
+          "pattern": "^\\d+\\.\\d+$"
+        },
+        "source": {
+          "type": "string",
+          "enum": ["github_api", "dummy_data"]
+        }
+      }
+    },
+    "data": {
+      "type": "array",
+      "description": "Daily usage snapshots",
+      "items": {
+        "type": "object",
+        "required": ["date", "total_active_users", "total_engaged_users"],
+        "properties": {
+          "date": {
+            "type": "string",
+            "format": "date",
+            "description": "Date of metrics (YYYY-MM-DD)"
+          },
+          "total_active_users": {
+            "type": "integer",
+            "minimum": 0,
+            "description": "Users who had Copilot enabled"
+          },
+          "total_engaged_users": {
+            "type": "integer",
+            "minimum": 0,
+            "description": "Users who accepted suggestions or used chat"
+          },
+          "total_code_suggestions": {
+            "type": "integer",
+            "minimum": 0,
+            "description": "Total code suggestions shown"
+          },
+          "total_code_acceptances": {
+            "type": "integer",
+            "minimum": 0,
+            "description": "Total suggestions accepted"
+          },
+          "total_code_lines_suggested": {
+            "type": "integer",
+            "minimum": 0,
+            "description": "Lines of code suggested"
+          },
+          "total_code_lines_accepted": {
+            "type": "integer",
+            "minimum": 0,
+            "description": "Lines of code accepted"
+          },
+          "total_chat_turns": {
+            "type": "integer",
+            "minimum": 0,
+            "description": "Chat interactions (IDE + dotcom)"
+          },
+          "breakdown": {
+            "type": "object",
+            "description": "Optional breakdowns by language/editor",
+            "properties": {
+              "by_language": {
+                "type": "object",
+                "additionalProperties": {
+                  "type": "object",
+                  "properties": {
+                    "suggestions": {"type": "integer"},
+                    "acceptances": {"type": "integer"}
+                  }
+                }
+              },
+              "by_editor": {
+                "type": "object",
+                "additionalProperties": {
+                  "type": "object",
+                  "properties": {
+                    "suggestions": {"type": "integer"},
+                    "acceptances": {"type": "integer"}
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

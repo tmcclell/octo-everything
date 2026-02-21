@@ -1,0 +1,71 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Copilot Acceptance Rates",
+  "description": "Schema for tracking Copilot suggestion acceptance rates over time",
+  "type": "object",
+  "required": ["metadata", "data"],
+  "properties": {
+    "metadata": {
+      "type": "object",
+      "required": ["last_updated", "version"],
+      "properties": {
+        "last_updated": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "version": {
+          "type": "string",
+          "pattern": "^\\d+\\.\\d+$"
+        },
+        "source": {
+          "type": "string",
+          "enum": ["github_api", "dummy_data"]
+        }
+      }
+    },
+    "data": {
+      "type": "array",
+      "description": "Daily acceptance rate calculations",
+      "items": {
+        "type": "object",
+        "required": ["date", "suggestions", "acceptances", "acceptance_rate"],
+        "properties": {
+          "date": {
+            "type": "string",
+            "format": "date"
+          },
+          "suggestions": {
+            "type": "integer",
+            "minimum": 0,
+            "description": "Total suggestions shown"
+          },
+          "acceptances": {
+            "type": "integer",
+            "minimum": 0,
+            "description": "Total acceptances"
+          },
+          "acceptance_rate": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1,
+            "description": "acceptances / suggestions ratio"
+          },
+          "lines_suggested": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "lines_accepted": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "lines_acceptance_rate": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1,
+            "description": "lines accepted / lines suggested ratio"
+          }
+        }
+      }
+    }
+  }
+}

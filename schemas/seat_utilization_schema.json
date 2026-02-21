@@ -1,0 +1,72 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Copilot Seat Utilization",
+  "description": "Schema for tracking Copilot seat assignment and usage",
+  "type": "object",
+  "required": ["metadata", "data"],
+  "properties": {
+    "metadata": {
+      "type": "object",
+      "required": ["last_updated", "version"],
+      "properties": {
+        "last_updated": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "version": {
+          "type": "string",
+          "pattern": "^\\d+\\.\\d+$"
+        },
+        "source": {
+          "type": "string",
+          "enum": ["github_api", "dummy_data"]
+        }
+      }
+    },
+    "data": {
+      "type": "array",
+      "description": "Daily seat utilization snapshots",
+      "items": {
+        "type": "object",
+        "required": ["date", "total_seats", "active_seats", "utilization_rate"],
+        "properties": {
+          "date": {
+            "type": "string",
+            "format": "date"
+          },
+          "total_seats": {
+            "type": "integer",
+            "minimum": 0,
+            "description": "Total assigned seats"
+          },
+          "active_seats": {
+            "type": "integer",
+            "minimum": 0,
+            "description": "Seats with activity in last 28 days"
+          },
+          "inactive_seats": {
+            "type": "integer",
+            "minimum": 0,
+            "description": "Seats with no recent activity"
+          },
+          "utilization_rate": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1,
+            "description": "active_seats / total_seats ratio"
+          },
+          "cost_per_seat": {
+            "type": "number",
+            "minimum": 0,
+            "description": "Monthly cost per seat (USD)"
+          },
+          "total_cost": {
+            "type": "number",
+            "minimum": 0,
+            "description": "Monthly cost for all seats (USD)"
+          }
+        }
+      }
+    }
+  }
+}

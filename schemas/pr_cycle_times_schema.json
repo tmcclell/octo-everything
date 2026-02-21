@@ -1,0 +1,85 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "PR Cycle Times",
+  "description": "Schema for tracking PR cycle time from open to merge across repositories",
+  "type": "object",
+  "required": ["metadata", "data"],
+  "properties": {
+    "metadata": {
+      "type": "object",
+      "required": ["last_updated", "version"],
+      "properties": {
+        "last_updated": {
+          "type": "string",
+          "format": "date-time",
+          "description": "ISO 8601 timestamp of last data update"
+        },
+        "version": {
+          "type": "string",
+          "description": "Schema version",
+          "pattern": "^\\d+\\.\\d+$"
+        },
+        "source": {
+          "type": "string",
+          "enum": ["github_api", "dummy_data"],
+          "description": "Data source type"
+        }
+      }
+    },
+    "data": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["pr_id", "repo", "opened_at", "merged_at", "cycle_time_hours", "author"],
+        "properties": {
+          "pr_id": {
+            "type": "integer",
+            "description": "Pull request number"
+          },
+          "pr_url": {
+            "type": "string",
+            "format": "uri",
+            "description": "GitHub URL to the PR"
+          },
+          "repo": {
+            "type": "string",
+            "description": "Repository name (owner/repo format)"
+          },
+          "title": {
+            "type": "string",
+            "description": "PR title"
+          },
+          "author": {
+            "type": "string",
+            "description": "GitHub username of PR author"
+          },
+          "opened_at": {
+            "type": "string",
+            "format": "date-time",
+            "description": "When PR was opened (ISO 8601)"
+          },
+          "merged_at": {
+            "type": "string",
+            "format": "date-time",
+            "description": "When PR was merged (ISO 8601)"
+          },
+          "cycle_time_hours": {
+            "type": "number",
+            "minimum": 0,
+            "description": "Hours from open to merge"
+          },
+          "lines_changed": {
+            "type": "integer",
+            "minimum": 0,
+            "description": "Total lines added + deleted"
+          },
+          "commits": {
+            "type": "integer",
+            "minimum": 1,
+            "description": "Number of commits in the PR"
+          }
+        }
+      }
+    }
+  }
+}
