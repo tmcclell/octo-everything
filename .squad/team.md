@@ -12,6 +12,7 @@
 | Name | Role | Specialization | Badge |
 |------|------|----------------|-------|
 | Lewis | Lead | Scope, decisions, code review | 🏗️ Lead |
+| Martinez | Product Manager | Requirements, backlog, sprint planning | 📋 PM |
 | Watney | Backend Dev | APIs, data collection, GitHub integrations | 🔧 Backend |
 | Johanssen | Data Engineer | Metrics storage, data modeling, JSON schemas | 📊 Data |
 | Vogel | Tester | Tests, quality, edge cases | 🧪 Tester |

@@ -40,6 +40,14 @@
     "status": "active"
   },
   {
+    "persistent_name": "Martinez",
+    "universe": "the-martian",
+    "role": "Product Manager",
+    "created_at": "2026-02-22T00:00:00Z",
+    "legacy_named": false,
+    "status": "active"
+  },
+  {
     "persistent_name": "Scribe",
     "universe": "n/a",
     "role": "Session Logger",

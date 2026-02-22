@@ -1,0 +1,78 @@
+name: Bug Report
+description: Report a defect or unexpected behavior
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Bug Report
+        Describe the issue clearly so it can be reproduced and fixed.
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: A clear summary of the bug.
+      placeholder: "The PR cycle time chart shows negative values for some PRs."
+    validations:
+      required: true
+
+  - type: textarea
+    id: repro-steps
+    attributes:
+      label: Steps to Reproduce
+      description: Step-by-step instructions to reproduce the issue.
+      placeholder: |
+        1. Navigate to SPACE Dashboard
+        2. Select date range Jan 1 - Jan 31
+        3. Observe negative values in the chart
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected Behavior
+      description: What should happen?
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual Behavior
+      description: What actually happens?
+    validations:
+      required: true
+
+  - type: dropdown
+    id: severity
+    attributes:
+      label: Severity
+      options:
+        - P0-Critical (system down / data loss)
+        - P1-High (major feature broken)
+        - P2-Medium (feature degraded)
+        - P3-Low (cosmetic / minor)
+    validations:
+      required: true
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - SPACE
+        - Copilot
+        - Infrastructure
+        - DevOps
+    validations:
+      required: true
+
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Browser, OS, Docker version, etc.
+      placeholder: "Chrome 120, Docker Desktop 4.x, Windows 11"

@@ -1,0 +1,70 @@
+name: Spike
+description: Research or investigation with a timebox
+title: "[Spike] "
+labels: ["spike"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Spike
+        A timeboxed investigation to answer a question or reduce uncertainty.
+
+  - type: textarea
+    id: question
+    attributes:
+      label: Question to Answer
+      description: What specific question does this spike aim to answer?
+      placeholder: "Can we use the new Copilot Usage Metrics API to get per-user engagement data?"
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: Why is this investigation needed? What decision does it unblock?
+    validations:
+      required: true
+
+  - type: input
+    id: timebox
+    attributes:
+      label: Timebox
+      description: Maximum time to spend on this spike.
+      placeholder: "4 hours"
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected-output
+    attributes:
+      label: Expected Output
+      description: What artifact or decision should come out of this spike?
+      placeholder: |
+        - Summary of API capabilities and limitations
+        - Recommendation on whether to adopt the new endpoint
+        - Sample response data for dashboard integration
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - SPACE
+        - Copilot
+        - Infrastructure
+        - DevOps
+    validations:
+      required: true
+
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priority
+      options:
+        - P0-Critical
+        - P1-High
+        - P2-Medium
+        - P3-Low
+    validations:
+      required: true
