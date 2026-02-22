@@ -90,6 +90,8 @@ devmetrics/
 
 ## Documentation
 
+📖 **[Project Wiki](.github/plans/index.md)** — Planning, requirements, specifications, and sprint reviews (auto-generated with [DocFX](https://dotnet.github.io/docfx/))
+
 See [.github/plans/plan-devmetrics-v1.md](.github/plans/plan-devmetrics-v1.md) for the full v1 plan, API coverage analysis, and architecture details.
 
 ## License

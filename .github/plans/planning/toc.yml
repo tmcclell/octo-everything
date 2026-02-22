@@ -1,0 +1,8 @@
+- name: Planning Overview
+  href: index.md
+- name: DevMetrics v1 Plan
+  href: plan-devmetrics-v1.md
+- name: DevMetrics Plan
+  href: plan-devmetrics.md
+- name: PM Agent & Agile Board
+  href: plan-pm-agent-agile-board.md

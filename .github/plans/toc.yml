@@ -1,0 +1,8 @@
+- name: Planning
+  href: planning/
+- name: Requirements
+  href: requirements/
+- name: Specifications
+  href: specifications/
+- name: Sprint Reviews
+  href: sprint-reviews/
