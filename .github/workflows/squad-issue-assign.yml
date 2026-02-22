@@ -7,6 +7,7 @@ on:
 permissions:
   issues: write
   contents: read
+  projects: write
 
 jobs:
   assign-work:
@@ -113,10 +114,54 @@ jobs:
 
             core.info(`Issue #${issue.number} assigned to ${assignedMember.name} (${assignedMember.role})`);
 
-            // TODO: Projects V2 integration — after assignment, update project item
-            // fields (Priority, Sprint, Area) via GraphQL updateProjectV2ItemFieldValue.
-            // Field IDs and project config: .github/project-config.json
-            // REST API docs: https://docs.github.com/en/rest/projects/views
+            // Set project item Status to "Sprint: Planned" after assignment
+            // Uses GraphQL updateProjectV2ItemFieldValue (docs: https://docs.github.com/en/issues/planning-and-tracking-with-projects/automating-your-project/using-the-api-to-manage-projects)
+            // Config: .github/project-config.json
+            try {
+              const projectQuery = await github.graphql(`
+                query($owner: String!, $number: Int!) {
+                  user(login: $owner) {
+                    projectV2(number: $number) {
+                      items(first: 100) {
+                        nodes {
+                          id
+                          content {
+                            ... on Issue { number }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              `, { owner: 'tmcclell', number: 12 });
+
+              const items = projectQuery.user.projectV2.items.nodes;
+              const projectItem = items.find(i => i.content && i.content.number === issue.number);
+
+              if (projectItem) {
+                // Set Status → "Sprint: Planned" (option ID from project-config.json)
+                await github.graphql(`
+                  mutation($projectId: ID!, $itemId: ID!, $fieldId: ID!, $optionId: String!) {
+                    updateProjectV2ItemFieldValue(input: {
+                      projectId: $projectId
+                      itemId: $itemId
+                      fieldId: $fieldId
+                      value: { singleSelectOptionId: $optionId }
+                    }) { projectV2Item { id } }
+                  }
+                `, {
+                  projectId: 'PVT_kwHOAzARAM4BP0TB',
+                  itemId: projectItem.id,
+                  fieldId: 'PVTSSF_lAHOAzARAM4BP0TBzg-Hd3k',
+                  optionId: '8eb65428'
+                });
+                core.info(`Set project item Status → Sprint: Planned for issue #${issue.number}`);
+              } else {
+                core.info(`Issue #${issue.number} not found in project — skipping field update`);
+              }
+            } catch (err) {
+              core.warning(`Projects V2 field update failed: ${err.message}`);
+            }
 
       # Separate step: assign @copilot using PAT (required for coding agent)
       - name: Assign @copilot coding agent

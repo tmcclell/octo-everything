@@ -9,40 +9,95 @@
   "api": {
     "rest_base": "/users/tmcclell/projectsV2/12",
     "graphql_node": "PVT_kwHOAzARAM4BP0TB",
-    "docs": "https://docs.github.com/en/rest/projects/views",
+    "docs": {
+      "graphql_automation": "https://docs.github.com/en/issues/planning-and-tracking-with-projects/automating-your-project/using-the-api-to-manage-projects",
+      "rest_views": "https://docs.github.com/en/rest/projects/views",
+      "changelog": "https://github.blog/changelog/2025-09-11-a-rest-api-for-github-projects-sub-issues-improvements-and-more/"
+    },
     "notes": [
       "View CRUD is REST-only (no GraphQL mutations for views).",
+      "Field value updates use GraphQL updateProjectV2ItemFieldValue mutation.",
       "Classic PATs and OAuth tokens work; fine-grained PATs do NOT for user-owned projects.",
-      "GraphQL ProjectV2View type is read-only — use REST POST to create views.",
-      "REST API for views shipped September 2025: https://github.blog/changelog/2025-09-11-a-rest-api-for-github-projects-sub-issues-improvements-and-more/"
+      "Token scopes: read:project (queries), project (mutations)."
     ]
   },
   "fields": {
-    "Title":              { "id": 260536183, "type": "built-in" },
-    "Assignees":          { "id": 260536184, "type": "built-in" },
-    "Status":             { "id": 260536185, "type": "built-in", "node_id": "PVTSSF_lAHOAzARAM4BP0TBzg-Hd3k" },
-    "Labels":             { "id": 260536186, "type": "built-in" },
-    "Linked pull requests": { "id": 260536187, "type": "built-in" },
-    "Milestone":          { "id": 260536188, "type": "built-in" },
-    "Repository":         { "id": 260536189, "type": "built-in" },
-    "Reviewers":          { "id": 260536190, "type": "built-in" },
-    "Parent issue":       { "id": 260536191, "type": "built-in" },
-    "Sub-issues progress": { "id": 260536192, "type": "built-in" },
-    "Priority":           { "id": 260536698, "type": "custom", "options": ["P0-Critical", "P1-High", "P2-Medium", "P3-Low"] },
-    "Sprint":             { "id": 260536699, "type": "custom", "options": ["Sprint 1", "Sprint 2", "Sprint 3", "Sprint 4"] },
-    "Estimate":           { "id": 260536700, "type": "custom", "options": ["1", "2", "3", "5", "8", "13"] },
-    "Area":               { "id": 260692740, "type": "custom", "options": ["SPACE", "Copilot", "Infrastructure", "DevOps"] }
+    "Title":              { "rest_id": 260536183, "node_id": "PVTF_lAHOAzARAM4BP0TBzg-Hd3c", "type": "built-in" },
+    "Assignees":          { "rest_id": 260536184, "node_id": "PVTF_lAHOAzARAM4BP0TBzg-Hd3g", "type": "built-in" },
+    "Status": {
+      "rest_id": 260536185,
+      "node_id": "PVTSSF_lAHOAzARAM4BP0TBzg-Hd3k",
+      "type": "single_select",
+      "options": {
+        "Bug":                  "669ef8dd",
+        "Backlog":              "7da298a1",
+        "Sprint: Planned":      "8eb65428",
+        "Sprint: In Progress":  "8774ec0f",
+        "Sprint: In Review":    "06cff158",
+        "Sprint: Done":         "3b543da6",
+        "Released":             "dd171691",
+        "Please Close":         "dd6bae39"
+      }
+    },
+    "Labels":             { "rest_id": 260536186, "node_id": "PVTF_lAHOAzARAM4BP0TBzg-Hd3o", "type": "built-in" },
+    "Linked pull requests": { "rest_id": 260536187, "node_id": "PVTF_lAHOAzARAM4BP0TBzg-Hd3s", "type": "built-in" },
+    "Milestone":          { "rest_id": 260536188, "node_id": "PVTF_lAHOAzARAM4BP0TBzg-Hd3w", "type": "built-in" },
+    "Repository":         { "rest_id": 260536189, "node_id": "PVTF_lAHOAzARAM4BP0TBzg-Hd30", "type": "built-in" },
+    "Reviewers":          { "rest_id": 260536190, "node_id": "PVTF_lAHOAzARAM4BP0TBzg-Hd34", "type": "built-in" },
+    "Parent issue":       { "rest_id": 260536191, "node_id": "PVTF_lAHOAzARAM4BP0TBzg-Hd38", "type": "built-in" },
+    "Sub-issues progress": { "rest_id": 260536192, "node_id": "PVTF_lAHOAzARAM4BP0TBzg-Hd4A", "type": "built-in" },
+    "Priority": {
+      "rest_id": 260536698,
+      "node_id": "PVTSSF_lAHOAzARAM4BP0TBzg-HeXo",
+      "type": "single_select",
+      "options": {
+        "P0 - Critical":  "ac912b0d",
+        "P1 - High":      "32efda2a",
+        "P2 - Medium":    "58159c47",
+        "P3 - Low":       "ea46eccb"
+      }
+    },
+    "Sprint": {
+      "rest_id": 260536699,
+      "node_id": "PVTSSF_lAHOAzARAM4BP0TBzg-HeXs",
+      "type": "single_select",
+      "options": {
+        "Sprint 1 - Foundation":  "c370df71",
+        "Sprint 2 - Dashboards":  "d71c9438",
+        "Sprint 3 - Monitoring":  "7cb01e03",
+        "Sprint 4 - Polish":      "7daacc71"
+      }
+    },
+    "Estimate": {
+      "rest_id": 260536700,
+      "node_id": "PVTSSF_lAHOAzARAM4BP0TBzg-HeXw",
+      "type": "single_select",
+      "options": {
+        "1": "1d25c313", "2": "9806798a", "3": "79d08336",
+        "5": "5d14697b", "8": "c52a9bfe", "13": "661ae61f"
+      }
+    },
+    "Area": {
+      "rest_id": 260692740,
+      "node_id": "PVTSSF_lAHOAzARAM4BP0TBzg-J2wQ",
+      "type": "single_select",
+      "options": {
+        "SPACE":          "1dda3572",
+        "Copilot":        "32800365",
+        "Infrastructure": "d602143d",
+        "DevOps":         "5140661e"
+      }
+    },
+    "Iteration": {
+      "node_id": "PVTIF_lAHOAzARAM4BP0TBzg-J93U",
+      "type": "iteration",
+      "iterations": {
+        "2026-02-22": "bf54c8f4",
+        "2026-03-08": "57f31817",
+        "2026-03-22": "1c56ec2c"
+      }
+    }
   },
-  "statuses": [
-    "Bug",
-    "Backlog",
-    "Sprint: Planned",
-    "Sprint: In Progress",
-    "Sprint: In Review",
-    "Sprint: Done",
-    "Released",
-    "Please Close"
-  ],
   "views": {
     "Current Sprint":   { "number": 3,  "layout": "board",   "filter": "sprint:Sprint 1" },
     "Current Bugs":     { "number": 4,  "layout": "table",   "filter": "label:bug sprint:\"Sprint 1\"" },
@@ -57,8 +112,10 @@
   "cli_examples": {
     "create_view": "echo '{\"name\":\"View Name\",\"layout\":\"table\",\"filter\":\"status:Backlog\"}' | gh api -X POST /users/tmcclell/projectsV2/12/views --input -",
     "delete_view": "gh api -X DELETE /users/tmcclell/projectsV2/12/views/{view_number}",
-    "list_views_graphql": "gh api graphql -f query='{ node(id: \"PVT_kwHOAzARAM4BP0TB\") { ... on ProjectV2 { views(first: 20) { nodes { number name layout filter } } } } }'",
-    "list_fields_rest": "gh api /users/tmcclell/projectsV2/12/fields",
-    "get_project_rest": "gh api /users/tmcclell/projectsV2/12"
+    "list_views": "gh api graphql -f query='{ node(id: \"PVT_kwHOAzARAM4BP0TB\") { ... on ProjectV2 { views(first: 20) { nodes { number name layout filter } } } } }'",
+    "list_fields": "gh api /users/tmcclell/projectsV2/12/fields",
+    "get_items": "gh api graphql -f query='{ node(id: \"PVT_kwHOAzARAM4BP0TB\") { ... on ProjectV2 { items(first: 100) { nodes { id fieldValues(first: 10) { nodes { ... on ProjectV2ItemFieldSingleSelectValue { name field { ... on ProjectV2FieldCommon { name } } } ... on ProjectV2ItemFieldTextValue { text field { ... on ProjectV2FieldCommon { name } } } } } content { ... on Issue { title number } ... on PullRequest { title number } } } } } } }'",
+    "update_status": "gh api graphql -f query='mutation { updateProjectV2ItemFieldValue(input: { projectId: \"PVT_kwHOAzARAM4BP0TB\" itemId: \"ITEM_NODE_ID\" fieldId: \"PVTSSF_lAHOAzARAM4BP0TBzg-Hd3k\" value: { singleSelectOptionId: \"OPTION_ID\" } }) { projectV2Item { id } } }'",
+    "add_item": "gh api graphql -f query='mutation { addProjectV2ItemById(input: { projectId: \"PVT_kwHOAzARAM4BP0TB\" contentId: \"ISSUE_NODE_ID\" }) { item { id } } }'"
   }
 }

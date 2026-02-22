@@ -303,9 +303,57 @@ All project IDs, field IDs, view numbers, and CLI examples are stored in:
 
 ### Extension Opportunities
 
-1. **`devmetrics/collectors/project_collector.py`** (NEW) — Collect board flow metrics (items per status, avg time in column, sprint velocity) via the REST API for project items
+1. **`devmetrics/collectors/project_collector.py`** (NEW) — Collect board flow metrics (items per status, avg time in column, sprint velocity) using GraphQL items query
 2. **`devmetrics/pages/3_project_dashboard.py`** (NEW) — Streamlit page showing board health: WIP limits, sprint burndown, cumulative flow diagram
-3. **`.github/workflows/squad-triage.yml`** — After triage assigns a label, also set the project item's Status to "Sprint: Planned" via GraphQL `updateProjectV2ItemFieldValue`
-4. **`.github/workflows/squad-issue-assign.yml`** — After assignment, update project item Priority/Sprint/Area fields
+3. ✅ **`.github/workflows/squad-triage.yml`** — IMPLEMENTED: After triage, sets project item Status → "Backlog" via `updateProjectV2ItemFieldValue`
+4. ✅ **`.github/workflows/squad-issue-assign.yml`** — IMPLEMENTED: After assignment, sets project item Status → "Sprint: Planned" via `updateProjectV2ItemFieldValue`
 5. **Sprint carryover script** — On sprint end, update "Current Sprint" and "Previous Sprint" view filters via delete+recreate REST calls
-6. **`devmetrics/collectors/github_client.py`** — Add Projects V2 REST methods (`list_views`, `create_view`, `delete_view`, `list_fields`) alongside existing PyGithub wrapper
+6. **`devmetrics/collectors/github_client.py`** — Add Projects V2 methods (`list_views`, `create_view`, `get_items`, `update_item_field`)
+
+### GraphQL Mutations Reference
+
+All option IDs are stored in `.github/project-config.json`. Key mutations from the [official docs](https://docs.github.com/en/issues/planning-and-tracking-with-projects/automating-your-project/using-the-api-to-manage-projects):
+
+**Update a single-select field (Status, Priority, Sprint, Area):**
+```graphql
+mutation {
+  updateProjectV2ItemFieldValue(input: {
+    projectId: "PVT_kwHOAzARAM4BP0TB"
+    itemId: "ITEM_NODE_ID"
+    fieldId: "PVTSSF_lAHOAzARAM4BP0TBzg-Hd3k"
+    value: { singleSelectOptionId: "OPTION_ID" }
+  }) { projectV2Item { id } }
+}
+```
+
+**Add an issue to the project:**
+```graphql
+mutation {
+  addProjectV2ItemById(input: {
+    projectId: "PVT_kwHOAzARAM4BP0TB"
+    contentId: "ISSUE_NODE_ID"
+  }) { item { id } }
+}
+```
+
+**Query all items with field values:**
+```graphql
+query {
+  node(id: "PVT_kwHOAzARAM4BP0TB") {
+    ... on ProjectV2 {
+      items(first: 100) {
+        nodes {
+          id
+          fieldValues(first: 10) {
+            nodes {
+              ... on ProjectV2ItemFieldSingleSelectValue { name field { ... on ProjectV2FieldCommon { name } } }
+              ... on ProjectV2ItemFieldTextValue { text field { ... on ProjectV2FieldCommon { name } } }
+            }
+          }
+          content { ... on Issue { title number } ... on PullRequest { title number } }
+        }
+      }
+    }
+  }
+}
+```
