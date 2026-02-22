@@ -1,4 +1,15 @@
-"""GitHub API client wrapper with authentication and rate limit handling."""
+"""GitHub API client wrapper with authentication and rate limit handling.
+
+Wraps PyGithub for REST API v3 (repos, orgs, PRs, issues).
+
+For GitHub Projects V2 operations (views, fields, item updates), use the
+REST API directly via `gh api` or `requests`:
+  - View CRUD:  POST/DELETE /users/{owner}/projectsV2/{project}/views
+  - Field list: GET /users/{owner}/projectsV2/{project}/fields
+  - Item updates: GraphQL updateProjectV2ItemFieldValue mutation
+See .github/project-config.json for field IDs, view numbers, and CLI examples.
+Docs: https://docs.github.com/en/rest/projects/views
+"""
 
 import logging
 import time

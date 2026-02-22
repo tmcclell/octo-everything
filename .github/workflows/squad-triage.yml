@@ -258,3 +258,8 @@ jobs:
             });
 
             core.info(`Triaged issue #${issue.number} → ${assignedMember.name} (${assignLabel})`);
+
+            // TODO: Projects V2 integration — after triage, set project item Status
+            // to "Sprint: Planned" via GraphQL updateProjectV2ItemFieldValue.
+            // Field IDs and project config: .github/project-config.json
+            // REST API docs: https://docs.github.com/en/rest/projects/views

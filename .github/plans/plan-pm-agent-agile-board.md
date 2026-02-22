@@ -279,3 +279,33 @@ In Project Settings → Workflows, enable:
 - **Item closed** → Set Status to "Please Close"
 - **Item reopened** → Set Status to "Backlog"
 - **Pull request merged** → Set Status to "Sprint: Done"
+
+---
+
+## Part 6: API Reference & Extension Points
+
+### Configuration
+
+All project IDs, field IDs, view numbers, and CLI examples are stored in:
+**`.github/project-config.json`** — single source of truth for automation scripts.
+
+### Known Limitations
+
+| Capability | REST API | GraphQL | Notes |
+|-----------|----------|---------|-------|
+| Create views | ✅ `POST /views` | ❌ No mutation | REST only (Sept 2025) |
+| Delete views | ✅ `DELETE /views/{n}` | ❌ No mutation | REST only |
+| Update view filter/sort/group | ❌ Not supported | ❌ Read-only | Must delete + recreate, or edit in UI |
+| Read views | ✅ `GET /views` | ✅ `ProjectV2View` | Both work |
+| Create/update fields | ✅ via `gh project field-create` | ✅ `createProjectV2Field` | Both work |
+| Update item field values | N/A | ✅ `updateProjectV2ItemFieldValue` | GraphQL only |
+| Token support (user projects) | Classic PAT ✅, OAuth ✅ | Classic PAT ✅, OAuth ✅ | Fine-grained PATs do NOT work for user-owned project view creation |
+
+### Extension Opportunities
+
+1. **`devmetrics/collectors/project_collector.py`** (NEW) — Collect board flow metrics (items per status, avg time in column, sprint velocity) via the REST API for project items
+2. **`devmetrics/pages/3_project_dashboard.py`** (NEW) — Streamlit page showing board health: WIP limits, sprint burndown, cumulative flow diagram
+3. **`.github/workflows/squad-triage.yml`** — After triage assigns a label, also set the project item's Status to "Sprint: Planned" via GraphQL `updateProjectV2ItemFieldValue`
+4. **`.github/workflows/squad-issue-assign.yml`** — After assignment, update project item Priority/Sprint/Area fields
+5. **Sprint carryover script** — On sprint end, update "Current Sprint" and "Previous Sprint" view filters via delete+recreate REST calls
+6. **`devmetrics/collectors/github_client.py`** — Add Projects V2 REST methods (`list_views`, `create_view`, `delete_view`, `list_fields`) alongside existing PyGithub wrapper

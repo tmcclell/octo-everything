@@ -1,0 +1,64 @@
+{
+  "project": {
+    "number": 12,
+    "node_id": "PVT_kwHOAzARAM4BP0TB",
+    "owner": "tmcclell",
+    "title": "DevMetrics Dashboard — Agile Board",
+    "url": "https://github.com/users/tmcclell/projects/12"
+  },
+  "api": {
+    "rest_base": "/users/tmcclell/projectsV2/12",
+    "graphql_node": "PVT_kwHOAzARAM4BP0TB",
+    "docs": "https://docs.github.com/en/rest/projects/views",
+    "notes": [
+      "View CRUD is REST-only (no GraphQL mutations for views).",
+      "Classic PATs and OAuth tokens work; fine-grained PATs do NOT for user-owned projects.",
+      "GraphQL ProjectV2View type is read-only — use REST POST to create views.",
+      "REST API for views shipped September 2025: https://github.blog/changelog/2025-09-11-a-rest-api-for-github-projects-sub-issues-improvements-and-more/"
+    ]
+  },
+  "fields": {
+    "Title":              { "id": 260536183, "type": "built-in" },
+    "Assignees":          { "id": 260536184, "type": "built-in" },
+    "Status":             { "id": 260536185, "type": "built-in", "node_id": "PVTSSF_lAHOAzARAM4BP0TBzg-Hd3k" },
+    "Labels":             { "id": 260536186, "type": "built-in" },
+    "Linked pull requests": { "id": 260536187, "type": "built-in" },
+    "Milestone":          { "id": 260536188, "type": "built-in" },
+    "Repository":         { "id": 260536189, "type": "built-in" },
+    "Reviewers":          { "id": 260536190, "type": "built-in" },
+    "Parent issue":       { "id": 260536191, "type": "built-in" },
+    "Sub-issues progress": { "id": 260536192, "type": "built-in" },
+    "Priority":           { "id": 260536698, "type": "custom", "options": ["P0-Critical", "P1-High", "P2-Medium", "P3-Low"] },
+    "Sprint":             { "id": 260536699, "type": "custom", "options": ["Sprint 1", "Sprint 2", "Sprint 3", "Sprint 4"] },
+    "Estimate":           { "id": 260536700, "type": "custom", "options": ["1", "2", "3", "5", "8", "13"] },
+    "Area":               { "id": 260692740, "type": "custom", "options": ["SPACE", "Copilot", "Infrastructure", "DevOps"] }
+  },
+  "statuses": [
+    "Bug",
+    "Backlog",
+    "Sprint: Planned",
+    "Sprint: In Progress",
+    "Sprint: In Review",
+    "Sprint: Done",
+    "Released",
+    "Please Close"
+  ],
+  "views": {
+    "Current Sprint":   { "number": 3,  "layout": "board",   "filter": "sprint:Sprint 1" },
+    "Current Bugs":     { "number": 4,  "layout": "table",   "filter": "label:bug sprint:\"Sprint 1\"" },
+    "@Me":              { "number": 5,  "layout": "table",   "filter": "assignee:@me" },
+    "Current Backlog":  { "number": 6,  "layout": "table",   "filter": "status:Backlog,Sprint: Planned" },
+    "Please Close":     { "number": 7,  "layout": "table",   "filter": "status:\"Please Close\"" },
+    "Bugs":             { "number": 8,  "layout": "table",   "filter": "label:bug" },
+    "Full Backlog":     { "number": 9,  "layout": "table",   "filter": "-status:Released -status:\"Please Close\"" },
+    "Roadmap":          { "number": 10, "layout": "roadmap", "filter": null },
+    "Previous Sprint":  { "number": 11, "layout": "table",   "filter": "status:Released" }
+  },
+  "cli_examples": {
+    "create_view": "echo '{\"name\":\"View Name\",\"layout\":\"table\",\"filter\":\"status:Backlog\"}' | gh api -X POST /users/tmcclell/projectsV2/12/views --input -",
+    "delete_view": "gh api -X DELETE /users/tmcclell/projectsV2/12/views/{view_number}",
+    "list_views_graphql": "gh api graphql -f query='{ node(id: \"PVT_kwHOAzARAM4BP0TB\") { ... on ProjectV2 { views(first: 20) { nodes { number name layout filter } } } } }'",
+    "list_fields_rest": "gh api /users/tmcclell/projectsV2/12/fields",
+    "get_project_rest": "gh api /users/tmcclell/projectsV2/12"
+  }
+}

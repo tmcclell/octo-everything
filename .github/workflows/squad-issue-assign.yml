@@ -113,6 +113,11 @@ jobs:
 
             core.info(`Issue #${issue.number} assigned to ${assignedMember.name} (${assignedMember.role})`);
 
+            // TODO: Projects V2 integration — after assignment, update project item
+            // fields (Priority, Sprint, Area) via GraphQL updateProjectV2ItemFieldValue.
+            // Field IDs and project config: .github/project-config.json
+            // REST API docs: https://docs.github.com/en/rest/projects/views
+
       # Separate step: assign @copilot using PAT (required for coding agent)
       - name: Assign @copilot coding agent
         if: github.event.label.name == 'squad:copilot'

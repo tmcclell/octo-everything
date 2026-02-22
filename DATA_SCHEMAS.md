@@ -17,6 +17,9 @@ data/
 │   ├── usage_metrics.json
 │   ├── acceptance_rates.json
 │   └── seat_utilization.json
+├── project/                    # GitHub Project board metrics (PLANNED)
+│   ├── board_snapshot.json     # Item-level field values snapshot
+│   └── flow_metrics.json      # Cumulative flow & sprint velocity
 ├── snapshots/                  # Daily aggregated snapshots
 │   └── YYYY-MM-DD.json        # One file per day
 └── logs/                       # Application logs
@@ -236,6 +239,68 @@ Daily seat assignment and usage tracking.
 - `utilization_rate`: Cost efficiency metric
 - `active_seats`: Activity in last 28 days
 - `cost_per_seat` / `total_cost`: ROI context
+
+---
+
+## Planned: Project Board Metrics
+
+> **Status:** Not yet implemented. Schema defined here for future `project_collector.py`.
+
+The GitHub Projects V2 REST API (https://docs.github.com/en/rest/projects/views) enables collection of board-level flow metrics.
+
+**API endpoints used:**
+- `GET /users/{owner}/projectsV2/{project}/fields` — field definitions and IDs
+- `POST /users/{owner}/projectsV2/{project}/views` — create views (REST only, no GraphQL mutation)
+- GraphQL `ProjectV2` node → `items` connection — fetch all items with field values
+
+**Configuration:** `.github/project-config.json` stores field IDs, view numbers, and CLI examples.
+
+### 8. Board Item Snapshot (`project/board_snapshot.json`) — PLANNED
+
+Periodic snapshot of all project items with their field values.
+
+**Example Record**:
+```json
+{
+  "item_id": "PVTI_lAHOAzARAM4BP0TB...",
+  "issue_number": 42,
+  "title": "Add Copilot acceptance rate chart",
+  "status": "Sprint: In Progress",
+  "priority": "P1-High",
+  "sprint": "Sprint 1",
+  "estimate": 5,
+  "area": "Copilot",
+  "assignees": ["watney"],
+  "labels": ["user-story"],
+  "captured_at": "2026-02-22T19:00:00Z"
+}
+```
+
+### 9. Board Flow Metrics (`project/flow_metrics.json`) — PLANNED
+
+Cumulative flow and cycle time per board column.
+
+**Example Record**:
+```json
+{
+  "date": "2026-02-22",
+  "items_by_status": {
+    "Backlog": 3,
+    "Sprint: Planned": 2,
+    "Sprint: In Progress": 4,
+    "Sprint: In Review": 1,
+    "Sprint: Done": 5,
+    "Released": 16
+  },
+  "avg_days_in_column": {
+    "Sprint: Planned": 1.2,
+    "Sprint: In Progress": 3.5,
+    "Sprint: In Review": 1.8
+  },
+  "sprint_velocity": 8,
+  "wip_violations": 1
+}
+```
 
 ---
 
