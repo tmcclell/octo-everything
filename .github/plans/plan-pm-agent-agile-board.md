@@ -119,88 +119,116 @@ Define the PM's ceremony responsibilities:
 
 ---
 
-## Part 5: Project Views (ADO Agile Equivalents)
+## Part 5: Project Views (Semantic Kernel / ADO Agile Style)
 
-GitHub Projects V2 views must be configured in the UI (no API support for view creation).
+Modeled after the Microsoft Semantic Kernel GitHub Project board.
 Open the project at: https://github.com/users/tmcclell/projects/12
 
-### View 1: "Backlog" (Table Layout) — mirrors ADO Backlog View
+### Board Statuses (SK-style sprint-prefixed)
 
-**Purpose:** Flat prioritized list of all work items, like ADO's backlog view with drag-and-drop reordering.
+| Status | Color | Description |
+|--------|-------|-------------|
+| **Bug** | Red | Bugs list |
+| **Backlog** | Gray | Product backlog — not yet planned for a sprint |
+| **Sprint: Planned** | Blue | What is planned to happen during this sprint |
+| **Sprint: In Progress** | Orange | This is actively being worked on |
+| **Sprint: In Review** | Purple | SLA 3 Days. PR submitted, awaiting code review |
+| **Sprint: Done** | Green | Completed and verified in sprint |
+| **Released** | Green | Shipped to production |
+| **Please Close** | Pink | Ready for final verification and closure |
 
-**Layout:** Table
-**Columns to show:** Title, Status, Priority, Area, Sprint, Estimate, Labels, Assignees
-**Group by:** None (flat list sorted by priority)
-**Filter:** `-status:Closed` (hide completed work)
-**Sort:** Priority ascending, then Estimate descending
+### Views to Create
 
-This mirrors ADO's **Product Backlog** — a ranked list where the PM (Martinez) manages priority order, assigns items to sprints, and refines acceptance criteria.
+GitHub Projects V2 views must be configured in the UI (no API support).
 
-### View 2: "Sprint Board" (Board Layout) — mirrors ADO Kanban/Taskboard
+#### View 1: "Current Sprint" (Board Layout) ⭐ Default
 
-**Purpose:** Kanban-style board showing cards flowing through workflow stages.
-
+**Purpose:** Active sprint work — the primary working view.
 **Layout:** Board
-**Column field:** Status (New → Ready → Active → In Review → Closed)
-**Card fields:** Title, Priority, Estimate, Area, Assignees, Labels
-**Filter:** Sprint = current sprint (e.g., `sprint:"Sprint 1 - Foundation"`)
-**Swimlanes (Group by):** Area (SPACE, Copilot, Infrastructure, DevOps)
+**Column field:** Status (Bug | Sprint: Planned | Sprint: In Progress | Sprint: In Review | Sprint: Done)
+**Filter:** `-status:"No Status",Released,"Backlog","Please Close" sprint:@current`
+**Group by:** Assignees
+**Card fields:** Title, Priority, Estimate, Area, Labels
 
-This mirrors ADO's **Kanban Board** — cards move across columns as work progresses. The swimlanes by Area replicate ADO's ability to see work grouped by Area Path.
+#### View 2: "Current Bugs" (Table Layout)
 
-### View 3: "Roadmap" (Roadmap Layout) — mirrors ADO Delivery Plans
-
-**Purpose:** Timeline view showing work items across sprints, for cross-sprint planning.
-
-**Layout:** Roadmap
-**Date field:** Sprint (iteration-based timeline)
-**Group by:** Area
-**Card fields:** Title, Priority, Estimate, Status
-**Filter:** None (show all items including closed for historical view)
-
-This mirrors ADO's **Delivery Plans** — a calendar/timeline view showing when work is scheduled across iterations. Useful for stakeholder communication and release planning.
-
-### View 4: "Current Sprint" (Table Layout) — mirrors ADO Sprint Backlog
-
-**Purpose:** Focused table view of only current sprint items, with detail for daily standups.
-
+**Purpose:** Bug triage and tracking for the current sprint.
 **Layout:** Table
-**Columns:** Title, Status, Priority, Estimate, Assignees, Labels, Linked PRs
-**Filter:** `sprint:"Sprint 1 - Foundation"` (update per sprint)
-**Group by:** Status
+**Columns:** Title, Status, Priority, Area, Assignees, Sprint, Estimate
+**Filter:** `status:Bug sprint:@current`
 **Sort:** Priority ascending
 
-This mirrors ADO's **Sprint Backlog** view — shows committed work for the current iteration, grouped by status for standup reviews.
+#### View 3: "@Me" (Table Layout)
 
-### View 5: "By Area" (Board Layout) — mirrors ADO Area Path filtering
+**Purpose:** Personal view — items assigned to the current user.
+**Layout:** Table
+**Columns:** Title, Status, Priority, Sprint, Estimate, Area, Labels
+**Filter:** `assignee:@me`
+**Sort:** Status, then Priority
 
-**Purpose:** Board view grouped by feature area for cross-functional visibility.
+#### View 4: "Current Backlog" (Table Layout)
 
-**Layout:** Board
-**Column field:** Status
-**Filter:** None
-**Swimlanes (Group by):** Area
-**Card fields:** Title, Sprint, Estimate, Assignees
+**Purpose:** Backlog items for current iteration — sprint planning input.
+**Layout:** Table
+**Columns:** Title, Status, Priority, Area, Sprint, Estimate, Labels, Assignees
+**Filter:** `status:Backlog,"Sprint: Planned" sprint:@current`
+**Sort:** Priority ascending, Estimate descending
 
-This mirrors ADO's board filtered by **Area Path** — useful for area leads to see all work in their domain.
+#### View 5: "Please Close" (Table Layout)
 
-### How to Create These Views
+**Purpose:** Items pending final verification before closure.
+**Layout:** Table
+**Columns:** Title, Status, Priority, Area, Assignees, Linked PRs
+**Filter:** `status:"Please Close"`
+
+#### View 6: "Bugs" (Table Layout)
+
+**Purpose:** All bugs across all sprints — defect tracking overview.
+**Layout:** Table
+**Columns:** Title, Status, Priority, Area, Sprint, Assignees, Estimate
+**Filter:** `label:bug`
+**Sort:** Priority ascending, Sprint
+
+#### View 7: "Full Backlog" (Table Layout)
+
+**Purpose:** Entire product backlog for grooming and prioritization.
+**Layout:** Table
+**Columns:** Title, Status, Priority, Area, Sprint, Estimate, Labels, Assignees
+**Filter:** `-status:Released,"Sprint: Done"`
+**Sort:** Priority ascending
+
+#### View 8: "Roadmap" (Roadmap Layout)
+
+**Purpose:** Timeline view across sprints for stakeholder communication.
+**Layout:** Roadmap
+**Date field:** Sprint
+**Group by:** Area
+**Card fields:** Title, Priority, Status, Estimate
+**Filter:** None (show all for historical context)
+
+#### View 9: "Previous Sprint" (Table Layout)
+
+**Purpose:** Last sprint's items for retrospective review.
+**Layout:** Table
+**Columns:** Title, Status, Priority, Estimate, Area, Assignees
+**Filter:** `sprint:"Sprint 1 - Foundation"` (update each sprint)
+**Group by:** Status
+
+### How to Create Views
 
 1. Open https://github.com/users/tmcclell/projects/12
-2. Click the **+** tab next to existing views
+2. Click **+** tab next to existing views
 3. Select layout (Table, Board, or Roadmap)
 4. Name the view
-5. Use the **Filter** bar to set filters
+5. Use the **Filter** bar to set filters (copy filter strings from above)
 6. Use **Group by** dropdown to set grouping
 7. Use **Sort** to configure ordering
-8. Click the column header **+** to add/remove visible fields
+8. Click column header **+** to add/remove visible fields
 9. Changes auto-save
 
 ### Recommended Project Workflows (Automation)
 
 In Project Settings → Workflows, enable:
-- **Item closed** → Set Status to "Closed"
-- **Item reopened** → Set Status to "New"
-- **Pull request merged** → Set Status to "Closed"
-
-These replicate ADO's automatic state transitions.
+- **Item closed** → Set Status to "Please Close"
+- **Item reopened** → Set Status to "Backlog"
+- **Pull request merged** → Set Status to "Sprint: Done"
