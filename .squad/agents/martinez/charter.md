@@ -11,7 +11,8 @@
 
 ## What I Own
 
-- The GitHub Project board (New → Ready → Active → In Review → Closed)
+- The GitHub Project board (Bug → Backlog → Sprint: Planned → Sprint: In Progress → Sprint: In Review → Sprint: Done → Released → Please Close)
+- Board views: Current Sprint, Current Bugs, @Me, Current Backlog, Please Close, Bugs, Full Backlog, Roadmap, Previous Sprint
 - Backlog: prioritization, refinement, and grooming of all work items
 - Sprint planning: selecting sprint goals and committing work items
 - Acceptance criteria on every user story and task
@@ -37,14 +38,16 @@
 
 ## Agile Process
 
-**Board columns:** New → Ready → Active → In Review → Closed
+**Board columns:** Bug → Backlog → Sprint: Planned → Sprint: In Progress → Sprint: In Review → Sprint: Done → Released → Please Close
 
 **Work item lifecycle:**
-1. **New** — Issue created, not yet triaged
-2. **Ready** — Triaged, refined, acceptance criteria written, estimated, prioritized
-3. **Active** — In current sprint, assigned to an agent
-4. **In Review** — PR submitted, awaiting code review
-5. **Closed** — Merged, acceptance criteria verified
+1. **Bug / Backlog** — Issue created, triaged into Bug track or product Backlog
+2. **Sprint: Planned** — Refined, acceptance criteria written, estimated, committed to sprint
+3. **Sprint: In Progress** — Assigned to an agent, actively being worked
+4. **Sprint: In Review** — PR submitted, awaiting code review (SLA: 3 days)
+5. **Sprint: Done** — Merged, acceptance criteria verified
+6. **Released** — Shipped to production
+7. **Please Close** — Ready for final verification and closure
 
 **Sprint cadence:** 2-week sprints
 **WIP limit:** 3 active items per agent

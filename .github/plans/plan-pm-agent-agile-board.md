@@ -137,11 +137,61 @@ Open the project at: https://github.com/users/tmcclell/projects/12
 | **Released** | Green | Shipped to production |
 | **Please Close** | Pink | Ready for final verification and closure |
 
-### Views to Create
+### Views (Created via REST API)
 
-GitHub Projects V2 views must be configured in the UI (no API support).
+All views were created programmatically using the **GitHub Projects V2 REST API** (shipped September 2025).
 
-#### View 1: "Current Sprint" (Board Layout) ⭐ Default
+**API Endpoint:**
+```
+POST /users/{user_id}/projectsV2/{project_number}/views
+```
+
+**Documentation:** https://docs.github.com/en/rest/projects/views
+
+**Request body:**
+```json
+{
+  "name": "View Name",
+  "layout": "table | board | roadmap",
+  "filter": "status:Backlog label:bug ...",
+  "visible_fields": [260536183, 260536184, ...]
+}
+```
+
+**Field IDs for this project (#12):**
+
+| Field | REST ID | Purpose |
+|-------|---------|---------|
+| Title | 260536183 | Item title |
+| Assignees | 260536184 | Who's working on it |
+| Status | 260536185 | Board column |
+| Labels | 260536186 | Work item type |
+| Linked PRs | 260536187 | Associated pull requests |
+| Milestone | 260536188 | Release milestone |
+| Repository | 260536189 | Source repo |
+| Reviewers | 260536190 | Code reviewers |
+| Priority | 260536698 | P0–P3 |
+| Sprint | 260536699 | Sprint assignment |
+| Estimate | 260536700 | Story points |
+| Area | 260692740 | SPACE / Copilot / Infra / DevOps |
+
+**Example `gh` CLI call:**
+```powershell
+$body = @{
+    name = "Current Sprint"
+    layout = "board"
+    filter = 'sprint:"Sprint 1"'
+    visible_fields = @(260536183, 260536184, 260536185, 260536698, 260536700)
+} | ConvertTo-Json -Compress
+
+echo $body | gh api -X POST "/users/tmcclell/projectsV2/12/views" --input -
+```
+
+> **Note:** The GraphQL API (`ProjectV2View` type) is read-only — there is no `createProjectV2View` mutation. View creation is only available via the REST API. For user-owned projects, classic PATs or OAuth tokens work; fine-grained PATs do NOT (per GitHub docs).
+
+**Changelog:** https://github.blog/changelog/2025-09-11-a-rest-api-for-github-projects-sub-issues-improvements-and-more/
+
+#### View 1: "Current Sprint" (Board Layout) ⭐ Default — [View #3](https://github.com/users/tmcclell/projects/12/views/3)
 
 **Purpose:** Active sprint work — the primary working view.
 **Layout:** Board
@@ -150,7 +200,7 @@ GitHub Projects V2 views must be configured in the UI (no API support).
 **Group by:** Assignees
 **Card fields:** Title, Priority, Estimate, Area, Labels
 
-#### View 2: "Current Bugs" (Table Layout)
+#### View 2: "Current Bugs" (Table Layout) — [View #4](https://github.com/users/tmcclell/projects/12/views/4)
 
 **Purpose:** Bug triage and tracking for the current sprint.
 **Layout:** Table
@@ -158,7 +208,7 @@ GitHub Projects V2 views must be configured in the UI (no API support).
 **Filter:** `status:Bug sprint:@current`
 **Sort:** Priority ascending
 
-#### View 3: "@Me" (Table Layout)
+#### View 3: "@Me" (Table Layout) — [View #5](https://github.com/users/tmcclell/projects/12/views/5)
 
 **Purpose:** Personal view — items assigned to the current user.
 **Layout:** Table
@@ -166,7 +216,7 @@ GitHub Projects V2 views must be configured in the UI (no API support).
 **Filter:** `assignee:@me`
 **Sort:** Status, then Priority
 
-#### View 4: "Current Backlog" (Table Layout)
+#### View 4: "Current Backlog" (Table Layout) — [View #6](https://github.com/users/tmcclell/projects/12/views/6)
 
 **Purpose:** Backlog items for current iteration — sprint planning input.
 **Layout:** Table
@@ -174,14 +224,14 @@ GitHub Projects V2 views must be configured in the UI (no API support).
 **Filter:** `status:Backlog,"Sprint: Planned" sprint:@current`
 **Sort:** Priority ascending, Estimate descending
 
-#### View 5: "Please Close" (Table Layout)
+#### View 5: "Please Close" (Table Layout) — [View #7](https://github.com/users/tmcclell/projects/12/views/7)
 
 **Purpose:** Items pending final verification before closure.
 **Layout:** Table
 **Columns:** Title, Status, Priority, Area, Assignees, Linked PRs
 **Filter:** `status:"Please Close"`
 
-#### View 6: "Bugs" (Table Layout)
+#### View 6: "Bugs" (Table Layout) — [View #8](https://github.com/users/tmcclell/projects/12/views/8)
 
 **Purpose:** All bugs across all sprints — defect tracking overview.
 **Layout:** Table
@@ -189,7 +239,7 @@ GitHub Projects V2 views must be configured in the UI (no API support).
 **Filter:** `label:bug`
 **Sort:** Priority ascending, Sprint
 
-#### View 7: "Full Backlog" (Table Layout)
+#### View 7: "Full Backlog" (Table Layout) — [View #9](https://github.com/users/tmcclell/projects/12/views/9)
 
 **Purpose:** Entire product backlog for grooming and prioritization.
 **Layout:** Table
@@ -197,7 +247,7 @@ GitHub Projects V2 views must be configured in the UI (no API support).
 **Filter:** `-status:Released,"Sprint: Done"`
 **Sort:** Priority ascending
 
-#### View 8: "Roadmap" (Roadmap Layout)
+#### View 8: "Roadmap" (Roadmap Layout) — [View #10](https://github.com/users/tmcclell/projects/12/views/10)
 
 **Purpose:** Timeline view across sprints for stakeholder communication.
 **Layout:** Roadmap
@@ -206,7 +256,7 @@ GitHub Projects V2 views must be configured in the UI (no API support).
 **Card fields:** Title, Priority, Status, Estimate
 **Filter:** None (show all for historical context)
 
-#### View 9: "Previous Sprint" (Table Layout)
+#### View 9: "Previous Sprint" (Table Layout) — [View #11](https://github.com/users/tmcclell/projects/12/views/11)
 
 **Purpose:** Last sprint's items for retrospective review.
 **Layout:** Table
@@ -214,17 +264,14 @@ GitHub Projects V2 views must be configured in the UI (no API support).
 **Filter:** `sprint:"Sprint 1 - Foundation"` (update each sprint)
 **Group by:** Status
 
-### How to Create Views
+### Managing Views
 
-1. Open https://github.com/users/tmcclell/projects/12
-2. Click **+** tab next to existing views
-3. Select layout (Table, Board, or Roadmap)
-4. Name the view
-5. Use the **Filter** bar to set filters (copy filter strings from above)
-6. Use **Group by** dropdown to set grouping
-7. Use **Sort** to configure ordering
-8. Click column header **+** to add/remove visible fields
-9. Changes auto-save
+Views were created via the REST API (see above). To **modify** views after creation:
+
+- **Filters, sorting, grouping** — Edit in the GitHub UI (the REST API supports creation but not update)
+- **Delete a view** — `gh api -X DELETE "/users/tmcclell/projectsV2/12/views/{view_number}"`
+- **Recreate a view** — Delete then POST again with updated params
+- **List views** — `gh api graphql -f query='{ node(id: "PVT_kwHOAzARAM4BP0TB") { ... on ProjectV2 { views(first: 20) { nodes { number name layout filter } } } } }'`
 
 ### Recommended Project Workflows (Automation)
 
