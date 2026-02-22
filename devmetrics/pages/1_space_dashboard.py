@@ -24,7 +24,7 @@ st.markdown("### Engineering Velocity & Efficiency Metrics")
 # Initialize data store
 @st.cache_resource
 def get_store():
-    return JSONStore(data_dir="devmetrics/data")
+    return JSONStore(data_dir="data")
 
 store = get_store()
 
