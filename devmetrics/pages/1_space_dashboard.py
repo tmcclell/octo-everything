@@ -11,6 +11,7 @@ import sys
 # Add parent directory to path for imports
 sys.path.append(str(Path(__file__).parent.parent))
 from storage.json_store import JSONStore
+from data_source_banner import show_data_source_banner
 
 st.set_page_config(
     page_title="SPACE Metrics",
@@ -39,6 +40,8 @@ def load_space_data():
     }
 
 data = load_space_data()
+
+show_data_source_banner(data)
 
 # Display data refresh timestamp
 if data['pr_cycle_times'].get('generated_at'):

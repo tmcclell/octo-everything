@@ -1,6 +1,7 @@
 """DevMetrics Dashboard - Main Streamlit Application."""
 
 import streamlit as st
+from data_source_banner import show_data_source_banner
 
 st.set_page_config(
     page_title="DevMetrics Dashboard",
@@ -45,7 +46,7 @@ with col2:
 st.divider()
 
 st.markdown("### 📁 Data Source")
-st.info("Currently using generated dummy data. Switch to live GitHub API in production.")
+show_data_source_banner()
 
 st.markdown("### 🎯 Getting Started")
 st.markdown("Use the sidebar or pages menu above to navigate to a dashboard.")

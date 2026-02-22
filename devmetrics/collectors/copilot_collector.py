@@ -71,9 +71,9 @@ class CopilotCollector:
             return self._empty_usage_response()
         
         try:
-            # Enterprise API endpoint for usage metrics
-            # GET /enterprises/{enterprise}/copilot/usage
-            url = f"https://api.github.com/enterprises/{self.enterprise}/copilot/usage"
+            # Copilot Metrics API (available until April 2026)
+            # GET /enterprises/{enterprise}/copilot/metrics
+            url = f"https://api.github.com/enterprises/{self.enterprise}/copilot/metrics"
             
             params = {
                 "since": since.date().isoformat(),
@@ -240,11 +240,43 @@ class CopilotCollector:
             logger.error(f"Error collecting seat utilization: {e}")
             return self._empty_seat_response()
 
-    def _format_usage_data(self, api_data: Dict) -> list:
-        """Format raw API usage data to match dummy data schema."""
-        # This would parse the actual API response
-        # Placeholder for real implementation
-        return []
+    def _format_usage_data(self, api_data) -> list:
+        """Format Copilot Metrics API response to match dashboard schema.
+
+        The /copilot/metrics endpoint returns a list of daily metric objects.
+        Each object has top-level ``total_active_users``, ``total_engaged_users``,
+        and nested IDE code-completion stats we aggregate into suggestions/acceptances.
+        """
+        if not api_data or not isinstance(api_data, list):
+            return []
+
+        daily_usage = []
+        for day in api_data:
+            suggestions = 0
+            acceptances = 0
+            lines_suggested = 0
+            lines_accepted = 0
+
+            completions = day.get("copilot_ide_code_completions") or {}
+            for editor in completions.get("editors", []):
+                for model in editor.get("models", []):
+                    for lang in model.get("languages", []):
+                        suggestions += lang.get("total_code_suggestions", 0)
+                        acceptances += lang.get("total_code_acceptances", 0)
+                        lines_suggested += lang.get("total_code_lines_suggested", 0)
+                        lines_accepted += lang.get("total_code_lines_accepted", 0)
+
+            daily_usage.append({
+                "date": day.get("date", ""),
+                "active_users": day.get("total_active_users", 0),
+                "engaged_users": day.get("total_engaged_users", 0),
+                "suggestions": suggestions,
+                "acceptances": acceptances,
+                "lines_suggested": lines_suggested,
+                "lines_accepted": lines_accepted,
+            })
+
+        return daily_usage
 
     def _calculate_usage_summary(self, daily_usage: list) -> Dict:
         """Calculate summary statistics from daily usage data."""

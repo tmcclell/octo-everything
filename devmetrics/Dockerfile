@@ -18,7 +18,7 @@ RUN playwright install chromium
 
 COPY . .
 
-# Generate dummy data if not already present
+# Generate dummy data as fallback
 RUN python -m collectors.dummy_data_generator || true
 
 EXPOSE 8501
@@ -26,4 +26,5 @@ EXPOSE 8501
 HEALTHCHECK --interval=30s --timeout=10s --retries=3 \
     CMD python -c "import requests; requests.get('http://localhost:8501/_stcore/health')" || exit 1
 
-ENTRYPOINT ["streamlit", "run", "app.py", "--server.port=8501", "--server.address=0.0.0.0"]
+RUN chmod +x entrypoint.sh
+ENTRYPOINT ["python", "entrypoint.sh"]
