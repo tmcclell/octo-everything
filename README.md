@@ -29,8 +29,8 @@ Built with Python, Streamlit, and the GitHub API.
 
 ```bash
 # Clone the repo
-git clone https://github.com/tmcclell/octo-ev1-metrics.git
-cd octo-ev1-metrics
+git clone https://github.com/tmcclell/octo-everything.git
+cd octo-everything
 
 # Copy and configure environment
 cp .env.example .env
